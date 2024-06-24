@@ -1,0 +1,6625 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "e9b207ef-6b7a-42d1-af14-a70812628ff5")
+	(paper "A3")
+	(title_block
+		(title "ICLEDs String - 12x4")
+		(date "2024-06-23")
+		(rev "0.1")
+		(company "Making Devices")
+	)
+	(lib_symbols
+		(symbol "Device:C"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "ICLEDs:1312020030000"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "ICled"
+				(at -5.08 12.7 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "ICLEDs:1312020030000"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "1312020030000_1_0"
+				(polyline
+					(pts
+						(xy -7.62 -5.08) (xy 0 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 10.16) (xy -7.62 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.35 2.54) (xy -5.08 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.35 5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 2.54) (xy -6.35 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 2.54) (xy -5.08 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 2.54) (xy -3.81 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy -3.81 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 7.62) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 2.54) (xy -5.08 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 2.54) (xy -1.27 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 5.08) (xy 0 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -5.08 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy -2.54 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy 0 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 5.08) (xy -1.27 7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 7.62) (xy -5.08 7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -5.08) (xy 7.62 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -4.064) (xy 0 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 5.08) (xy -1.27 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 5.08) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 5.08) (xy 2.54 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 1.27 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 3.81 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 3.81 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 5.08) (xy 2.54 7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 7.62) (xy -1.27 7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 7.62) (xy 5.08 7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 5.08) (xy 2.54 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 10.16) (xy -7.62 10.16)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 10.16) (xy 5.08 7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -5.08) (xy 7.62 10.16)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 10.16) (xy 5.08 10.16)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin output line
+					(at 12.7 -2.54 180)
+					(length 5.08)
+					(name "DO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1-DOUT"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 5.08 15.24 270)
+					(length 5.08)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2-VDD"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -2.54 0)
+					(length 5.08)
+					(name "DI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3-DIN"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -10.16 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4-GND"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 270.51 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "022c6726-90f0-4e47-a20e-27b3f29e138a")
+	)
+	(junction
+		(at 190.5 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "087b8ad5-08fd-4aac-a1af-2f43205f73ff")
+	)
+	(junction
+		(at 22.86 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0a2def2d-10a1-4e34-a967-918378f21210")
+	)
+	(junction
+		(at 276.86 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0a76111b-b7dd-4e5b-94f6-e86425f3a20b")
+	)
+	(junction
+		(at 302.26 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0c03f9e6-be7d-4047-a5c9-6a368aa82e01")
+	)
+	(junction
+		(at 355.6 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0e26903c-e704-44a0-88e0-abe5f3382d09")
+	)
+	(junction
+		(at 87.63 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0e48bdaa-7fa9-45ad-a87f-ec8781c74392")
+	)
+	(junction
+		(at 383.54 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "10776e63-3073-4126-940b-e7370c45a8c8")
+	)
+	(junction
+		(at 114.3 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "10c35d43-6979-49d9-9998-f37f490f891f")
+	)
+	(junction
+		(at 140.97 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "13fe427e-5780-4252-af92-f93c8eb30c58")
+	)
+	(junction
+		(at 55.88 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "18cd0bb2-0473-48ac-a253-bd4bd813fb4a")
+	)
+	(junction
+		(at 135.89 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "192e4bc6-666b-479e-8839-8df708414467")
+	)
+	(junction
+		(at 82.55 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1a6842ed-2e6f-4f28-8589-6ed1f51d615c")
+	)
+	(junction
+		(at 250.19 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1b224884-972a-416d-835b-a151a49ec66b")
+	)
+	(junction
+		(at 82.55 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "27c95d87-5c7d-441b-b10f-a7c439ce5317")
+	)
+	(junction
+		(at 351.79 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2dfe6438-f0cc-4a04-976e-7dbba30b4d97")
+	)
+	(junction
+		(at 350.52 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2f39f3de-20f5-48e9-b29e-414e6fe833ed")
+	)
+	(junction
+		(at 325.12 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2ffba665-1925-481e-8420-98be26950160")
+	)
+	(junction
+		(at 222.25 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3106262c-7387-4938-9bac-ba4e3220172e")
+	)
+	(junction
+		(at 323.85 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3b67ee30-d7d7-4c49-ac6f-3df7e6df55a3")
+	)
+	(junction
+		(at 248.92 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3ff4cd3d-046f-4a9a-a37f-9de200209ca5")
+	)
+	(junction
+		(at 328.93 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "40d1240c-1901-4e05-82c9-caa9b68ce781")
+	)
+	(junction
+		(at 195.58 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4684f0c6-c65f-4d95-91ff-aefa69882ce1")
+	)
+	(junction
+		(at 383.54 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "468bd47d-efd2-4d41-94ee-a208c3494176")
+	)
+	(junction
+		(at 168.91 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4e754c15-66cd-4393-a8ec-f30c124ad6eb")
+	)
+	(junction
+		(at 275.59 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "51652e14-946e-4ec1-a486-a2e6f600416c")
+	)
+	(junction
+		(at 243.84 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "587a1b4b-64f3-4527-828b-e618ec8619cb")
+	)
+	(junction
+		(at 163.83 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5bac47ba-7c99-41d4-837d-08dde9754266")
+	)
+	(junction
+		(at 217.17 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5cca527b-0956-423a-9281-a3815f5eccce")
+	)
+	(junction
+		(at 170.18 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5f93cfa3-6f72-4c26-a6c8-b9fab37349c9")
+	)
+	(junction
+		(at 222.25 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "621b1abd-5548-4e87-9121-d8f53cb742fa")
+	)
+	(junction
+		(at 163.83 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "690ca0af-9075-4cb0-81ef-6fbd963c68b4")
+	)
+	(junction
+		(at 83.82 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6cdb8236-ac23-4f19-a636-64c7d16bb0c3")
+	)
+	(junction
+		(at 22.86 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6f121d4f-d8bc-4bc9-bc20-e8401465bf11")
+	)
+	(junction
+		(at 62.23 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "71856e13-7a2c-4a13-99c9-be8d72aacb64")
+	)
+	(junction
+		(at 356.87 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "72eb0ff3-ee5f-4d87-8351-71d5cab30de8")
+	)
+	(junction
+		(at 218.44 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "772d52eb-3ada-476a-b64e-ad9b79a1336c")
+	)
+	(junction
+		(at 87.63 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7c2a8b4b-cda1-46fd-89be-cd650aee36cc")
+	)
+	(junction
+		(at 245.11 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "83372063-07a5-40f7-b692-b08c2fd01d5e")
+	)
+	(junction
+		(at 114.3 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "878798f9-72d3-452e-9d31-436fd5223ee0")
+	)
+	(junction
+		(at 330.2 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8f4c5911-6a2c-4675-b82b-a297add94a9c")
+	)
+	(junction
+		(at 383.54 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "94413eac-58a9-4669-9d26-00e3aaa78cd3")
+	)
+	(junction
+		(at 298.45 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "98407104-85e9-4438-b320-6cea534d62f3")
+	)
+	(junction
+		(at 328.93 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9959e79f-2ba9-42b6-b232-8134bb3c0fd0")
+	)
+	(junction
+		(at 115.57 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9ce7767a-c903-4e9b-8cd8-6492f502cd55")
+	)
+	(junction
+		(at 57.15 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9cf3011f-06d6-42b7-8b80-8f1299a6beab")
+	)
+	(junction
+		(at 135.89 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9e57aca0-d948-4dd1-b09c-84ecf1cd68ae")
+	)
+	(junction
+		(at 22.86 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9e702629-7b35-46e8-81cd-b242cbba415d")
+	)
+	(junction
+		(at 302.26 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a487ed52-8653-446f-9ef5-d1618937a634")
+	)
+	(junction
+		(at 191.77 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a5413cc6-bec5-461b-8fd3-79c5a912956a")
+	)
+	(junction
+		(at 303.53 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a6171ca2-e0ff-419b-916f-2a88b91e8c2a")
+	)
+	(junction
+		(at 55.88 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a74c2214-04af-40fa-b599-6841eff4bfe1")
+	)
+	(junction
+		(at 248.92 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a8b716ea-f25e-4b73-877b-8a376968b8c2")
+	)
+	(junction
+		(at 217.17 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aa153501-cdcb-4183-9085-4c6f31e39038")
+	)
+	(junction
+		(at 109.22 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ab717600-1762-4223-ace6-d318bf66796c")
+	)
+	(junction
+		(at 275.59 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b14401f5-d3be-43f5-a953-29c6f16a088b")
+	)
+	(junction
+		(at 195.58 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b62c00fa-09f2-46f3-9262-d57124687127")
+	)
+	(junction
+		(at 196.85 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ba60e625-9a8a-466b-b49f-c69c958d5651")
+	)
+	(junction
+		(at 142.24 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c0cd8cd8-1ee1-48d1-9b8c-13a47ce9e714")
+	)
+	(junction
+		(at 109.22 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c3fd0a10-0c96-4159-a80f-fcccbac33609")
+	)
+	(junction
+		(at 271.78 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c4e9d144-fc59-4b86-b4e3-3a1f3af2be92")
+	)
+	(junction
+		(at 243.84 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c86b696e-291c-41e7-9e4f-a80c833f9772")
+	)
+	(junction
+		(at 398.78 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c898c344-600c-48d5-8c09-e4464427faf1")
+	)
+	(junction
+		(at 297.18 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cdea7445-7efd-455b-9401-569afaa04fcf")
+	)
+	(junction
+		(at 323.85 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ce1396f4-7834-46f3-9c45-c25584f95ba9")
+	)
+	(junction
+		(at 270.51 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "db4b7f14-eabf-47a5-a7ab-4597496993e0")
+	)
+	(junction
+		(at 165.1 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dfecd5bb-a35e-4602-ba9b-1dc5a1c6723f")
+	)
+	(junction
+		(at 223.52 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e0108670-2f4f-4e62-a216-85a8418db1d9")
+	)
+	(junction
+		(at 190.5 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e207a4a7-4a6c-4a08-9f88-e350d5aebe8a")
+	)
+	(junction
+		(at 140.97 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e3b601e2-6183-4dd5-a614-9d361dc23107")
+	)
+	(junction
+		(at 297.18 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e666cfb7-a9de-48dc-855e-fced40757d16")
+	)
+	(junction
+		(at 22.86 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e9ed2f37-b6c0-4e9f-9fe0-14c189c45fcd")
+	)
+	(junction
+		(at 88.9 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "efa3f095-bc6e-4e56-ae7a-fd05926cfd3d")
+	)
+	(junction
+		(at 168.91 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f05fe712-847d-40bd-872e-f0c87ac70bb1")
+	)
+	(junction
+		(at 350.52 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f738cdb0-e459-4281-9c14-656afe765c91")
+	)
+	(junction
+		(at 110.49 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fa9e7d6c-b2e1-4c0b-a161-582ad7f5392c")
+	)
+	(junction
+		(at 355.6 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fba0c5b4-6aa7-43c3-9f6d-d8893aec187b")
+	)
+	(junction
+		(at 137.16 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ffb2065a-1c36-4e95-8b5d-f7fdcc76137b")
+	)
+	(wire
+		(pts
+			(xy 275.59 120.65) (xy 302.26 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01217171-4eff-42bd-acb7-c44407b18282")
+	)
+	(wire
+		(pts
+			(xy 229.87 138.43) (xy 231.14 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01664dd6-6661-401c-8a57-a2886da93629")
+	)
+	(wire
+		(pts
+			(xy 16.51 49.53) (xy 22.86 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01a14d89-2b1f-4344-a32a-83afebf21201")
+	)
+	(wire
+		(pts
+			(xy 62.23 39.37) (xy 88.9 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0515b81d-9f0b-4d82-ba6a-16545f0e6910")
+	)
+	(wire
+		(pts
+			(xy 135.89 146.05) (xy 163.83 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08297dfa-9acb-436a-85d9-65c2fa754c43")
+	)
+	(wire
+		(pts
+			(xy 398.78 120.65) (xy 383.54 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c77a5a3-9862-4830-95f7-f5c4866ad903")
+	)
+	(wire
+		(pts
+			(xy 355.6 82.55) (xy 383.54 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d7f3652-86ce-41fa-81a6-28d154a8a65d")
+	)
+	(wire
+		(pts
+			(xy 350.52 146.05) (xy 378.46 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e531037-38aa-4ed8-8d5b-1ca808516b1f")
+	)
+	(wire
+		(pts
+			(xy 149.86 57.15) (xy 152.4 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ecc776d-f612-4fce-96e7-f7bb893d81c8")
+	)
+	(wire
+		(pts
+			(xy 22.86 39.37) (xy 62.23 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1091116d-3104-4283-8af7-2e4a450dda13")
+	)
+	(wire
+		(pts
+			(xy 82.55 146.05) (xy 109.22 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1254d383-ec50-4194-b1dd-73b8919a30bf")
+	)
+	(wire
+		(pts
+			(xy 55.88 107.95) (xy 82.55 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "130b2cee-458c-47ed-bf8d-99b78a4f8094")
+	)
+	(wire
+		(pts
+			(xy 109.22 107.95) (xy 135.89 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13137830-2d68-476d-bd38-886883641d8c")
+	)
+	(wire
+		(pts
+			(xy 168.91 120.65) (xy 195.58 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13665251-f17f-4b93-b485-4ffec0ca536d")
+	)
+	(wire
+		(pts
+			(xy 60.96 33.02) (xy 62.23 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14c19282-6db2-4373-a358-90b76c84ff35")
+	)
+	(wire
+		(pts
+			(xy 191.77 64.77) (xy 218.44 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16498e0f-a8a7-4e2a-9514-4614d2b85732")
+	)
+	(wire
+		(pts
+			(xy 350.52 107.95) (xy 378.46 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17b2853c-c550-4bda-b85b-2cfc3096434d")
+	)
+	(wire
+		(pts
+			(xy 87.63 120.65) (xy 114.3 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1982bb13-ade3-41b2-acde-1bda3ac1d7a0")
+	)
+	(wire
+		(pts
+			(xy 69.85 57.15) (xy 71.12 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e224772-9b95-42c4-b604-431caa2e6f91")
+	)
+	(wire
+		(pts
+			(xy 297.18 107.95) (xy 323.85 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21f0ae50-f1a4-4226-83df-46a95b109243")
+	)
+	(wire
+		(pts
+			(xy 363.22 100.33) (xy 365.76 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25c3c4a7-590a-49ad-b5f3-a89765fec4b2")
+	)
+	(wire
+		(pts
+			(xy 356.87 39.37) (xy 383.54 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2927ab74-7ba0-467b-9614-3645d6dfd61d")
+	)
+	(wire
+		(pts
+			(xy 336.55 100.33) (xy 337.82 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a443167-42ae-44df-afe4-d7f74c2ace46")
+	)
+	(wire
+		(pts
+			(xy 203.2 100.33) (xy 204.47 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b5d5826-3377-4fc6-813f-d32102ce34f3")
+	)
+	(wire
+		(pts
+			(xy 257.81 57.15) (xy 259.08 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e23136e-6aab-4d29-babc-e8495ce4d96d")
+	)
+	(wire
+		(pts
+			(xy 195.58 120.65) (xy 222.25 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f264109-f6fe-43f4-98f0-e05f83308b95")
+	)
+	(wire
+		(pts
+			(xy 248.92 82.55) (xy 275.59 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3137cfca-040a-4220-a0bb-e0e15fcab445")
+	)
+	(wire
+		(pts
+			(xy 22.86 107.95) (xy 22.86 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "332a28b6-c894-4544-a522-e3aa93fbe487")
+	)
+	(wire
+		(pts
+			(xy 270.51 146.05) (xy 297.18 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35ce5b31-a762-47eb-a3c7-f2939cc56d52")
+	)
+	(wire
+		(pts
+			(xy 231.14 57.15) (xy 232.41 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35d49170-243c-4ac5-88e6-71f960b68018")
+	)
+	(wire
+		(pts
+			(xy 22.86 49.53) (xy 22.86 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "367d0c0c-5726-4db4-9eda-8c1a76d17456")
+	)
+	(wire
+		(pts
+			(xy 351.79 64.77) (xy 378.46 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36e884ae-0df6-4f00-8f6d-e50b6037e3d4")
+	)
+	(wire
+		(pts
+			(xy 95.25 138.43) (xy 96.52 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37e2b72f-bae3-4592-b17b-761429870d82")
+	)
+	(wire
+		(pts
+			(xy 170.18 39.37) (xy 196.85 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c688c05-dab9-4812-ac92-0a14961ab44b")
+	)
+	(wire
+		(pts
+			(xy 140.97 120.65) (xy 168.91 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d6eb65c-ef60-4cf1-8183-067ca0862d1a")
+	)
+	(wire
+		(pts
+			(xy 364.49 57.15) (xy 365.76 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3de3e904-aebe-48e7-a4b8-b00e1dc51dce")
+	)
+	(wire
+		(pts
+			(xy 328.93 120.65) (xy 355.6 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e87d86e-91c6-4c41-8456-f4a459cc1b8c")
+	)
+	(wire
+		(pts
+			(xy 330.2 39.37) (xy 356.87 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40604779-f60b-4228-a34a-d2b42da563d3")
+	)
+	(wire
+		(pts
+			(xy 311.15 57.15) (xy 312.42 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43b67fa8-0b7a-4735-8bfa-36654b820d00")
+	)
+	(wire
+		(pts
+			(xy 38.1 114.3) (xy 38.1 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44bab578-645c-4380-91b6-5982a14b8c6f")
+	)
+	(wire
+		(pts
+			(xy 328.93 82.55) (xy 355.6 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45009600-b517-4875-918f-46139caf83a7")
+	)
+	(wire
+		(pts
+			(xy 22.86 146.05) (xy 22.86 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4604d763-ed58-4696-af56-905a19df6990")
+	)
+	(wire
+		(pts
+			(xy 55.88 107.95) (xy 22.86 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "480ae405-563b-4e18-a539-15b83f0a5dd1")
+	)
+	(wire
+		(pts
+			(xy 114.3 120.65) (xy 140.97 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "484b0d16-2642-480d-9632-d5c75475869c")
+	)
+	(wire
+		(pts
+			(xy 165.1 64.77) (xy 191.77 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a28d5b6-9401-4114-9162-4fe7213d4e5e")
+	)
+	(wire
+		(pts
+			(xy 176.53 100.33) (xy 177.8 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50cca2fb-c04a-4e9f-ab39-4840afd9c191")
+	)
+	(wire
+		(pts
+			(xy 38.1 114.3) (xy 391.16 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5266c66b-889e-47a7-b93a-90ff03d9baa1")
+	)
+	(wire
+		(pts
+			(xy 217.17 107.95) (xy 243.84 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "526f85e2-d19a-4ad0-aaa2-d65edc8ca38b")
+	)
+	(wire
+		(pts
+			(xy 38.1 138.43) (xy 43.18 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5273932b-3d84-466a-89d9-0c8b862da53a")
+	)
+	(wire
+		(pts
+			(xy 163.83 107.95) (xy 190.5 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "577d4136-8721-4aaa-8e82-2f0ca9de771e")
+	)
+	(wire
+		(pts
+			(xy 323.85 107.95) (xy 350.52 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58d29fdf-6a99-42da-8ca0-053f45354364")
+	)
+	(wire
+		(pts
+			(xy 271.78 64.77) (xy 298.45 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a0a19b9-2201-4447-9785-f3d61f33e792")
+	)
+	(wire
+		(pts
+			(xy 83.82 64.77) (xy 110.49 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c15fccc-8902-4574-bb58-c4133460f461")
+	)
+	(wire
+		(pts
+			(xy 398.78 82.55) (xy 383.54 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e14eb41-9274-4683-b5f8-092bdb568f44")
+	)
+	(wire
+		(pts
+			(xy 121.92 138.43) (xy 123.19 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f196117-10ea-4d79-89d1-be3e9c7fa737")
+	)
+	(wire
+		(pts
+			(xy 38.1 72.39) (xy 391.16 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61374889-2775-4e06-bd3f-95c4467516d6")
+	)
+	(wire
+		(pts
+			(xy 96.52 57.15) (xy 97.79 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6165970d-65ed-4dc5-8496-d338e2cbace1")
+	)
+	(wire
+		(pts
+			(xy 137.16 64.77) (xy 165.1 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6322ea93-cc66-479c-88ec-8f6f7c065726")
+	)
+	(wire
+		(pts
+			(xy 22.86 49.53) (xy 30.48 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "644a13be-7220-4dba-a571-f88544a73ad1")
+	)
+	(wire
+		(pts
+			(xy 190.5 107.95) (xy 217.17 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64e682a0-8ab1-4427-be59-2a342a2ac347")
+	)
+	(polyline
+		(pts
+			(xy 127 276.86) (xy 30.48 276.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66d3fb0c-182b-43ab-b1e7-3c0b0afc36d1")
+	)
+	(wire
+		(pts
+			(xy 68.58 100.33) (xy 69.85 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66d8dcc0-65b3-4a19-9e34-96eae3f15374")
+	)
+	(wire
+		(pts
+			(xy 60.96 82.55) (xy 87.63 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "687625aa-38b7-495d-8357-b50538296238")
+	)
+	(wire
+		(pts
+			(xy 121.92 100.33) (xy 123.19 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6890cbe2-7776-4068-9a98-306c99758649")
+	)
+	(polyline
+		(pts
+			(xy 30.48 251.46) (xy 127 251.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "692a001e-64d1-40ae-b73b-0080901ec676")
+	)
+	(polyline
+		(pts
+			(xy 30.48 251.46) (xy 30.48 276.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70fc9ad2-db1a-42dc-8ac3-2a07611b0575")
+	)
+	(wire
+		(pts
+			(xy 110.49 64.77) (xy 137.16 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72d1841d-aba2-4850-9e19-5190cdb96a76")
+	)
+	(wire
+		(pts
+			(xy 203.2 138.43) (xy 204.47 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7416570d-d233-439a-baea-76acf38c303e")
+	)
+	(wire
+		(pts
+			(xy 87.63 82.55) (xy 114.3 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7566e607-4dd9-4661-8c9c-10cb0a68cc52")
+	)
+	(wire
+		(pts
+			(xy 176.53 138.43) (xy 177.8 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76261001-0810-46cc-9742-c34ad5a5c8af")
+	)
+	(wire
+		(pts
+			(xy 222.25 82.55) (xy 248.92 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7822843c-d1ad-4ce5-ac64-553f86c65cc1")
+	)
+	(wire
+		(pts
+			(xy 355.6 120.65) (xy 383.54 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78eb050b-26bd-494c-bc15-935f6d7331a5")
+	)
+	(wire
+		(pts
+			(xy 303.53 39.37) (xy 330.2 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78fe27ad-34d3-4109-a044-4eb562682048")
+	)
+	(wire
+		(pts
+			(xy 229.87 100.33) (xy 231.14 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a2dd1e5-af19-4737-b4d5-c4400230f994")
+	)
+	(wire
+		(pts
+			(xy 284.48 57.15) (xy 285.75 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fee26b5-94ed-48cd-99b2-af42c3555dbb")
+	)
+	(wire
+		(pts
+			(xy 57.15 68.58) (xy 57.15 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85addcb0-5516-4769-af12-8a9279ae498a")
+	)
+	(wire
+		(pts
+			(xy 245.11 64.77) (xy 271.78 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86888f45-7cc4-40ba-a769-dc19feb24ba4")
+	)
+	(wire
+		(pts
+			(xy 256.54 100.33) (xy 257.81 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "875de7cd-cac1-4234-a647-b5291c8ca059")
+	)
+	(wire
+		(pts
+			(xy 243.84 107.95) (xy 270.51 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8db49f2a-ccb8-4fa9-ab87-0bb7325a1bdd")
+	)
+	(wire
+		(pts
+			(xy 62.23 33.02) (xy 62.23 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8df7439a-af65-4b04-8b2a-059d5ca9807f")
+	)
+	(wire
+		(pts
+			(xy 22.86 68.58) (xy 57.15 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e474402-694c-4c27-a984-b84c3ebde83e")
+	)
+	(wire
+		(pts
+			(xy 55.88 146.05) (xy 82.55 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90417e64-57bb-4839-8458-f6d190cbacab")
+	)
+	(wire
+		(pts
+			(xy 196.85 39.37) (xy 223.52 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93ea1ca4-7c18-43a8-8ce8-d3427194aa6f")
+	)
+	(wire
+		(pts
+			(xy 218.44 64.77) (xy 245.11 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "949abda7-ed7e-4019-befe-1ffee39f92d8")
+	)
+	(wire
+		(pts
+			(xy 323.85 146.05) (xy 350.52 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98132831-701d-4bcd-b0b0-82932c43e761")
+	)
+	(wire
+		(pts
+			(xy 250.19 39.37) (xy 276.86 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b1b5d5a-7ddb-4ba8-b1a7-1f996edeeda6")
+	)
+	(wire
+		(pts
+			(xy 283.21 100.33) (xy 284.48 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9da061d2-bfee-4afe-9b58-eae920b42cb1")
+	)
+	(wire
+		(pts
+			(xy 148.59 100.33) (xy 151.13 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fc1e5d1-a3d0-4eb7-8f23-b7d8e7dbb008")
+	)
+	(wire
+		(pts
+			(xy 38.1 100.33) (xy 43.18 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a467ec7f-f3a7-44a2-9dea-8cda625d841a")
+	)
+	(wire
+		(pts
+			(xy 309.88 100.33) (xy 311.15 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a48b8575-c222-4c28-b9ec-5425639dd006")
+	)
+	(wire
+		(pts
+			(xy 38.1 72.39) (xy 38.1 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa319962-07a8-40c9-9387-cb5887214cce")
+	)
+	(wire
+		(pts
+			(xy 336.55 138.43) (xy 337.82 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad11bde8-4d9a-4340-ae45-f3a05f51a16f")
+	)
+	(wire
+		(pts
+			(xy 114.3 82.55) (xy 140.97 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad1a11b9-22ec-4a1a-938e-cc5126ace017")
+	)
+	(wire
+		(pts
+			(xy 309.88 138.43) (xy 311.15 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad4101da-7cb9-46ef-a254-3300e8851915")
+	)
+	(wire
+		(pts
+			(xy 48.26 64.77) (xy 57.15 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad6d29fb-c83d-46ba-8d6c-22a8f6720897")
+	)
+	(wire
+		(pts
+			(xy 248.92 120.65) (xy 275.59 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b047281f-604d-45b5-86b0-95865bc5b960")
+	)
+	(wire
+		(pts
+			(xy 195.58 82.55) (xy 222.25 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1a0ac01-8432-4273-9103-b78b8ab5029c")
+	)
+	(wire
+		(pts
+			(xy 337.82 57.15) (xy 339.09 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3e38917-2de2-4aa4-89db-9248b646b2e6")
+	)
+	(wire
+		(pts
+			(xy 391.16 114.3) (xy 391.16 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4ddcff7-3ece-447a-87c9-abcc35767b04")
+	)
+	(wire
+		(pts
+			(xy 270.51 107.95) (xy 297.18 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b532d37b-84b3-4b9f-bf6b-cacea29e3fc0")
+	)
+	(wire
+		(pts
+			(xy 82.55 107.95) (xy 109.22 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b72d5a92-84b1-49e5-97d5-1e2c761e13ab")
+	)
+	(wire
+		(pts
+			(xy 88.9 39.37) (xy 115.57 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbdc8f2e-788e-4c7f-837a-12536cb3ef1c")
+	)
+	(wire
+		(pts
+			(xy 298.45 64.77) (xy 325.12 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd743b11-48d6-44bd-8469-42d319ee7142")
+	)
+	(wire
+		(pts
+			(xy 223.52 39.37) (xy 250.19 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "beac7a98-2035-494a-be87-3ce660364857")
+	)
+	(wire
+		(pts
+			(xy 302.26 120.65) (xy 328.93 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfe329a8-e068-4c3e-8b04-b87e23e28603")
+	)
+	(polyline
+		(pts
+			(xy 127 251.46) (xy 127 276.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c443c364-4af9-4968-97f8-7f9dc587fa7c")
+	)
+	(wire
+		(pts
+			(xy 140.97 82.55) (xy 168.91 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c63b3674-3aaf-4d2e-b70e-b0ff7bbfea1c")
+	)
+	(wire
+		(pts
+			(xy 109.22 146.05) (xy 135.89 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c712e1ae-2ec3-4558-a27a-bf2cc87a460a")
+	)
+	(wire
+		(pts
+			(xy 16.51 57.15) (xy 22.86 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cafd17ed-9b4e-462e-b29a-e578578375ab")
+	)
+	(wire
+		(pts
+			(xy 163.83 146.05) (xy 190.5 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc4564f3-7d86-45b3-85f5-d529a6f4fa9a")
+	)
+	(wire
+		(pts
+			(xy 148.59 138.43) (xy 151.13 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cebdffe0-12b1-42b6-ac7e-6c3c6f2a639f")
+	)
+	(wire
+		(pts
+			(xy 40.64 57.15) (xy 44.45 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf2336fa-9fe8-4f56-b0b2-c553ef64bc9a")
+	)
+	(wire
+		(pts
+			(xy 391.16 57.15) (xy 391.16 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf32b272-3410-44ed-9e34-8ccd892da7d9")
+	)
+	(wire
+		(pts
+			(xy 142.24 39.37) (xy 170.18 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf5395d0-0857-4b25-832b-d595d6f489b3")
+	)
+	(wire
+		(pts
+			(xy 68.58 138.43) (xy 69.85 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf7ffb51-9222-474a-995c-5df35ddffcaf")
+	)
+	(wire
+		(pts
+			(xy 363.22 138.43) (xy 365.76 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d082dd73-8890-40ab-835f-30f5d183ca9a")
+	)
+	(wire
+		(pts
+			(xy 398.78 82.55) (xy 398.78 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0a0afd7-d5c5-4ae1-91b9-5801204850b7")
+	)
+	(wire
+		(pts
+			(xy 256.54 138.43) (xy 257.81 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d674968e-9fcf-48ee-819f-933d26d31bc6")
+	)
+	(wire
+		(pts
+			(xy 222.25 120.65) (xy 248.92 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da09850b-50d5-4cdf-a3ca-9aecc42907e8")
+	)
+	(wire
+		(pts
+			(xy 217.17 146.05) (xy 243.84 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da62c499-07c9-4816-9ac0-fc00c28fa8a2")
+	)
+	(wire
+		(pts
+			(xy 283.21 138.43) (xy 284.48 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de465043-7570-4dde-bcfa-8425cf734439")
+	)
+	(wire
+		(pts
+			(xy 204.47 57.15) (xy 205.74 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0ae863e-761e-4c45-9341-2af8147e639a")
+	)
+	(wire
+		(pts
+			(xy 22.86 57.15) (xy 22.86 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e16b6822-2d6d-4b8d-957d-0982800a1312")
+	)
+	(wire
+		(pts
+			(xy 57.15 64.77) (xy 83.82 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e281c68d-0b12-4d15-8f72-5e619aa78fe1")
+	)
+	(wire
+		(pts
+			(xy 276.86 39.37) (xy 303.53 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e28a4f5f-f039-4604-9e6b-92ab724925ec")
+	)
+	(wire
+		(pts
+			(xy 60.96 120.65) (xy 87.63 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e571abf8-b450-424f-81aa-9e8938e12124")
+	)
+	(wire
+		(pts
+			(xy 383.54 39.37) (xy 398.78 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e583ca5b-50ce-4441-b0ac-8129fbca73cd")
+	)
+	(wire
+		(pts
+			(xy 95.25 100.33) (xy 96.52 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5dd8f1f-fc81-4493-9483-d5b3e888ed31")
+	)
+	(wire
+		(pts
+			(xy 297.18 146.05) (xy 323.85 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e73baa28-22c1-4e01-a25f-2b6e1a0f8735")
+	)
+	(wire
+		(pts
+			(xy 177.8 57.15) (xy 179.07 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eac62cc3-e114-42f8-9feb-4e984b3b2212")
+	)
+	(wire
+		(pts
+			(xy 135.89 107.95) (xy 163.83 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb2da23f-898f-4234-9d7e-370a411c7232")
+	)
+	(wire
+		(pts
+			(xy 190.5 146.05) (xy 217.17 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec48e844-d327-4b8c-bd30-7314070193d2")
+	)
+	(wire
+		(pts
+			(xy 168.91 82.55) (xy 195.58 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed018f1d-27b2-4d48-9c72-e6569542b2d0")
+	)
+	(wire
+		(pts
+			(xy 55.88 146.05) (xy 22.86 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed739b76-c6be-48f4-b037-85bdd4015afe")
+	)
+	(wire
+		(pts
+			(xy 123.19 57.15) (xy 124.46 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edf5df7c-1cc7-479d-a3de-17ebc3b3434b")
+	)
+	(wire
+		(pts
+			(xy 275.59 82.55) (xy 302.26 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3a282dc-abd2-48d1-a3f3-f5fad42abb06")
+	)
+	(wire
+		(pts
+			(xy 398.78 39.37) (xy 398.78 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3a9d774-24a4-4562-ab0c-2c41ed075793")
+	)
+	(wire
+		(pts
+			(xy 325.12 64.77) (xy 351.79 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5df13c7-49a7-4f24-ac08-16d64b2c4d70")
+	)
+	(wire
+		(pts
+			(xy 302.26 82.55) (xy 328.93 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa7a6de3-c841-4334-b51e-f62f14f3c532")
+	)
+	(wire
+		(pts
+			(xy 22.86 57.15) (xy 30.48 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb63c34a-bfd4-4286-ba1e-56f69a1ca3cf")
+	)
+	(wire
+		(pts
+			(xy 115.57 39.37) (xy 142.24 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb79588b-3f24-4e62-9fec-8b5a2591a638")
+	)
+	(wire
+		(pts
+			(xy 243.84 146.05) (xy 270.51 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcd2a873-4b9d-48e9-80d7-f50c4e280b27")
+	)
+	(text "13x3 Matrix ICLEDs.\n\nTwo 100nF coupling capacitors are added to stabilice the voltage across the LEDs"
+		(exclude_from_sim no)
+		(at 78.74 264.414 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d0689422-bfd1-4214-a69f-48637d1b8c19")
+	)
+	(hierarchical_label "Vdd"
+		(shape input)
+		(at 60.96 33.02 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1deb53f9-32d1-475b-b64e-3dad0525ef1e")
+	)
+	(hierarchical_label "DI"
+		(shape input)
+		(at 40.64 57.15 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "33c02e5e-89be-4397-a293-5af9151e9c71")
+	)
+	(hierarchical_label "gnd"
+		(shape input)
+		(at 48.26 64.77 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7803b7a3-378f-4d32-842e-bd156712011e")
+	)
+	(hierarchical_label "DO"
+		(shape input)
+		(at 391.16 138.43 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c9bf0dc8-1419-4c54-8c38-10f533f715e2")
+	)
+	(symbol
+		(lib_id "ICLEDs:1312020030000")
+		(at 218.44 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "07c536ea-ec34-4115-b43b-960654166c33")
+		(property "Reference" "ICled21"
+			(at 213.36 41.91 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 218.44 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "ICLEDs:1312020030000"
+			(at 218.44 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 218.44 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2-VDD"
+			(uuid "58b527f5-d175-4f6d-926c-89f08f8e0154")
+		)
+		(pin "3-DIN"
+			(uuid "f096ac9a-3bfa-4b2b-9fe4-4e989d570aef")
+		)
+		(pin "4-GND"
+			(uuid "70fe2374-1fef-42dc-bd9f-f794747f9a39")
+		)
+		(pin "1-DOUT"
+			(uuid "4b754b08-6bf1-4e7a-9060-d0a662d714db")
+		)
+		(instances
+			(project "PixelDisplay"
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/9c52ed5e-149d-4294-a510-cb9954888f30"
+					(reference "ICled21")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/efddbbcd-68cb-4c52-8d37-62b9d11b033a"
+					(reference "ICled60")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/23de2d22-f062-4697-901d-0a5bea5822e6"
+					(reference "ICled99")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/adbccf50-ac43-408f-aa3b-de01023ff877"
+					(reference "ICled138")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/99b9cbca-a3a5-40b5-bfd0-ef1b819c6447"
+					(reference "ICled177")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/82466026-7550-4915-9af0-ecb2e038c6ba"
+					(reference "ICled216")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ICLEDs:1312020030000")
+		(at 190.5 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "173c3f37-7ed5-41f3-8f12-049ae39e035e")
+		(property "Reference" "ICled16"
+			(at 185.42 85.09 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 190.5 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "ICLEDs:1312020030000"
+			(at 190.5 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 190.5 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2-VDD"
+			(uuid "d50e6996-a1af-4ec7-9488-8a4fb66c47f4")
+		)
+		(pin "3-DIN"
+			(uuid "8a5f8110-d382-4384-a2de-58cf5ec67165")
+		)
+		(pin "4-GND"
+			(uuid "a5e5c417-d1a2-4707-9448-a482636da1ab")
+		)
+		(pin "1-DOUT"
+			(uuid "0a55c180-7c56-4f31-88d0-bde5263c83e3")
+		)
+		(instances
+			(project "PixelDisplay"
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/9c52ed5e-149d-4294-a510-cb9954888f30"
+					(reference "ICled16")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/efddbbcd-68cb-4c52-8d37-62b9d11b033a"
+					(reference "ICled55")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/23de2d22-f062-4697-901d-0a5bea5822e6"
+					(reference "ICled94")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/adbccf50-ac43-408f-aa3b-de01023ff877"
+					(reference "ICled133")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/99b9cbca-a3a5-40b5-bfd0-ef1b819c6447"
+					(reference "ICled172")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/82466026-7550-4915-9af0-ecb2e038c6ba"
+					(reference "ICled211")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ICLEDs:1312020030000")
+		(at 350.52 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "27105513-d1e0-40ee-a0ad-07140dd2aff6")
+		(property "Reference" "ICled35"
+			(at 345.44 123.19 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 350.52 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "ICLEDs:1312020030000"
+			(at 350.52 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 350.52 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 350.52 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2-VDD"
+			(uuid "442cf204-4e3d-43c0-96ed-5c7778307f71")
+		)
+		(pin "3-DIN"
+			(uuid "43e6c648-2275-4718-a95b-aa69c1cd11f1")
+		)
+		(pin "4-GND"
+			(uuid "61ab0561-3cb6-4651-8fa9-444d4a0444c4")
+		)
+		(pin "1-DOUT"
+			(uuid "ab836e7a-da78-4163-a69c-a3704d6a9326")
+		)
+		(instances
+			(project "PixelDisplay"
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/9c52ed5e-149d-4294-a510-cb9954888f30"
+					(reference "ICled35")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/efddbbcd-68cb-4c52-8d37-62b9d11b033a"
+					(reference "ICled74")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/23de2d22-f062-4697-901d-0a5bea5822e6"
+					(reference "ICled113")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/adbccf50-ac43-408f-aa3b-de01023ff877"
+					(reference "ICled152")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/99b9cbca-a3a5-40b5-bfd0-ef1b819c6447"
+					(reference "ICled191")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/82466026-7550-4915-9af0-ecb2e038c6ba"
+					(reference "ICled230")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ICLEDs:1312020030000")
+		(at 350.52 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "29f835a7-91e3-41d4-93ca-a3a341591822")
+		(property "Reference" "ICled34"
+			(at 345.44 85.09 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 350.52 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "ICLEDs:1312020030000"
+			(at 350.52 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 350.52 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 350.52 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2-VDD"
+			(uuid "5c8b7317-666f-433f-8cdb-65b294fb9c49")
+		)
+		(pin "3-DIN"
+			(uuid "5b60a830-cbe1-4415-b184-ae2f320c33af")
+		)
+		(pin "4-GND"
+			(uuid "37f45dbe-0cac-4430-b409-de4bab2b3419")
+		)
+		(pin "1-DOUT"
+			(uuid "068c8bba-946e-46a9-a108-6c90aaa124d9")
+		)
+		(instances
+			(project "PixelDisplay"
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/9c52ed5e-149d-4294-a510-cb9954888f30"
+					(reference "ICled34")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/efddbbcd-68cb-4c52-8d37-62b9d11b033a"
+					(reference "ICled73")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/23de2d22-f062-4697-901d-0a5bea5822e6"
+					(reference "ICled112")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/adbccf50-ac43-408f-aa3b-de01023ff877"
+					(reference "ICled151")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/99b9cbca-a3a5-40b5-bfd0-ef1b819c6447"
+					(reference "ICled190")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/82466026-7550-4915-9af0-ecb2e038c6ba"
+					(reference "ICled229")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ICLEDs:1312020030000")
+		(at 351.79 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "390c61c8-076f-48cf-89fe-d1be50260052")
+		(property "Reference" "ICled36"
+			(at 346.71 41.91 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 351.79 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "ICLEDs:1312020030000"
+			(at 351.79 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 351.79 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 351.79 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2-VDD"
+			(uuid "84ec7161-c435-4e39-8d72-32c7f70d78b5")
+		)
+		(pin "3-DIN"
+			(uuid "7dff0357-79ae-423b-8f67-bee5cc802476")
+		)
+		(pin "4-GND"
+			(uuid "9eb42750-cd42-4915-84b8-97f222937664")
+		)
+		(pin "1-DOUT"
+			(uuid "f40ed93b-2612-4efe-bf66-d65f1dbf661f")
+		)
+		(instances
+			(project "PixelDisplay"
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/9c52ed5e-149d-4294-a510-cb9954888f30"
+					(reference "ICled36")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/efddbbcd-68cb-4c52-8d37-62b9d11b033a"
+					(reference "ICled75")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/23de2d22-f062-4697-901d-0a5bea5822e6"
+					(reference "ICled114")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/adbccf50-ac43-408f-aa3b-de01023ff877"
+					(reference "ICled153")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/99b9cbca-a3a5-40b5-bfd0-ef1b819c6447"
+					(reference "ICled192")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/82466026-7550-4915-9af0-ecb2e038c6ba"
+					(reference "ICled231")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ICLEDs:1312020030000")
+		(at 165.1 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "49b91fb1-cdaf-4bb1-a501-99b35219ac7a")
+		(property "Reference" "ICled15"
+			(at 160.02 41.91 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 165.1 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "ICLEDs:1312020030000"
+			(at 165.1 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 165.1 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2-VDD"
+			(uuid "b9ccbeeb-f320-4405-88b2-9570166f0bd6")
+		)
+		(pin "3-DIN"
+			(uuid "a0af723e-c0bf-4f16-acb8-097e3239d2ab")
+		)
+		(pin "4-GND"
+			(uuid "0624329a-e2a5-4ded-be2d-269b2f04c420")
+		)
+		(pin "1-DOUT"
+			(uuid "02a834d2-18df-4ed9-9cdf-1fe994b8f312")
+		)
+		(instances
+			(project "PixelDisplay"
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/9c52ed5e-149d-4294-a510-cb9954888f30"
+					(reference "ICled15")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/efddbbcd-68cb-4c52-8d37-62b9d11b033a"
+					(reference "ICled54")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/23de2d22-f062-4697-901d-0a5bea5822e6"
+					(reference "ICled93")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/adbccf50-ac43-408f-aa3b-de01023ff877"
+					(reference "ICled132")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/99b9cbca-a3a5-40b5-bfd0-ef1b819c6447"
+					(reference "ICled171")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/82466026-7550-4915-9af0-ecb2e038c6ba"
+					(reference "ICled210")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ICLEDs:1312020030000")
+		(at 297.18 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4daa7879-c574-40e1-baca-75a1ef5fc2e4")
+		(property "Reference" "ICled29"
+			(at 292.1 123.19 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 297.18 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "ICLEDs:1312020030000"
+			(at 297.18 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 297.18 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 297.18 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2-VDD"
+			(uuid "14b8b387-7340-47b4-a02b-5de124d3788d")
+		)
+		(pin "3-DIN"
+			(uuid "29befaeb-a731-4ee5-b58c-4792edb37e64")
+		)
+		(pin "4-GND"
+			(uuid "38e56fbd-9925-4056-8907-cb54c3123e49")
+		)
+		(pin "1-DOUT"
+			(uuid "d648bdd6-88d3-4fb3-b399-8800782804a1")
+		)
+		(instances
+			(project "PixelDisplay"
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/9c52ed5e-149d-4294-a510-cb9954888f30"
+					(reference "ICled29")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/efddbbcd-68cb-4c52-8d37-62b9d11b033a"
+					(reference "ICled68")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/23de2d22-f062-4697-901d-0a5bea5822e6"
+					(reference "ICled107")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/adbccf50-ac43-408f-aa3b-de01023ff877"
+					(reference "ICled146")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/99b9cbca-a3a5-40b5-bfd0-ef1b819c6447"
+					(reference "ICled185")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/82466026-7550-4915-9af0-ecb2e038c6ba"
+					(reference "ICled224")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ICLEDs:1312020030000")
+		(at 298.45 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "51825945-0e9e-4ceb-aeb2-4d8515621ac5")
+		(property "Reference" "ICled30"
+			(at 293.37 41.91 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 298.45 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "ICLEDs:1312020030000"
+			(at 298.45 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 298.45 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 298.45 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2-VDD"
+			(uuid "b50f2e2a-8045-4c03-a3d0-b08d544c2401")
+		)
+		(pin "3-DIN"
+			(uuid "e763171a-9e77-4599-8311-fb5235455194")
+		)
+		(pin "4-GND"
+			(uuid "6367e7b0-1415-41cb-99d2-3afe69df1b3c")
+		)
+		(pin "1-DOUT"
+			(uuid "47953d5c-3dcb-4bd9-ad7c-72582058ad67")
+		)
+		(instances
+			(project "PixelDisplay"
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/9c52ed5e-149d-4294-a510-cb9954888f30"
+					(reference "ICled30")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/efddbbcd-68cb-4c52-8d37-62b9d11b033a"
+					(reference "ICled69")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/23de2d22-f062-4697-901d-0a5bea5822e6"
+					(reference "ICled108")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/adbccf50-ac43-408f-aa3b-de01023ff877"
+					(reference "ICled147")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/99b9cbca-a3a5-40b5-bfd0-ef1b819c6447"
+					(reference "ICled186")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/82466026-7550-4915-9af0-ecb2e038c6ba"
+					(reference "ICled225")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ICLEDs:1312020030000")
+		(at 270.51 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "52c10d61-12c2-4cb1-a1ca-be8a1e6aa6a6")
+		(property "Reference" "ICled25"
+			(at 265.43 85.09 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 270.51 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "ICLEDs:1312020030000"
+			(at 270.51 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 270.51 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 270.51 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2-VDD"
+			(uuid "0e9192a3-fc79-4b67-bb53-fa9bac548b6c")
+		)
+		(pin "3-DIN"
+			(uuid "17e9300e-8802-459f-a92e-9cb562759c53")
+		)
+		(pin "4-GND"
+			(uuid "8f9c7a7b-61af-40e9-8ffa-a2d8bb2a7905")
+		)
+		(pin "1-DOUT"
+			(uuid "45a60d47-c39e-412e-a836-073b0841c266")
+		)
+		(instances
+			(project "PixelDisplay"
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/9c52ed5e-149d-4294-a510-cb9954888f30"
+					(reference "ICled25")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/efddbbcd-68cb-4c52-8d37-62b9d11b033a"
+					(reference "ICled64")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/23de2d22-f062-4697-901d-0a5bea5822e6"
+					(reference "ICled103")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/adbccf50-ac43-408f-aa3b-de01023ff877"
+					(reference "ICled142")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/99b9cbca-a3a5-40b5-bfd0-ef1b819c6447"
+					(reference "ICled181")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/82466026-7550-4915-9af0-ecb2e038c6ba"
+					(reference "ICled220")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ICLEDs:1312020030000")
+		(at 217.17 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5c1f4ae0-9565-4ef5-a6fb-1d6e4e27c10e")
+		(property "Reference" "ICled20"
+			(at 212.09 123.19 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 217.17 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "ICLEDs:1312020030000"
+			(at 217.17 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 217.17 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2-VDD"
+			(uuid "3d5a1b36-f60e-49db-9a97-2d5876735c4a")
+		)
+		(pin "3-DIN"
+			(uuid "1d04c34c-7db5-4418-b2c8-cf4dc0987e3a")
+		)
+		(pin "4-GND"
+			(uuid "97356b84-2026-4666-832e-155d15b2051c")
+		)
+		(pin "1-DOUT"
+			(uuid "c313e37d-7b56-4ed5-90e5-698dc4e886be")
+		)
+		(instances
+			(project "PixelDisplay"
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/9c52ed5e-149d-4294-a510-cb9954888f30"
+					(reference "ICled20")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/efddbbcd-68cb-4c52-8d37-62b9d11b033a"
+					(reference "ICled59")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/23de2d22-f062-4697-901d-0a5bea5822e6"
+					(reference "ICled98")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/adbccf50-ac43-408f-aa3b-de01023ff877"
+					(reference "ICled137")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/99b9cbca-a3a5-40b5-bfd0-ef1b819c6447"
+					(reference "ICled176")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/82466026-7550-4915-9af0-ecb2e038c6ba"
+					(reference "ICled215")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ICLEDs:1312020030000")
+		(at 297.18 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5fbd8668-9a79-4891-8794-a8a19a81cfc9")
+		(property "Reference" "ICled28"
+			(at 292.1 85.09 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 297.18 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "ICLEDs:1312020030000"
+			(at 297.18 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 297.18 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 297.18 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2-VDD"
+			(uuid "ffb24bf3-406b-4854-bdbe-7ac851c61a2b")
+		)
+		(pin "3-DIN"
+			(uuid "0d653bb4-418e-4201-9add-c8764f9f48ea")
+		)
+		(pin "4-GND"
+			(uuid "e6272dd5-c2d0-4887-b770-f62db8525dae")
+		)
+		(pin "1-DOUT"
+			(uuid "b76e9888-a806-48db-b03c-c3a27f8c06fa")
+		)
+		(instances
+			(project "PixelDisplay"
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/9c52ed5e-149d-4294-a510-cb9954888f30"
+					(reference "ICled28")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/efddbbcd-68cb-4c52-8d37-62b9d11b033a"
+					(reference "ICled67")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/23de2d22-f062-4697-901d-0a5bea5822e6"
+					(reference "ICled106")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/adbccf50-ac43-408f-aa3b-de01023ff877"
+					(reference "ICled145")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/99b9cbca-a3a5-40b5-bfd0-ef1b819c6447"
+					(reference "ICled184")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/82466026-7550-4915-9af0-ecb2e038c6ba"
+					(reference "ICled223")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ICLEDs:1312020030000")
+		(at 82.55 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "65764040-b726-495e-94e3-5aca4ae892a9")
+		(property "Reference" "ICled4"
+			(at 77.47 85.09 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 82.55 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "ICLEDs:1312020030000"
+			(at 82.55 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 82.55 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2-VDD"
+			(uuid "b5e5b4f2-687e-474c-b338-24a23fb25565")
+		)
+		(pin "3-DIN"
+			(uuid "19d310b4-4629-49b8-b50b-9142303b6815")
+		)
+		(pin "4-GND"
+			(uuid "c6435f92-542b-4185-979a-41374cd796ca")
+		)
+		(pin "1-DOUT"
+			(uuid "3b71807b-0861-4f6e-8c9f-6a995b7ec819")
+		)
+		(instances
+			(project "PixelDisplay"
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/9c52ed5e-149d-4294-a510-cb9954888f30"
+					(reference "ICled4")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/efddbbcd-68cb-4c52-8d37-62b9d11b033a"
+					(reference "ICled43")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/23de2d22-f062-4697-901d-0a5bea5822e6"
+					(reference "ICled82")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/adbccf50-ac43-408f-aa3b-de01023ff877"
+					(reference "ICled121")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/99b9cbca-a3a5-40b5-bfd0-ef1b819c6447"
+					(reference "ICled160")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/82466026-7550-4915-9af0-ecb2e038c6ba"
+					(reference "ICled199")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ICLEDs:1312020030000")
+		(at 190.5 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6d59e098-4d5f-42d6-83f8-04402ea89f78")
+		(property "Reference" "ICled17"
+			(at 185.42 123.19 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 190.5 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "ICLEDs:1312020030000"
+			(at 190.5 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 190.5 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2-VDD"
+			(uuid "695fbd9d-9cf6-4ed3-94c7-ec6bdc0c220d")
+		)
+		(pin "3-DIN"
+			(uuid "210f8acd-577a-4dad-bc34-c48ae41a9a47")
+		)
+		(pin "4-GND"
+			(uuid "ffe98acc-aae8-4aae-ae45-5465c645b6b2")
+		)
+		(pin "1-DOUT"
+			(uuid "be14dabb-9873-477c-8dcd-3b110853e354")
+		)
+		(instances
+			(project "PixelDisplay"
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/9c52ed5e-149d-4294-a510-cb9954888f30"
+					(reference "ICled17")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/efddbbcd-68cb-4c52-8d37-62b9d11b033a"
+					(reference "ICled56")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/23de2d22-f062-4697-901d-0a5bea5822e6"
+					(reference "ICled95")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/adbccf50-ac43-408f-aa3b-de01023ff877"
+					(reference "ICled134")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/99b9cbca-a3a5-40b5-bfd0-ef1b819c6447"
+					(reference "ICled173")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/82466026-7550-4915-9af0-ecb2e038c6ba"
+					(reference "ICled212")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ICLEDs:1312020030000")
+		(at 270.51 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "73521e4e-2bf9-4b2a-ab36-4a5a1d9d0f19")
+		(property "Reference" "ICled26"
+			(at 265.43 123.19 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 270.51 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "ICLEDs:1312020030000"
+			(at 270.51 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 270.51 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 270.51 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2-VDD"
+			(uuid "69d434a9-0dea-45a7-a2b7-d4332c8156d8")
+		)
+		(pin "3-DIN"
+			(uuid "b8f719b7-24a5-4ecc-afb5-868eb293d535")
+		)
+		(pin "4-GND"
+			(uuid "221b1911-0f51-4885-a775-ae7d9f534663")
+		)
+		(pin "1-DOUT"
+			(uuid "4e48037f-c1d4-436f-845a-b2759e7e07f8")
+		)
+		(instances
+			(project "PixelDisplay"
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/9c52ed5e-149d-4294-a510-cb9954888f30"
+					(reference "ICled26")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/efddbbcd-68cb-4c52-8d37-62b9d11b033a"
+					(reference "ICled65")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/23de2d22-f062-4697-901d-0a5bea5822e6"
+					(reference "ICled104")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/adbccf50-ac43-408f-aa3b-de01023ff877"
+					(reference "ICled143")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/99b9cbca-a3a5-40b5-bfd0-ef1b819c6447"
+					(reference "ICled182")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/82466026-7550-4915-9af0-ecb2e038c6ba"
+					(reference "ICled221")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ICLEDs:1312020030000")
+		(at 137.16 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7d085a36-1f3b-4ee8-8590-2225cab534dc")
+		(property "Reference" "ICled12"
+			(at 132.08 41.91 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 137.16 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "ICLEDs:1312020030000"
+			(at 137.16 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2-VDD"
+			(uuid "01ea15bf-4a2e-4252-aed0-5bc0d527a56c")
+		)
+		(pin "3-DIN"
+			(uuid "33a185ca-b5f1-41f3-b7b1-14f18c3b4028")
+		)
+		(pin "4-GND"
+			(uuid "466d92f6-8e31-4ed9-a38a-c9da0101e092")
+		)
+		(pin "1-DOUT"
+			(uuid "0d8f4070-0815-4fd4-8f78-bd1c5440b4cb")
+		)
+		(instances
+			(project "PixelDisplay"
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/9c52ed5e-149d-4294-a510-cb9954888f30"
+					(reference "ICled12")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/efddbbcd-68cb-4c52-8d37-62b9d11b033a"
+					(reference "ICled51")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/23de2d22-f062-4697-901d-0a5bea5822e6"
+					(reference "ICled90")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/adbccf50-ac43-408f-aa3b-de01023ff877"
+					(reference "ICled129")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/99b9cbca-a3a5-40b5-bfd0-ef1b819c6447"
+					(reference "ICled168")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/82466026-7550-4915-9af0-ecb2e038c6ba"
+					(reference "ICled207")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ICLEDs:1312020030000")
+		(at 378.46 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8094cbfe-4516-41bc-873f-94b1347cdbe7")
+		(property "Reference" "ICled39"
+			(at 373.38 123.19 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 378.46 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "ICLEDs:1312020030000"
+			(at 378.46 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 378.46 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 378.46 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2-VDD"
+			(uuid "dccfb3f9-ebd2-4b4e-9741-261269b0d824")
+		)
+		(pin "3-DIN"
+			(uuid "3fef6016-3196-4d5d-ba17-738810036a96")
+		)
+		(pin "4-GND"
+			(uuid "1c0e5de7-c816-448c-825d-5cf0bfa27e90")
+		)
+		(pin "1-DOUT"
+			(uuid "4efcc0f7-f960-4825-8929-2a563cf783ec")
+		)
+		(instances
+			(project "PixelDisplay"
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/9c52ed5e-149d-4294-a510-cb9954888f30"
+					(reference "ICled39")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/efddbbcd-68cb-4c52-8d37-62b9d11b033a"
+					(reference "ICled78")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/23de2d22-f062-4697-901d-0a5bea5822e6"
+					(reference "ICled117")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/adbccf50-ac43-408f-aa3b-de01023ff877"
+					(reference "ICled156")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/99b9cbca-a3a5-40b5-bfd0-ef1b819c6447"
+					(reference "ICled195")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/82466026-7550-4915-9af0-ecb2e038c6ba"
+					(reference "ICled234")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 16.51 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "82c179b9-8336-45df-b2e8-004793bb4a04")
+		(property "Reference" "C1"
+			(at 20.32 52.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 20.32 54.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 17.4752 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 16.51 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 16.51 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ac848387-c1f2-424d-8b05-0dbb956a1a6a")
+		)
+		(pin "2"
+			(uuid "1f55a68e-2e0b-424a-9491-7058f758c259")
+		)
+		(instances
+			(project "PixelDisplay"
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/9c52ed5e-149d-4294-a510-cb9954888f30"
+					(reference "C1")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/efddbbcd-68cb-4c52-8d37-62b9d11b033a"
+					(reference "C3")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/23de2d22-f062-4697-901d-0a5bea5822e6"
+					(reference "C5")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/adbccf50-ac43-408f-aa3b-de01023ff877"
+					(reference "C7")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/99b9cbca-a3a5-40b5-bfd0-ef1b819c6447"
+					(reference "C9")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/82466026-7550-4915-9af0-ecb2e038c6ba"
+					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ICLEDs:1312020030000")
+		(at 191.77 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8bda5e2d-9858-47fa-a0f4-308b19725ea8")
+		(property "Reference" "ICled18"
+			(at 186.69 41.91 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 191.77 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "ICLEDs:1312020030000"
+			(at 191.77 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 191.77 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2-VDD"
+			(uuid "e28bf75c-8a7f-4b5b-9a85-52080d0d9426")
+		)
+		(pin "3-DIN"
+			(uuid "6067a0ba-9ed2-4246-a6b5-6f50a9c95222")
+		)
+		(pin "4-GND"
+			(uuid "d319fda9-b386-45a3-ba9e-c4375fc27e9d")
+		)
+		(pin "1-DOUT"
+			(uuid "0fd0d2d6-9792-4c15-9d55-b6bc03e19492")
+		)
+		(instances
+			(project "PixelDisplay"
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/9c52ed5e-149d-4294-a510-cb9954888f30"
+					(reference "ICled18")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/efddbbcd-68cb-4c52-8d37-62b9d11b033a"
+					(reference "ICled57")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/23de2d22-f062-4697-901d-0a5bea5822e6"
+					(reference "ICled96")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/adbccf50-ac43-408f-aa3b-de01023ff877"
+					(reference "ICled135")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/99b9cbca-a3a5-40b5-bfd0-ef1b819c6447"
+					(reference "ICled174")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/82466026-7550-4915-9af0-ecb2e038c6ba"
+					(reference "ICled213")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ICLEDs:1312020030000")
+		(at 245.11 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8d3f9230-f5ce-4b0c-b6b0-330d45ea1f10")
+		(property "Reference" "ICled24"
+			(at 240.03 41.91 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 245.11 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "ICLEDs:1312020030000"
+			(at 245.11 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 245.11 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 245.11 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2-VDD"
+			(uuid "e46e5dce-316f-4a30-8c72-1774a16acda6")
+		)
+		(pin "3-DIN"
+			(uuid "fc8b064d-3f4f-4705-b2d9-62565e268c93")
+		)
+		(pin "4-GND"
+			(uuid "465612a8-e27b-4744-b2f2-1c78547ca240")
+		)
+		(pin "1-DOUT"
+			(uuid "199940b4-7257-49aa-a0f0-bff80f14b932")
+		)
+		(instances
+			(project "PixelDisplay"
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/9c52ed5e-149d-4294-a510-cb9954888f30"
+					(reference "ICled24")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/efddbbcd-68cb-4c52-8d37-62b9d11b033a"
+					(reference "ICled63")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/23de2d22-f062-4697-901d-0a5bea5822e6"
+					(reference "ICled102")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/adbccf50-ac43-408f-aa3b-de01023ff877"
+					(reference "ICled141")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/99b9cbca-a3a5-40b5-bfd0-ef1b819c6447"
+					(reference "ICled180")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/82466026-7550-4915-9af0-ecb2e038c6ba"
+					(reference "ICled219")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ICLEDs:1312020030000")
+		(at 55.88 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8d5306c5-72c6-488d-9069-fb02147acec8")
+		(property "Reference" "ICled2"
+			(at 50.8 123.19 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 55.88 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "ICLEDs:1312020030000"
+			(at 55.88 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 55.88 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2-VDD"
+			(uuid "595e08c3-b556-4f17-9aea-1212d0d7d395")
+		)
+		(pin "3-DIN"
+			(uuid "1f75367b-36bc-403e-b172-bfca53718841")
+		)
+		(pin "4-GND"
+			(uuid "012616d6-6e13-4c6e-807a-b12e10387be7")
+		)
+		(pin "1-DOUT"
+			(uuid "a5e58d71-c345-4ab1-9bb3-bfd8a1023825")
+		)
+		(instances
+			(project "PixelDisplay"
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/9c52ed5e-149d-4294-a510-cb9954888f30"
+					(reference "ICled2")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/efddbbcd-68cb-4c52-8d37-62b9d11b033a"
+					(reference "ICled41")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/23de2d22-f062-4697-901d-0a5bea5822e6"
+					(reference "ICled80")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/adbccf50-ac43-408f-aa3b-de01023ff877"
+					(reference "ICled119")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/99b9cbca-a3a5-40b5-bfd0-ef1b819c6447"
+					(reference "ICled158")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/82466026-7550-4915-9af0-ecb2e038c6ba"
+					(reference "ICled197")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ICLEDs:1312020030000")
+		(at 163.83 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "91b64b6b-4c4f-428a-93ee-e4e960c947cc")
+		(property "Reference" "ICled13"
+			(at 158.75 85.09 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 163.83 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "ICLEDs:1312020030000"
+			(at 163.83 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 163.83 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2-VDD"
+			(uuid "58d8e9b7-c8b9-49d9-a2fd-9b9d27b94e91")
+		)
+		(pin "3-DIN"
+			(uuid "a7f97e63-626b-43ee-bf01-bbcbeb070833")
+		)
+		(pin "4-GND"
+			(uuid "62aaf3f6-69a3-4afa-a974-2b50983c007b")
+		)
+		(pin "1-DOUT"
+			(uuid "a90e0aea-2891-4717-b1eb-d7710b70b804")
+		)
+		(instances
+			(project "PixelDisplay"
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/9c52ed5e-149d-4294-a510-cb9954888f30"
+					(reference "ICled13")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/efddbbcd-68cb-4c52-8d37-62b9d11b033a"
+					(reference "ICled52")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/23de2d22-f062-4697-901d-0a5bea5822e6"
+					(reference "ICled91")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/adbccf50-ac43-408f-aa3b-de01023ff877"
+					(reference "ICled130")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/99b9cbca-a3a5-40b5-bfd0-ef1b819c6447"
+					(reference "ICled169")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/82466026-7550-4915-9af0-ecb2e038c6ba"
+					(reference "ICled208")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ICLEDs:1312020030000")
+		(at 110.49 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "95e89fed-b0be-4f10-a5d3-ffbbd9656069")
+		(property "Reference" "ICled9"
+			(at 105.41 41.91 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 110.49 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "ICLEDs:1312020030000"
+			(at 110.49 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 110.49 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2-VDD"
+			(uuid "2d4beca0-f447-46b9-9e12-a4d5dbc311b4")
+		)
+		(pin "3-DIN"
+			(uuid "f0e149ed-8cd4-4154-a339-067d9f3c12ed")
+		)
+		(pin "4-GND"
+			(uuid "0c0458c0-0a36-48b7-a315-17ed64a8e0ac")
+		)
+		(pin "1-DOUT"
+			(uuid "d478f88d-30f5-43eb-815d-906461938732")
+		)
+		(instances
+			(project "PixelDisplay"
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/9c52ed5e-149d-4294-a510-cb9954888f30"
+					(reference "ICled9")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/efddbbcd-68cb-4c52-8d37-62b9d11b033a"
+					(reference "ICled48")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/23de2d22-f062-4697-901d-0a5bea5822e6"
+					(reference "ICled87")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/adbccf50-ac43-408f-aa3b-de01023ff877"
+					(reference "ICled126")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/99b9cbca-a3a5-40b5-bfd0-ef1b819c6447"
+					(reference "ICled165")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/82466026-7550-4915-9af0-ecb2e038c6ba"
+					(reference "ICled204")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ICLEDs:1312020030000")
+		(at 243.84 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9a45a423-84a6-49a7-a301-ba80eedb0d1a")
+		(property "Reference" "ICled22"
+			(at 238.76 85.09 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 243.84 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "ICLEDs:1312020030000"
+			(at 243.84 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 243.84 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 243.84 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2-VDD"
+			(uuid "b49e8dd6-16de-4c92-97ae-9dbbc41a6df9")
+		)
+		(pin "3-DIN"
+			(uuid "01c4a395-6863-459a-9afe-59f02292649e")
+		)
+		(pin "4-GND"
+			(uuid "599fdb8b-5b1e-492d-b4a7-cdb81572b334")
+		)
+		(pin "1-DOUT"
+			(uuid "999a3593-22ed-46a0-8cd7-d566f1401a50")
+		)
+		(instances
+			(project "PixelDisplay"
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/9c52ed5e-149d-4294-a510-cb9954888f30"
+					(reference "ICled22")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/efddbbcd-68cb-4c52-8d37-62b9d11b033a"
+					(reference "ICled61")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/23de2d22-f062-4697-901d-0a5bea5822e6"
+					(reference "ICled100")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/adbccf50-ac43-408f-aa3b-de01023ff877"
+					(reference "ICled139")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/99b9cbca-a3a5-40b5-bfd0-ef1b819c6447"
+					(reference "ICled178")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/82466026-7550-4915-9af0-ecb2e038c6ba"
+					(reference "ICled217")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ICLEDs:1312020030000")
+		(at 57.15 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a0769cda-270f-4190-ba50-bb2c1f711dd2")
+		(property "Reference" "ICled3"
+			(at 52.07 41.91 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 57.15 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "ICLEDs:1312020030000"
+			(at 57.15 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 57.15 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2-VDD"
+			(uuid "5907922c-f580-4ff8-a87f-191835ceca0f")
+		)
+		(pin "3-DIN"
+			(uuid "8736a288-0ac2-469f-b6c9-42b5e60721b3")
+		)
+		(pin "4-GND"
+			(uuid "a9fc9641-69f2-4457-9a46-e1b2e3937d80")
+		)
+		(pin "1-DOUT"
+			(uuid "65e049f7-059c-4757-856c-0c1560623c21")
+		)
+		(instances
+			(project "PixelDisplay"
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/9c52ed5e-149d-4294-a510-cb9954888f30"
+					(reference "ICled3")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/efddbbcd-68cb-4c52-8d37-62b9d11b033a"
+					(reference "ICled42")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/23de2d22-f062-4697-901d-0a5bea5822e6"
+					(reference "ICled81")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/adbccf50-ac43-408f-aa3b-de01023ff877"
+					(reference "ICled120")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/99b9cbca-a3a5-40b5-bfd0-ef1b819c6447"
+					(reference "ICled159")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/82466026-7550-4915-9af0-ecb2e038c6ba"
+					(reference "ICled198")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ICLEDs:1312020030000")
+		(at 55.88 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a2c9656c-2de3-40fa-bf91-ff198d4dc1ba")
+		(property "Reference" "ICled1"
+			(at 50.8 85.09 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 55.88 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "ICLEDs:1312020030000"
+			(at 55.88 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 55.88 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2-VDD"
+			(uuid "cadeea9d-8b4a-4f42-8f93-3d31e992c9c9")
+		)
+		(pin "3-DIN"
+			(uuid "c600456f-c2d3-44e0-a2dd-507152a209b4")
+		)
+		(pin "4-GND"
+			(uuid "332428c7-bd30-4243-bb01-339f3cdbc1ce")
+		)
+		(pin "1-DOUT"
+			(uuid "73ffb2f0-e009-4ff4-941c-0fe016f5ae8d")
+		)
+		(instances
+			(project "PixelDisplay"
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/9c52ed5e-149d-4294-a510-cb9954888f30"
+					(reference "ICled1")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/efddbbcd-68cb-4c52-8d37-62b9d11b033a"
+					(reference "ICled40")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/23de2d22-f062-4697-901d-0a5bea5822e6"
+					(reference "ICled79")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/adbccf50-ac43-408f-aa3b-de01023ff877"
+					(reference "ICled118")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/99b9cbca-a3a5-40b5-bfd0-ef1b819c6447"
+					(reference "ICled157")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/82466026-7550-4915-9af0-ecb2e038c6ba"
+					(reference "ICled196")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ICLEDs:1312020030000")
+		(at 323.85 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a8e360bc-8450-48cf-b89e-e1523e82b4d9")
+		(property "Reference" "ICled31"
+			(at 318.77 85.09 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 323.85 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "ICLEDs:1312020030000"
+			(at 323.85 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 323.85 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 323.85 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2-VDD"
+			(uuid "782ed0fd-ea06-4c60-ad92-59d13baeb7c7")
+		)
+		(pin "3-DIN"
+			(uuid "7ef62b10-95f1-4c65-a942-d05dc3154066")
+		)
+		(pin "4-GND"
+			(uuid "1e3e35dc-6dbb-4b83-949c-2cede21cd1ed")
+		)
+		(pin "1-DOUT"
+			(uuid "ae474400-2c74-4c2b-b650-2bc862769bd7")
+		)
+		(instances
+			(project "PixelDisplay"
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/9c52ed5e-149d-4294-a510-cb9954888f30"
+					(reference "ICled31")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/efddbbcd-68cb-4c52-8d37-62b9d11b033a"
+					(reference "ICled70")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/23de2d22-f062-4697-901d-0a5bea5822e6"
+					(reference "ICled109")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/adbccf50-ac43-408f-aa3b-de01023ff877"
+					(reference "ICled148")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/99b9cbca-a3a5-40b5-bfd0-ef1b819c6447"
+					(reference "ICled187")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/82466026-7550-4915-9af0-ecb2e038c6ba"
+					(reference "ICled226")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ICLEDs:1312020030000")
+		(at 109.22 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "addf97ea-15eb-42cb-8272-de838c962321")
+		(property "Reference" "ICled7"
+			(at 104.14 85.09 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 109.22 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "ICLEDs:1312020030000"
+			(at 109.22 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 109.22 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2-VDD"
+			(uuid "06889e95-b8b0-4f8a-b9b7-d50b49708ae6")
+		)
+		(pin "3-DIN"
+			(uuid "88c6b3b8-45f6-4dea-81b0-7ed7dc7c12d8")
+		)
+		(pin "4-GND"
+			(uuid "34b275e2-e07e-444c-9b08-038f6e625904")
+		)
+		(pin "1-DOUT"
+			(uuid "d208b67d-9b2a-4fe9-8c4d-16c8c84a3d0f")
+		)
+		(instances
+			(project "PixelDisplay"
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/9c52ed5e-149d-4294-a510-cb9954888f30"
+					(reference "ICled7")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/efddbbcd-68cb-4c52-8d37-62b9d11b033a"
+					(reference "ICled46")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/23de2d22-f062-4697-901d-0a5bea5822e6"
+					(reference "ICled85")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/adbccf50-ac43-408f-aa3b-de01023ff877"
+					(reference "ICled124")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/99b9cbca-a3a5-40b5-bfd0-ef1b819c6447"
+					(reference "ICled163")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/82466026-7550-4915-9af0-ecb2e038c6ba"
+					(reference "ICled202")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ICLEDs:1312020030000")
+		(at 83.82 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b238eb89-1388-476e-9513-bbb2a8b4019e")
+		(property "Reference" "ICled6"
+			(at 78.74 41.91 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 83.82 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "ICLEDs:1312020030000"
+			(at 83.82 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 83.82 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2-VDD"
+			(uuid "ad99e971-0292-427e-9b55-dcc47ba05f55")
+		)
+		(pin "3-DIN"
+			(uuid "2dd6bebf-0f2c-4d29-961b-456ea061a338")
+		)
+		(pin "4-GND"
+			(uuid "db5994bb-787c-41f8-b4d7-6b5e9f4d55c3")
+		)
+		(pin "1-DOUT"
+			(uuid "1b556ca6-69a7-4dae-a746-2f9c4fe8888e")
+		)
+		(instances
+			(project "PixelDisplay"
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/9c52ed5e-149d-4294-a510-cb9954888f30"
+					(reference "ICled6")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/efddbbcd-68cb-4c52-8d37-62b9d11b033a"
+					(reference "ICled45")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/23de2d22-f062-4697-901d-0a5bea5822e6"
+					(reference "ICled84")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/adbccf50-ac43-408f-aa3b-de01023ff877"
+					(reference "ICled123")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/99b9cbca-a3a5-40b5-bfd0-ef1b819c6447"
+					(reference "ICled162")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/82466026-7550-4915-9af0-ecb2e038c6ba"
+					(reference "ICled201")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 30.48 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b2766aa7-6081-4084-b87c-6b548cd10cd1")
+		(property "Reference" "C2"
+			(at 34.29 52.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 34.29 54.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 31.4452 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 30.48 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 30.48 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "abfcf21e-4b36-47cc-b0c7-aac21b117d05")
+		)
+		(pin "2"
+			(uuid "d9d65f14-7ffb-4424-96a4-c4723bf8eedc")
+		)
+		(instances
+			(project "PixelDisplay"
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/9c52ed5e-149d-4294-a510-cb9954888f30"
+					(reference "C2")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/efddbbcd-68cb-4c52-8d37-62b9d11b033a"
+					(reference "C4")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/23de2d22-f062-4697-901d-0a5bea5822e6"
+					(reference "C6")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/adbccf50-ac43-408f-aa3b-de01023ff877"
+					(reference "C8")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/99b9cbca-a3a5-40b5-bfd0-ef1b819c6447"
+					(reference "C10")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/82466026-7550-4915-9af0-ecb2e038c6ba"
+					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ICLEDs:1312020030000")
+		(at 271.78 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b84263b9-7dd2-415b-8063-f7ecf8d8f9a9")
+		(property "Reference" "ICled27"
+			(at 266.7 41.91 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 271.78 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "ICLEDs:1312020030000"
+			(at 271.78 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 271.78 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 271.78 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2-VDD"
+			(uuid "d42e669c-162e-46a8-bd22-956f1a52d50a")
+		)
+		(pin "3-DIN"
+			(uuid "881ff87a-dafa-44cc-955f-13ce53066639")
+		)
+		(pin "4-GND"
+			(uuid "f5dda408-3051-4278-9e43-c194d5eb9056")
+		)
+		(pin "1-DOUT"
+			(uuid "ce346749-0e3c-437f-9421-6b34bc03d7c6")
+		)
+		(instances
+			(project "PixelDisplay"
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/9c52ed5e-149d-4294-a510-cb9954888f30"
+					(reference "ICled27")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/efddbbcd-68cb-4c52-8d37-62b9d11b033a"
+					(reference "ICled66")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/23de2d22-f062-4697-901d-0a5bea5822e6"
+					(reference "ICled105")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/adbccf50-ac43-408f-aa3b-de01023ff877"
+					(reference "ICled144")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/99b9cbca-a3a5-40b5-bfd0-ef1b819c6447"
+					(reference "ICled183")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/82466026-7550-4915-9af0-ecb2e038c6ba"
+					(reference "ICled222")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ICLEDs:1312020030000")
+		(at 82.55 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bdee2351-5de0-4627-b743-a5c8e7e96368")
+		(property "Reference" "ICled5"
+			(at 77.47 123.19 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 82.55 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "ICLEDs:1312020030000"
+			(at 82.55 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 82.55 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2-VDD"
+			(uuid "18ad2959-26f7-46dd-8d40-21ce2537db21")
+		)
+		(pin "3-DIN"
+			(uuid "878108ac-e664-4ea2-b475-38d321c25fe7")
+		)
+		(pin "4-GND"
+			(uuid "c3ad7a65-1225-403a-8858-a300ddf702be")
+		)
+		(pin "1-DOUT"
+			(uuid "e54cf0b2-2421-4d9d-a002-25f5e4210d70")
+		)
+		(instances
+			(project "PixelDisplay"
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/9c52ed5e-149d-4294-a510-cb9954888f30"
+					(reference "ICled5")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/efddbbcd-68cb-4c52-8d37-62b9d11b033a"
+					(reference "ICled44")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/23de2d22-f062-4697-901d-0a5bea5822e6"
+					(reference "ICled83")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/adbccf50-ac43-408f-aa3b-de01023ff877"
+					(reference "ICled122")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/99b9cbca-a3a5-40b5-bfd0-ef1b819c6447"
+					(reference "ICled161")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/82466026-7550-4915-9af0-ecb2e038c6ba"
+					(reference "ICled200")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ICLEDs:1312020030000")
+		(at 163.83 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bfeadc4c-9397-4a38-9ac0-83fb7db941ba")
+		(property "Reference" "ICled14"
+			(at 158.75 123.19 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 163.83 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "ICLEDs:1312020030000"
+			(at 163.83 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 163.83 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2-VDD"
+			(uuid "9b348c42-70ce-485f-b703-1d5bd7861516")
+		)
+		(pin "3-DIN"
+			(uuid "e535f127-7a0c-4840-a440-fd2fe01a1598")
+		)
+		(pin "4-GND"
+			(uuid "46e61f50-9380-4580-bf04-9c2e504a5caf")
+		)
+		(pin "1-DOUT"
+			(uuid "0864a8c7-d74a-42dc-ba0a-33e46cbbc621")
+		)
+		(instances
+			(project "PixelDisplay"
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/9c52ed5e-149d-4294-a510-cb9954888f30"
+					(reference "ICled14")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/efddbbcd-68cb-4c52-8d37-62b9d11b033a"
+					(reference "ICled53")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/23de2d22-f062-4697-901d-0a5bea5822e6"
+					(reference "ICled92")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/adbccf50-ac43-408f-aa3b-de01023ff877"
+					(reference "ICled131")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/99b9cbca-a3a5-40b5-bfd0-ef1b819c6447"
+					(reference "ICled170")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/82466026-7550-4915-9af0-ecb2e038c6ba"
+					(reference "ICled209")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ICLEDs:1312020030000")
+		(at 325.12 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c0c50469-8629-4812-bd85-a720d3521848")
+		(property "Reference" "ICled33"
+			(at 320.04 41.91 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 325.12 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "ICLEDs:1312020030000"
+			(at 325.12 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 325.12 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 325.12 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2-VDD"
+			(uuid "6385eabd-77b2-4d45-9ed7-1996ddffc8d1")
+		)
+		(pin "3-DIN"
+			(uuid "8d71d55c-64d9-4675-9e88-80d98bd1b301")
+		)
+		(pin "4-GND"
+			(uuid "f46abf21-6941-4250-8581-0e87c84fa53c")
+		)
+		(pin "1-DOUT"
+			(uuid "1c2f9c09-e309-4a89-a7b8-d4819cbdc22b")
+		)
+		(instances
+			(project "PixelDisplay"
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/9c52ed5e-149d-4294-a510-cb9954888f30"
+					(reference "ICled33")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/efddbbcd-68cb-4c52-8d37-62b9d11b033a"
+					(reference "ICled72")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/23de2d22-f062-4697-901d-0a5bea5822e6"
+					(reference "ICled111")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/adbccf50-ac43-408f-aa3b-de01023ff877"
+					(reference "ICled150")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/99b9cbca-a3a5-40b5-bfd0-ef1b819c6447"
+					(reference "ICled189")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/82466026-7550-4915-9af0-ecb2e038c6ba"
+					(reference "ICled228")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ICLEDs:1312020030000")
+		(at 323.85 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d5b08af5-6227-4562-a9d5-84d8e56969c8")
+		(property "Reference" "ICled32"
+			(at 318.77 123.19 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 323.85 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "ICLEDs:1312020030000"
+			(at 323.85 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 323.85 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 323.85 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2-VDD"
+			(uuid "e9b8416c-b7e4-4d2c-a2b8-b9821a72b733")
+		)
+		(pin "3-DIN"
+			(uuid "b8071a62-3369-4868-9a4b-fa5c132a9e13")
+		)
+		(pin "4-GND"
+			(uuid "b4d87d4d-6b63-4739-8dbc-d262e8a3671c")
+		)
+		(pin "1-DOUT"
+			(uuid "67d0a5cd-1765-43cc-a50e-9984fa0c0e88")
+		)
+		(instances
+			(project "PixelDisplay"
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/9c52ed5e-149d-4294-a510-cb9954888f30"
+					(reference "ICled32")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/efddbbcd-68cb-4c52-8d37-62b9d11b033a"
+					(reference "ICled71")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/23de2d22-f062-4697-901d-0a5bea5822e6"
+					(reference "ICled110")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/adbccf50-ac43-408f-aa3b-de01023ff877"
+					(reference "ICled149")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/99b9cbca-a3a5-40b5-bfd0-ef1b819c6447"
+					(reference "ICled188")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/82466026-7550-4915-9af0-ecb2e038c6ba"
+					(reference "ICled227")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ICLEDs:1312020030000")
+		(at 135.89 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d8c8cad5-e0d7-4e27-bd98-a1d0df3fa56b")
+		(property "Reference" "ICled10"
+			(at 130.81 85.09 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 135.89 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "ICLEDs:1312020030000"
+			(at 135.89 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 135.89 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2-VDD"
+			(uuid "e6337817-8723-4c9c-adef-de99d502f434")
+		)
+		(pin "3-DIN"
+			(uuid "917234f8-d4d9-491f-9fb1-8d7290e4d9f8")
+		)
+		(pin "4-GND"
+			(uuid "ec879bc9-d677-45b1-9dbf-c4fa8b690e04")
+		)
+		(pin "1-DOUT"
+			(uuid "ccbcb3e8-c1df-4476-9873-b14bd7408e76")
+		)
+		(instances
+			(project "PixelDisplay"
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/9c52ed5e-149d-4294-a510-cb9954888f30"
+					(reference "ICled10")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/efddbbcd-68cb-4c52-8d37-62b9d11b033a"
+					(reference "ICled49")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/23de2d22-f062-4697-901d-0a5bea5822e6"
+					(reference "ICled88")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/adbccf50-ac43-408f-aa3b-de01023ff877"
+					(reference "ICled127")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/99b9cbca-a3a5-40b5-bfd0-ef1b819c6447"
+					(reference "ICled166")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/82466026-7550-4915-9af0-ecb2e038c6ba"
+					(reference "ICled205")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ICLEDs:1312020030000")
+		(at 217.17 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d924269b-01d5-4b7d-ac40-8d8b8311d4df")
+		(property "Reference" "ICled19"
+			(at 212.09 85.09 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 217.17 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "ICLEDs:1312020030000"
+			(at 217.17 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 217.17 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2-VDD"
+			(uuid "2226af74-f9f9-46b2-a7e3-7f2b542f1063")
+		)
+		(pin "3-DIN"
+			(uuid "e7478b02-c99e-48b2-af5c-9d48c5da197a")
+		)
+		(pin "4-GND"
+			(uuid "85cfa885-3392-473b-a4e6-df19edd5d6be")
+		)
+		(pin "1-DOUT"
+			(uuid "e5f3fdcb-245e-48e2-b3e1-34ee5a513edb")
+		)
+		(instances
+			(project "PixelDisplay"
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/9c52ed5e-149d-4294-a510-cb9954888f30"
+					(reference "ICled19")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/efddbbcd-68cb-4c52-8d37-62b9d11b033a"
+					(reference "ICled58")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/23de2d22-f062-4697-901d-0a5bea5822e6"
+					(reference "ICled97")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/adbccf50-ac43-408f-aa3b-de01023ff877"
+					(reference "ICled136")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/99b9cbca-a3a5-40b5-bfd0-ef1b819c6447"
+					(reference "ICled175")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/82466026-7550-4915-9af0-ecb2e038c6ba"
+					(reference "ICled214")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ICLEDs:1312020030000")
+		(at 378.46 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e200cd10-cbd6-4d05-b20a-d4ccd2d04d5a")
+		(property "Reference" "ICled37"
+			(at 373.38 41.91 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 378.46 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "ICLEDs:1312020030000"
+			(at 378.46 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 378.46 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 378.46 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2-VDD"
+			(uuid "9d85e93a-9b9d-4e10-9ef7-644ecce1c35c")
+		)
+		(pin "3-DIN"
+			(uuid "8732b770-dd22-4ded-a965-995b2479b1c5")
+		)
+		(pin "4-GND"
+			(uuid "48ca4ef7-b611-4012-a029-111eb3571480")
+		)
+		(pin "1-DOUT"
+			(uuid "e3c452cf-0efb-4da4-9c9d-58e44fabc427")
+		)
+		(instances
+			(project "PixelDisplay"
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/9c52ed5e-149d-4294-a510-cb9954888f30"
+					(reference "ICled37")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/efddbbcd-68cb-4c52-8d37-62b9d11b033a"
+					(reference "ICled76")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/23de2d22-f062-4697-901d-0a5bea5822e6"
+					(reference "ICled115")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/adbccf50-ac43-408f-aa3b-de01023ff877"
+					(reference "ICled154")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/99b9cbca-a3a5-40b5-bfd0-ef1b819c6447"
+					(reference "ICled193")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/82466026-7550-4915-9af0-ecb2e038c6ba"
+					(reference "ICled232")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ICLEDs:1312020030000")
+		(at 135.89 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ec6503ae-651f-4463-8227-ff1e26e8d017")
+		(property "Reference" "ICled11"
+			(at 130.81 123.19 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 135.89 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "ICLEDs:1312020030000"
+			(at 135.89 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 135.89 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2-VDD"
+			(uuid "cb2fd9a6-0fe1-4154-88f1-ee0063390b16")
+		)
+		(pin "3-DIN"
+			(uuid "56764af7-2d90-4c78-b795-9ab185374e0b")
+		)
+		(pin "4-GND"
+			(uuid "0fd506e6-82d9-456c-8191-6335f7ecacf9")
+		)
+		(pin "1-DOUT"
+			(uuid "dcd605ad-665a-4a5f-9616-8e4650c07f3e")
+		)
+		(instances
+			(project "PixelDisplay"
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/9c52ed5e-149d-4294-a510-cb9954888f30"
+					(reference "ICled11")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/efddbbcd-68cb-4c52-8d37-62b9d11b033a"
+					(reference "ICled50")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/23de2d22-f062-4697-901d-0a5bea5822e6"
+					(reference "ICled89")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/adbccf50-ac43-408f-aa3b-de01023ff877"
+					(reference "ICled128")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/99b9cbca-a3a5-40b5-bfd0-ef1b819c6447"
+					(reference "ICled167")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/82466026-7550-4915-9af0-ecb2e038c6ba"
+					(reference "ICled206")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ICLEDs:1312020030000")
+		(at 109.22 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f242dbd4-6c9f-4ebe-b9cd-4c20236c08dc")
+		(property "Reference" "ICled8"
+			(at 104.14 123.19 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 109.22 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "ICLEDs:1312020030000"
+			(at 109.22 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 109.22 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2-VDD"
+			(uuid "db73c578-8721-4b69-9d53-a8aeabefaea8")
+		)
+		(pin "3-DIN"
+			(uuid "3504c126-df95-4607-a8b9-751e15c3b3a9")
+		)
+		(pin "4-GND"
+			(uuid "6839a800-23ee-4838-a7c1-ca6ab027c672")
+		)
+		(pin "1-DOUT"
+			(uuid "ec9e2cdb-90d1-4b97-b701-a7efb732d1e3")
+		)
+		(instances
+			(project "PixelDisplay"
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/9c52ed5e-149d-4294-a510-cb9954888f30"
+					(reference "ICled8")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/efddbbcd-68cb-4c52-8d37-62b9d11b033a"
+					(reference "ICled47")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/23de2d22-f062-4697-901d-0a5bea5822e6"
+					(reference "ICled86")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/adbccf50-ac43-408f-aa3b-de01023ff877"
+					(reference "ICled125")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/99b9cbca-a3a5-40b5-bfd0-ef1b819c6447"
+					(reference "ICled164")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/82466026-7550-4915-9af0-ecb2e038c6ba"
+					(reference "ICled203")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ICLEDs:1312020030000")
+		(at 378.46 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f7b8d647-8905-4250-9103-e65a2e240149")
+		(property "Reference" "ICled38"
+			(at 373.38 85.09 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 378.46 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "ICLEDs:1312020030000"
+			(at 378.46 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 378.46 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 378.46 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2-VDD"
+			(uuid "9b2c7a0e-cd30-46a2-ad9f-d961b92d13d5")
+		)
+		(pin "3-DIN"
+			(uuid "6d2045d4-a110-49bb-a0db-db630d0bc6ee")
+		)
+		(pin "4-GND"
+			(uuid "bda25185-a87e-465b-a093-7ee9e93301d3")
+		)
+		(pin "1-DOUT"
+			(uuid "9a64523c-9e97-4b46-a0ff-34de53a9b34b")
+		)
+		(instances
+			(project "PixelDisplay"
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/9c52ed5e-149d-4294-a510-cb9954888f30"
+					(reference "ICled38")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/efddbbcd-68cb-4c52-8d37-62b9d11b033a"
+					(reference "ICled77")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/23de2d22-f062-4697-901d-0a5bea5822e6"
+					(reference "ICled116")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/adbccf50-ac43-408f-aa3b-de01023ff877"
+					(reference "ICled155")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/99b9cbca-a3a5-40b5-bfd0-ef1b819c6447"
+					(reference "ICled194")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/82466026-7550-4915-9af0-ecb2e038c6ba"
+					(reference "ICled233")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ICLEDs:1312020030000")
+		(at 243.84 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f7cfddf7-91a0-4fbf-8d00-300d2d7aa924")
+		(property "Reference" "ICled23"
+			(at 238.76 123.19 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 243.84 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "ICLEDs:1312020030000"
+			(at 243.84 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 243.84 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 243.84 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2-VDD"
+			(uuid "e1b5d433-c58d-45aa-a8cd-24cff4a4de30")
+		)
+		(pin "3-DIN"
+			(uuid "82d9a634-d81e-4006-aaf3-aa1b2a79b55e")
+		)
+		(pin "4-GND"
+			(uuid "5762c664-05f0-4ccd-87d6-0cba0362e66e")
+		)
+		(pin "1-DOUT"
+			(uuid "25deb788-4e52-4c6a-a52f-a63e4bed341b")
+		)
+		(instances
+			(project "PixelDisplay"
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/9c52ed5e-149d-4294-a510-cb9954888f30"
+					(reference "ICled23")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/efddbbcd-68cb-4c52-8d37-62b9d11b033a"
+					(reference "ICled62")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/23de2d22-f062-4697-901d-0a5bea5822e6"
+					(reference "ICled101")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/adbccf50-ac43-408f-aa3b-de01023ff877"
+					(reference "ICled140")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/99b9cbca-a3a5-40b5-bfd0-ef1b819c6447"
+					(reference "ICled179")
+					(unit 1)
+				)
+				(path "/ebe4d446-4765-4b66-85fa-589e2166783d/82466026-7550-4915-9af0-ecb2e038c6ba"
+					(reference "ICled218")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

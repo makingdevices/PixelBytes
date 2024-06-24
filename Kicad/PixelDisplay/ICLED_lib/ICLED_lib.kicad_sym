@@ -6,7 +6,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" ""
+		(property "Reference" "ICled"
 			(at -5.08 12.7 0)
 			(effects
 				(font
@@ -25,7 +25,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ICLEDS:1312020030000"
+		(property "Footprint" "ICLEDs:1312020030000"
 			(at 0 0 0)
 			(effects
 				(font

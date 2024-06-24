@@ -194,4 +194,9 @@
 		(thermal_bridge_angle 0)
 		(uuid "b09890e7-e9b2-47a3-86eb-f70af23529d4")
 	)
+	(model "${KIPRJMOD}/ICLED_lib/ICLED_lib.3dshapes/1312020030000.stp"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
+	)
 )
