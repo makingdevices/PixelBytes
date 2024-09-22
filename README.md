@@ -185,16 +185,16 @@ Other Links: [LinkTree](https://makingdevices.com/links/)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/makingdevices/PicBytesMicro.svg?style=for-the-badge
-[contributors-url]: https://github.com/makingdevices/PicBytesMicro/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/makingdevices/PicBytesMicro.svg?style=for-the-badge
-[forks-url]: https://github.com/makingdevices/PicBytesMicro/network/members
-[stars-shield]: https://img.shields.io/github/stars/makingdevices/PicBytesMicro.svg?style=for-the-badge
-[stars-url]: https://github.com/makingdevices/PicBytesMicro/stargazers
-[issues-shield]: https://img.shields.io/github/issues/makingdevices/PicBytesMicro.svg?style=for-the-badge
-[issues-url]: https://github.com/makingdevices/PicBytesMicro/issues
+[contributors-shield]: https://img.shields.io/github/contributors/makingdevices/PixelBytes.svg?style=for-the-badge
+[contributors-url]: https://github.com/makingdevices/PixelBytes/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/makingdevices/PixelBytes.svg?style=for-the-badge
+[forks-url]: https://github.com/makingdevices/PixelBytes/network/members
+[stars-shield]: https://img.shields.io/github/stars/makingdevices/PixelBytes.svg?style=for-the-badge
+[stars-url]: https://github.com/makingdevices/PixelBytes/stargazers
+[issues-shield]: https://img.shields.io/github/issues/makingdevices/PixelBytes.svg?style=for-the-badge
+[issues-url]: https://github.com/makingdevices//PixelBytes/issues
 [license-shield]: /images/license.png
-[license-url]: https://github.com/makingdevices/PicBytesMicro/tree/main/License
+[license-url]: https://github.com/makingdevices/PixelBytes/tree/main/License
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/company/making-devices/
 [sponsor-shield]: https://img.shields.io/badge/SPONSOR-PCBWAY-black.svg?style=for-the-badge&colorB=1200
@@ -202,7 +202,7 @@ Other Links: [LinkTree](https://makingdevices.com/links/)
 [sponsor-screenshot]: /images/PCB_sponsor.png
 [sponsor-pcb-1]: /images/picbytesmicro_pcb1.jpg
 [sponsor-pcb-2]: /images/picbytesmicro_pcb2.jpg
-[sponsor-wurth-1]: /images/wurth_1.JPG
+[sponsor-wurth-1]: /images/wurth_1.jpg
 [sponsor-wurth-3]: /images/wurth_3.jpg
 [sponsor-url-wurth]: https://www.we-online.com/en
 [product-screenshot]: images/screenshot.jpg
