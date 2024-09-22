@@ -1,0 +1,1288 @@
+(pcb "C:\Users\rubenelportero\Desktop\Making Devices\Pic Bytes Micro\Kicad\PicBytesMicro\PicBytesMicro.dsn"
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "(5.1.6)-1")
+  )
+  (resolution um 10)
+  (unit um)
+  (structure
+    (layer F.Cu
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer B.Cu
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (path pcb 0  174326 -34521.4  174647 -34585.2  174957 -34690.3  175250 -34834.9
+            175522 -35016.6  175768 -35232.2  175983 -35478.1  176165 -35750
+            176310 -36043.3  176415 -36353  176479 -36673.7  176500 -37000
+            176500 -157000  176479 -157326  176415 -157647  176310 -157957
+            176165 -158250  175983 -158522  175768 -158768  175522 -158983
+            175250 -159165  174957 -159310  174647 -159415  174326 -159479
+            174000 -159500  99000 -159500  98673.7 -159479  98353 -159415
+            98043.3 -159310  97750 -159165  97478.1 -158983  97232.2 -158768
+            97016.6 -158522  96834.9 -158250  96690.3 -157957  96585.2 -157647
+            96521.4 -157326  96500 -157000  96500 -37000  96521.4 -36673.7
+            96585.2 -36353  96690.3 -36043.3  96834.9 -35750  97016.6 -35478.1
+            97232.2 -35232.2  97478.1 -35016.6  97750 -34834.9  98043.3 -34690.3
+            98353 -34585.2  98673.7 -34521.4  99000 -34500  174000 -34500
+            174326 -34521.4)
+    )
+    (via "Via[0-1]_800:400_um" "Via[0-1]_850:400_um")
+    (rule
+      (width 250)
+      (clearance 200.1)
+      (clearance 200.1 (type default_smd))
+      (clearance 50 (type smd_smd))
+    )
+  )
+  (placement
+    (component "SamacSys_Parts:SOT95P280X145-6N"
+      (place U_StepUp1 139003 -89065 back 180 (PN MT3608))
+      (place IC1 153700 -97220 back 270 (PN "FS312F-G"))
+    )
+    (component SamacSys_Parts:K31260DL1
+      (place SW_Toggle1 173900 -55900 back 270 (PN "K3-1260D-L1"))
+    )
+    (component "SamacSys_Parts:B3F-4000"
+      (place S_up1 120200 -125190 front 0 (PN "B3F-4050"))
+      (place S_right1 132900 -137890 front 0 (PN "B3F-4050"))
+      (place S_left1 107500 -137890 front 0 (PN "B3F-4050"))
+      (place S_down1 120200 -150590 front 0 (PN "B3F-4050"))
+      (place S_B1 165500 -129000 front 0 (PN "B3F-4050"))
+      (place S_A1 152800 -141700 front 0 (PN "B3F-4050"))
+    )
+    (component SamacSys_Parts:RESC2012X65N
+      (place R_7.5k_1 143507 -89115 back 270 (PN KTR10EZPF4220))
+      (place R_5.1k_1 139105 -147800 back 90 (PN KTR10EZPF4220))
+      (place R_5.1_1 141400 -147800 back 90 (PN KTR10EZPF4220))
+      (place R_2k_2 153700 -102100 back 180 (PN KTR10EZPF4220))
+      (place R_2k_1 170700 -83400 back 180 (PN KTR10EZPF4220))
+      (place R_1k_3 134500 -89115 back 90 (PN KTR10EZPF4220))
+      (place R_1k_2 167225 -42050 front 270 (PN KTR10EZPF4220))
+      (place R_1k_1 170325 -42050 front 270 (PN KTR10EZPF4220))
+      (place R_10K_6 118850 -105200 back 0 (PN KTR10EZPF4220))
+      (place R_10K_5 118850 -103100 back 0 (PN KTR10EZPF4220))
+      (place R_10K_4 118850 -107300 back 0 (PN KTR10EZPF4220))
+      (place R_10K_3 118850 -113450 back 180 (PN KTR10EZPF4220))
+      (place R_10K_2 118850 -111400 back 0 (PN KTR10EZPF4220))
+      (place R_10K_1 118850 -109350 back 0 (PN KTR10EZPF4220))
+      (place R_10k_1 118850 -115500 back 180 (PN KTR10EZPF4220))
+      (place R_100_1 149700 -97220 back 90 (PN KTR10EZPF4220))
+      (place R4K7_29 164300 -54550 back 90 (PN KTR10EZPF4220))
+      (place R4K7_28 167400 -95350 back 90 (PN KTR10EZPF4220))
+      (place R4K7_27 104600 -89800 back 270 (PN KTR10EZPF4220))
+      (place R4K7_26 100100 -39275 back 270 (PN KTR10EZPF4220))
+      (place R4K7_25 139000 -39275 back 270 (PN KTR10EZPF4220))
+      (place R4K7_24 167400 -100200 back 90 (PN KTR10EZPF4220))
+      (place R4K7_23 104600 -84600 back 270 (PN KTR10EZPF4220))
+      (place R4K7_22 170100 -39275 back 270 (PN KTR10EZPF4220))
+      (place R4K7_21 131100 -39275 back 270 (PN KTR10EZPF4220))
+      (place R4K7_20 167400 -105200 back 90 (PN KTR10EZPF4220))
+      (place R4K7_19 104600 -78550 back 270 (PN KTR10EZPF4220))
+      (place R4K7_18 104600 -116250 back 270 (PN KTR10EZPF4220))
+      (place R4K7_17 104600 -68200 back 270 (PN KTR10EZPF4220))
+      (place R4K7_16 162200 -39275 back 270 (PN KTR10EZPF4220))
+      (place R4K7_15 123400 -39275 back 270 (PN KTR10EZPF4220))
+      (place R4K7_14 167400 -90350 back 90 (PN KTR10EZPF4220))
+      (place R4K7_13 104600 -96050 back 270 (PN KTR10EZPF4220))
+      (place R4K7_12 167400 -110200 back 90 (PN KTR10EZPF4220))
+      (place R4K7_11 104600 -73550 back 270 (PN KTR10EZPF4220))
+      (place R4K7_10 104600 -111050 back 270 (PN KTR10EZPF4220))
+      (place R4K7_9 104600 -62100 back 270 (PN KTR10EZPF4220))
+      (place R4K7_8 154400 -39275 back 270 (PN KTR10EZPF4220))
+      (place R4K7_7 115500 -39275 back 270 (PN KTR10EZPF4220))
+      (place R4K7_6 104600 -105800 back 270 (PN KTR10EZPF4220))
+      (place R4K7_5 104600 -56300 back 270 (PN KTR10EZPF4220))
+      (place R4K7_4 146600 -39275 back 270 (PN KTR10EZPF4220))
+      (place R4K7_3 107500 -39275 back 270 (PN KTR10EZPF4220))
+      (place R4K7_2 104600 -100900 back 270 (PN KTR10EZPF4220))
+      (place R4K7_1 104600 -50900 back 270 (PN KTR10EZPF4220))
+      (place R220_10 103100 -42700 back 180 (PN KTR10EZPF4220))
+      (place R220_9 142100 -42700 back 180 (PN KTR10EZPF4220))
+      (place R220_8 173200 -42700 back 180 (PN KTR10EZPF4220))
+      (place R220_7 134250 -42700 back 180 (PN KTR10EZPF4220))
+      (place R220_6 165200 -42700 back 180 (PN KTR10EZPF4220))
+      (place R220_5 126500 -42700 back 180 (PN KTR10EZPF4220))
+      (place R220_4 157450 -42700 back 0 (PN KTR10EZPF4220))
+      (place R220_3 118550 -42700 back 180 (PN KTR10EZPF4220))
+      (place R220_2 149650 -42700 back 180 (PN KTR10EZPF4220))
+      (place R220_1 110550 -42700 back 0 (PN KTR10EZPF4220))
+    )
+    (component SamacSys_Parts:FS8205
+      (place Q30 160500 -97495 back 270 (PN FS8205))
+    )
+    (component "SamacSys_Parts:SOT96P237X111-3N"
+      (place Q29 167350 -54600 back 180 (PN SMMBT5551LT1G))
+      (place Q28 170700 -95300 back 180 (PN SMMBT5551LT1G))
+      (place Q27 101400 -89800 back 0 (PN SMMBT5551LT1G))
+      (place Q26 103100 -39500 back 90 (PN SMMBT5551LT1G))
+      (place Q25 142000 -39500 back 90 (PN SMMBT5551LT1G))
+      (place Q24 170700 -100200 back 180 (PN SMMBT5551LT1G))
+      (place Q23 101400 -84600 back 0 (PN SMMBT5551LT1G))
+      (place Q22 173100 -39500 back 90 (PN SMMBT5551LT1G))
+      (place Q21 134200 -39500 back 90 (PN SMMBT5551LT1G))
+      (place Q20 170700 -105100 back 180 (PN SMMBT5551LT1G))
+      (place Q19 101400 -78600 back 0 (PN SMMBT5551LT1G))
+      (place Q18 101400 -116200 back 0 (PN SMMBT5551LT1G))
+      (place Q17 101400 -68200 back 0 (PN SMMBT5551LT1G))
+      (place Q16 165200 -39500 back 90 (PN SMMBT5551LT1G))
+      (place Q15 126400 -39500 back 90 (PN SMMBT5551LT1G))
+      (place Q14 170700 -90300 back 180 (PN SMMBT5551LT1G))
+      (place Q13 101400 -96100 back 0 (PN SMMBT5551LT1G))
+      (place Q12 170700 -110200 back 180 (PN SMMBT5551LT1G))
+      (place Q11 101400 -73600 back 0 (PN SMMBT5551LT1G))
+      (place Q10 101400 -111100 back 0 (PN SMMBT5551LT1G))
+      (place Q9 101400 -62000 back 0 (PN SMMBT5551LT1G))
+      (place Q8 157400 -39500 back 90 (PN SMMBT5551LT1G))
+      (place Q7 118500 -39500 back 90 (PN SMMBT5551LT1G))
+      (place Q6 101400 -106000 back 0 (PN SMMBT5551LT1G))
+      (place Q5 101400 -56355 back 0 (PN SMMBT5551LT1G))
+      (place Q4 149600 -39500 back 90 (PN SMMBT5551LT1G))
+      (place Q3 110500 -39500 back 90 (PN SMMBT5551LT1G))
+      (place Q2 101400 -101000 back 0 (PN SMMBT5551LT1G))
+      (place Q1 101400 -50900 back 0 (PN SMMBT5551LT1G))
+    )
+    (component SamacSys_Parts:HDRV6W66P0X254_1X6_1524X254X874P
+      (place PicKit1 173180 -140280 front 270 (PN "M20-9990645"))
+    )
+    (component "SamacSys_Parts:QFP80P1200X1200X120-44N"
+      (place PIC18F45K50 139700 -111100 back 270 (PN "PIC18F45K50-I_PT"))
+    )
+    (component SamacSys_Parts:TMB12A05
+      (place LS1 169228 -67327 front 0 (PN TMB12A05))
+    )
+    (component SamacSys_Parts:LEDC2012X90N
+      (place LED_RED_bms1 170325 -45850 front 90 (PN "LTST-C171GKT"))
+      (place LED_Green_bms1 167225 -45850 front 90 (PN "LTST-C171GKT"))
+      (place LED160 159995 -114990 front 90 (PN "LTST-C171GKT"))
+      (place LED159 159995 -109910 front 90 (PN "LTST-C171GKT"))
+      (place LED158 159995 -104830 front 90 (PN "LTST-C171GKT"))
+      (place LED157 159995 -99750 front 90 (PN "LTST-C171GKT"))
+      (place LED156 159995 -94670 front 90 (PN "LTST-C171GKT"))
+      (place LED155 159995 -89590 front 90 (PN "LTST-C171GKT"))
+      (place LED154 159995 -84510 front 90 (PN "LTST-C171GKT"))
+      (place LED153 159995 -79430 front 90 (PN "LTST-C171GKT"))
+      (place LED152 159995 -74350 front 90 (PN "LTST-C171GKT"))
+      (place LED151 159995 -69270 front 90 (PN "LTST-C171GKT"))
+      (place LED150 159995 -64190 front 90 (PN "LTST-C171GKT"))
+      (place LED149 159995 -59110 front 90 (PN "LTST-C171GKT"))
+      (place LED148 159995 -54030 front 90 (PN "LTST-C171GKT"))
+      (place LED147 159995 -48950 front 90 (PN "LTST-C171GKT"))
+      (place LED146 159995 -43870 front 90 (PN "LTST-C171GKT"))
+      (place LED145 159995 -38790 front 90 (PN "LTST-C171GKT"))
+      (place LED144 154774 -114990 front 90 (PN "LTST-C171GKT"))
+      (place LED143 154774 -109910 front 90 (PN "LTST-C171GKT"))
+      (place LED142 154774 -104830 front 90 (PN "LTST-C171GKT"))
+      (place LED141 154774 -99750 front 90 (PN "LTST-C171GKT"))
+      (place LED140 154774 -94670 front 90 (PN "LTST-C171GKT"))
+      (place LED139 154774 -89590 front 90 (PN "LTST-C171GKT"))
+      (place LED138 154774 -84510 front 90 (PN "LTST-C171GKT"))
+      (place LED137 154774 -79430 front 90 (PN "LTST-C171GKT"))
+      (place LED136 154774 -74350 front 90 (PN "LTST-C171GKT"))
+      (place LED135 154774 -69270 front 90 (PN "LTST-C171GKT"))
+      (place LED134 154774 -64190 front 90 (PN "LTST-C171GKT"))
+      (place LED133 154774 -59110 front 90 (PN "LTST-C171GKT"))
+      (place LED132 154774 -54030 front 90 (PN "LTST-C171GKT"))
+      (place LED131 154774 -48950 front 90 (PN "LTST-C171GKT"))
+      (place LED130 154774 -43870 front 90 (PN "LTST-C171GKT"))
+      (place LED129 154774 -38790 front 90 (PN "LTST-C171GKT"))
+      (place LED128 149553 -114990 front 90 (PN "LTST-C171GKT"))
+      (place LED127 149553 -109910 front 90 (PN "LTST-C171GKT"))
+      (place LED126 149553 -104830 front 90 (PN "LTST-C171GKT"))
+      (place LED125 149553 -99750 front 90 (PN "LTST-C171GKT"))
+      (place LED124 149553 -94670 front 90 (PN "LTST-C171GKT"))
+      (place LED123 149553 -89590 front 90 (PN "LTST-C171GKT"))
+      (place LED122 149553 -84510 front 90 (PN "LTST-C171GKT"))
+      (place LED121 149553 -79430 front 90 (PN "LTST-C171GKT"))
+      (place LED120 149553 -74350 front 90 (PN "LTST-C171GKT"))
+      (place LED119 149553 -69270 front 90 (PN "LTST-C171GKT"))
+      (place LED118 149553 -64190 front 90 (PN "LTST-C171GKT"))
+      (place LED117 149553 -59110 front 90 (PN "LTST-C171GKT"))
+      (place LED116 149553 -54030 front 90 (PN "LTST-C171GKT"))
+      (place LED115 149553 -48950 front 90 (PN "LTST-C171GKT"))
+      (place LED114 149553 -43870 front 90 (PN "LTST-C171GKT"))
+      (place LED113 149553 -38790 front 90 (PN "LTST-C171GKT"))
+      (place LED112 144332 -114990 front 90 (PN "LTST-C171GKT"))
+      (place LED111 144332 -109910 front 90 (PN "LTST-C171GKT"))
+      (place LED110 144332 -104830 front 90 (PN "LTST-C171GKT"))
+      (place LED109 144332 -99750 front 90 (PN "LTST-C171GKT"))
+      (place LED108 144332 -94670 front 90 (PN "LTST-C171GKT"))
+      (place LED107 144332 -89590 front 90 (PN "LTST-C171GKT"))
+      (place LED106 144332 -84510 front 90 (PN "LTST-C171GKT"))
+      (place LED105 144332 -79430 front 90 (PN "LTST-C171GKT"))
+      (place LED104 144332 -74350 front 90 (PN "LTST-C171GKT"))
+      (place LED103 144332 -69270 front 90 (PN "LTST-C171GKT"))
+      (place LED102 144332 -64190 front 90 (PN "LTST-C171GKT"))
+      (place LED101 144332 -59110 front 90 (PN "LTST-C171GKT"))
+      (place LED100 144332 -54030 front 90 (PN "LTST-C171GKT"))
+      (place LED99 144332 -48950 front 90 (PN "LTST-C171GKT"))
+      (place LED98 144332 -43870 front 90 (PN "LTST-C171GKT"))
+      (place LED97 144332 -38790 front 90 (PN "LTST-C171GKT"))
+      (place LED96 139111 -114990 front 90 (PN "LTST-C171GKT"))
+      (place LED95 139111 -109910 front 90 (PN "LTST-C171GKT"))
+      (place LED94 139111 -104830 front 90 (PN "LTST-C171GKT"))
+      (place LED93 139111 -99750 front 90 (PN "LTST-C171GKT"))
+      (place LED92 139111 -94670 front 90 (PN "LTST-C171GKT"))
+      (place LED91 139111 -89590 front 90 (PN "LTST-C171GKT"))
+      (place LED90 139111 -84510 front 90 (PN "LTST-C171GKT"))
+      (place LED89 139111 -79430 front 90 (PN "LTST-C171GKT"))
+      (place LED88 139111 -74350 front 90 (PN "LTST-C171GKT"))
+      (place LED87 139111 -69270 front 90 (PN "LTST-C171GKT"))
+      (place LED86 139111 -64190 front 90 (PN "LTST-C171GKT"))
+      (place LED85 139111 -59110 front 90 (PN "LTST-C171GKT"))
+      (place LED84 139111 -54030 front 90 (PN "LTST-C171GKT"))
+      (place LED83 139111 -48950 front 90 (PN "LTST-C171GKT"))
+      (place LED82 139111 -43870 front 90 (PN "LTST-C171GKT"))
+      (place LED81 139111 -38790 front 90 (PN "LTST-C171GKT"))
+      (place LED80 133889 -114990 front 90 (PN "LTST-C171GKT"))
+      (place LED79 133889 -109910 front 90 (PN "LTST-C171GKT"))
+      (place LED78 133889 -104830 front 90 (PN "LTST-C171GKT"))
+      (place LED77 133889 -99750 front 90 (PN "LTST-C171GKT"))
+      (place LED76 133889 -94670 front 90 (PN "LTST-C171GKT"))
+      (place LED75 133889 -89590 front 90 (PN "LTST-C171GKT"))
+      (place LED74 133889 -84510 front 90 (PN "LTST-C171GKT"))
+      (place LED73 133889 -79430 front 90 (PN "LTST-C171GKT"))
+      (place LED72 133889 -74350 front 90 (PN "LTST-C171GKT"))
+      (place LED71 133889 -69270 front 90 (PN "LTST-C171GKT"))
+      (place LED70 133889 -64190 front 90 (PN "LTST-C171GKT"))
+      (place LED69 133889 -59110 front 90 (PN "LTST-C171GKT"))
+      (place LED68 133889 -54030 front 90 (PN "LTST-C171GKT"))
+      (place LED67 133889 -48950 front 90 (PN "LTST-C171GKT"))
+      (place LED66 133889 -43870 front 90 (PN "LTST-C171GKT"))
+      (place LED65 133889 -38790 front 90 (PN "LTST-C171GKT"))
+      (place LED64 128668 -114990 front 90 (PN "LTST-C171GKT"))
+      (place LED63 128668 -109910 front 90 (PN "LTST-C171GKT"))
+      (place LED62 128668 -104830 front 90 (PN "LTST-C171GKT"))
+      (place LED61 128668 -99750 front 90 (PN "LTST-C171GKT"))
+      (place LED60 128668 -94670 front 90 (PN "LTST-C171GKT"))
+      (place LED59 128668 -89590 front 90 (PN "LTST-C171GKT"))
+      (place LED58 128668 -84510 front 90 (PN "LTST-C171GKT"))
+      (place LED57 128668 -79430 front 90 (PN "LTST-C171GKT"))
+      (place LED56 128668 -74350 front 90 (PN "LTST-C171GKT"))
+      (place LED55 128668 -69270 front 90 (PN "LTST-C171GKT"))
+      (place LED54 128668 -64190 front 90 (PN "LTST-C171GKT"))
+      (place LED53 128668 -59110 front 90 (PN "LTST-C171GKT"))
+      (place LED52 128668 -54030 front 90 (PN "LTST-C171GKT"))
+      (place LED51 128668 -48950 front 90 (PN "LTST-C171GKT"))
+      (place LED50 128668 -43870 front 90 (PN "LTST-C171GKT"))
+      (place LED49 128668 -38790 front 90 (PN "LTST-C171GKT"))
+      (place LED48 123447 -114990 front 90 (PN "LTST-C171GKT"))
+      (place LED47 123447 -109910 front 90 (PN "LTST-C171GKT"))
+      (place LED46 123447 -104830 front 90 (PN "LTST-C171GKT"))
+      (place LED45 123447 -99750 front 90 (PN "LTST-C171GKT"))
+      (place LED44 123447 -94670 front 90 (PN "LTST-C171GKT"))
+      (place LED43 123447 -89590 front 90 (PN "LTST-C171GKT"))
+      (place LED42 123447 -84510 front 90 (PN "LTST-C171GKT"))
+      (place LED41 123447 -79430 front 90 (PN "LTST-C171GKT"))
+      (place LED40 123447 -74350 front 90 (PN "LTST-C171GKT"))
+      (place LED39 123447 -69270 front 90 (PN "LTST-C171GKT"))
+      (place LED38 123447 -64190 front 90 (PN "LTST-C171GKT"))
+      (place LED37 123447 -59110 front 90 (PN "LTST-C171GKT"))
+      (place LED36 123447 -54030 front 90 (PN "LTST-C171GKT"))
+      (place LED35 123447 -48950 front 90 (PN "LTST-C171GKT"))
+      (place LED34 123447 -43870 front 90 (PN "LTST-C171GKT"))
+      (place LED33 123447 -38790 front 90 (PN "LTST-C171GKT"))
+      (place LED32 118226 -114990 front 90 (PN "LTST-C171GKT"))
+      (place LED31 118226 -109910 front 90 (PN "LTST-C171GKT"))
+      (place LED30 118226 -104830 front 90 (PN "LTST-C171GKT"))
+      (place LED29 118226 -99750 front 90 (PN "LTST-C171GKT"))
+      (place LED28 118226 -94670 front 90 (PN "LTST-C171GKT"))
+      (place LED27 118226 -89590 front 90 (PN "LTST-C171GKT"))
+      (place LED26 118226 -84510 front 90 (PN "LTST-C171GKT"))
+      (place LED25 118226 -79430 front 90 (PN "LTST-C171GKT"))
+      (place LED24 118226 -74350 front 90 (PN "LTST-C171GKT"))
+      (place LED23 118226 -69270 front 90 (PN "LTST-C171GKT"))
+      (place LED22 118226 -64190 front 90 (PN "LTST-C171GKT"))
+      (place LED21 118226 -59110 front 90 (PN "LTST-C171GKT"))
+      (place LED20 118226 -54030 front 90 (PN "LTST-C171GKT"))
+      (place LED19 118226 -48950 front 90 (PN "LTST-C171GKT"))
+      (place LED18 118226 -43870 front 90 (PN "LTST-C171GKT"))
+      (place LED17 118226 -38790 front 90 (PN "LTST-C171GKT"))
+      (place LED16 113005 -114990 front 90 (PN "LTST-C171GKT"))
+      (place LED15 113005 -109910 front 90 (PN "LTST-C171GKT"))
+      (place LED14 113005 -104830 front 90 (PN "LTST-C171GKT"))
+      (place LED13 113005 -99750 front 90 (PN "LTST-C171GKT"))
+      (place LED12 113005 -94670 front 90 (PN "LTST-C171GKT"))
+      (place LED11 113005 -89590 front 90 (PN "LTST-C171GKT"))
+      (place LED10 113005 -84510 front 90 (PN "LTST-C171GKT"))
+      (place LED9 113005 -79430 front 90 (PN "LTST-C171GKT"))
+      (place LED8 113005 -74350 front 90 (PN "LTST-C171GKT"))
+      (place LED7 113005 -69270 front 90 (PN "LTST-C171GKT"))
+      (place LED6 113005 -64190 front 90 (PN "LTST-C171GKT"))
+      (place LED5 113005 -59110 front 90 (PN "LTST-C171GKT"))
+      (place LED4 113005 -54030 front 90 (PN "LTST-C171GKT"))
+      (place LED3 113005 -48950 front 90 (PN "LTST-C171GKT"))
+      (place LED2 113005 -43870 front 90 (PN "LTST-C171GKT"))
+      (place LED1 113005 -38790 front 90 (PN "LTST-C171GKT"))
+    )
+    (component "SamacSys_Parts:SRR1260-150M"
+      (place L_22uH_1 124300 -90900 back 90 (PN "SRR1260-220M"))
+    )
+    (component SamacSys_Parts:TYPEC31M17
+      (place J_USB_C1 138500 -155400 back 0 (PN "TYPE-C-31-M-17"))
+    )
+    (component "SamacSys_Parts:SOIC127P600X175-9N"
+      (place IC_BMS_TP4056 170700 -77400 back 270 (PN "TP4056-42-ESOP8"))
+    )
+    (component "User:Mounting-Pad"
+      (place "H_Bat-1" 157300 -84000 back 270 (PN "MountingHole_Pad-User_library-SamacSys_Parts"))
+      (place H_Bat+1 161800 -77800 back 180 (PN "MountingHole_Pad-User_library-SamacSys_Parts"))
+    )
+    (component SamacSys_Parts:DIOM7959X262N
+      (place D_1 139300 -96800 back 0 (PN "SS34-E3_57T"))
+    )
+    (component SamacSys_Parts:CAPC2012X145N
+      (place C_22u_2 146800 -89300 back 270 (PN GCG21BR71H154KA01K))
+      (place C_22u_1 138800 -84500 back 0 (PN GCG21BR71H154KA01K))
+      (place C_22p_2 149140 -124340 back 0 (PN GCG21BR71H154KA01K))
+      (place C_22p_1 138060 -124340 back 180 (PN GCG21BR71H154KA01K))
+      (place C_10u_1 166100 -77400 back 90 (PN GCG21BR71H154KA01K))
+      (place C_0.1u_1 153700 -92400 back 180 (PN GCG21BR71H154KA01K))
+    )
+    (component SamacSys_Parts:AS16000MAHKB
+      (place 16MhzCrystal1 141160 -124340 front 0 (PN "AS-16.000MAHK-B"))
+    )
+  )
+  (library
+    (image "SamacSys_Parts:SOT95P280X145-6N"
+      (outline (path signal 50  -2100 1750  2100 1750))
+      (outline (path signal 50  2100 1750  2100 -1750))
+      (outline (path signal 50  2100 -1750  -2100 -1750))
+      (outline (path signal 50  -2100 -1750  -2100 1750))
+      (outline (path signal 100  -800 1450  800 1450))
+      (outline (path signal 100  800 1450  800 -1450))
+      (outline (path signal 100  800 -1450  -800 -1450))
+      (outline (path signal 100  -800 -1450  -800 1450))
+      (outline (path signal 100  -800 500  150 1450))
+      (outline (path signal 200  -300 1450  300 1450))
+      (outline (path signal 200  300 1450  300 -1450))
+      (outline (path signal 200  300 -1450  -300 -1450))
+      (outline (path signal 200  -300 -1450  -300 1450))
+      (outline (path signal 200  -1850 1600  -650 1600))
+      (pin Rect[T]Pad_600x1200_um (rotate 90) 6 1250 950)
+      (pin Rect[T]Pad_600x1200_um (rotate 90) 5 1250 0)
+      (pin Rect[T]Pad_600x1200_um (rotate 90) 4 1250 -950)
+      (pin Rect[T]Pad_600x1200_um (rotate 90) 3 -1250 -950)
+      (pin Rect[T]Pad_600x1200_um (rotate 90) 2 -1250 0)
+      (pin Rect[T]Pad_600x1200_um (rotate 90) 1 -1250 950)
+    )
+    (image SamacSys_Parts:K31260DL1
+      (outline (path signal 200  -2050 2500  7050 2500))
+      (outline (path signal 200  7050 2500  7050 -1000))
+      (outline (path signal 200  7050 -1000  -2050 -1000))
+      (outline (path signal 200  -2050 -1000  -2050 2500))
+      (outline (path signal 100  -2050 2500  7100 2500))
+      (outline (path signal 100  7100 2500  7100 -1000))
+      (outline (path signal 100  7100 -1000  -2050 -1000))
+      (outline (path signal 100  -2050 -1000  -2050 2500))
+      (outline (path signal 100  -3050 7500  8100 7500))
+      (outline (path signal 100  8100 7500  8100 -2000))
+      (outline (path signal 100  8100 -2000  -3050 -2000))
+      (outline (path signal 100  -3050 -2000  -3050 7500))
+      (outline (path signal 200  100 2500  0 6500))
+      (outline (path signal 200  0 6500  4100 6500))
+      (outline (path signal 200  4100 6500  4100 2500))
+      (pin Round[A]Pad_1300_um (rotate 90) 3 5000 0)
+      (pin Round[A]Pad_1300_um (rotate 90) 2 2500 0)
+      (pin Round[A]Pad_1300_um (rotate 90) 1 0 0)
+    )
+    (image "SamacSys_Parts:B3F-4000"
+      (outline (path signal 200  -6000 6000  6000 6000))
+      (outline (path signal 200  6000 6000  6000 -6000))
+      (outline (path signal 200  6000 -6000  -6000 -6000))
+      (outline (path signal 200  -6000 -6000  -6000 6000))
+      (outline (path signal 200  -6000 6000  6000 6000))
+      (outline (path signal 200  6000 -6000  -6000 -6000))
+      (outline (path signal 200  -6000 -6000  -6000 -3400))
+      (outline (path signal 200  -6000 6000  -6000 3400))
+      (outline (path signal 200  -6000 1025  -6000 -1025))
+      (outline (path signal 200  6000 6000  6000 3400))
+      (outline (path signal 200  6000 1025  6000 -1025))
+      (outline (path signal 200  6000 -6000  6000 -3400))
+      (outline (path signal 254  7963.88 -2340  7912.44 -2429.1  7809.56 -2429.1  7758.12 -2340
+            7809.56 -2250.9  7912.44 -2250.9  7963.88 -2340))
+      (pin Round[A]Pad_1850_um (rotate 90) 4 -6250 2250)
+      (pin Round[A]Pad_1850_um (rotate 90) 3 6250 2250)
+      (pin Round[A]Pad_1850_um (rotate 90) 2 -6250 -2250)
+      (pin Round[A]Pad_1850_um (rotate 90) 1 6250 -2250)
+      (keepout "" (circle F.Cu 1800 0 -4500))
+      (keepout "" (circle B.Cu 1800 0 -4500))
+      (keepout "" (circle F.Cu 1800 0 4500))
+      (keepout "" (circle B.Cu 1800 0 4500))
+    )
+    (image SamacSys_Parts:RESC2012X65N
+      (outline (path signal 50  -1700 950  1700 950))
+      (outline (path signal 50  1700 950  1700 -950))
+      (outline (path signal 50  1700 -950  -1700 -950))
+      (outline (path signal 50  -1700 -950  -1700 950))
+      (outline (path signal 100  -1000 625  1000 625))
+      (outline (path signal 100  1000 625  1000 -625))
+      (outline (path signal 100  1000 -625  -1000 -625))
+      (outline (path signal 100  -1000 -625  -1000 625))
+      (outline (path signal 200  0 525  0 -525))
+      (pin Rect[T]Pad_1000x1400_um 2 950 0)
+      (pin Rect[T]Pad_1000x1400_um 1 -950 0)
+    )
+    (image SamacSys_Parts:FS8205
+      (outline (path signal 200  -650 1450  1950 1450))
+      (outline (path signal 200  1950 1450  1950 -1450))
+      (outline (path signal 200  1950 -1450  -650 -1450))
+      (outline (path signal 200  -650 -1450  -650 1450))
+      (outline (path signal 100  -2950 2450  3500 2450))
+      (outline (path signal 100  3500 2450  3500 -2450))
+      (outline (path signal 100  3500 -2450  -2950 -2450))
+      (outline (path signal 100  -2950 -2450  -2950 2450))
+      (outline (path signal 100  -650 1450  1950 1450))
+      (outline (path signal 100  -650 -1450  1800 -1450))
+      (outline (path signal 200  -1850 800  -1850 800))
+      (outline (path signal 200  -1850 1000  -1850 1000))
+      (pin Rect[T]Pad_600x1400_um (rotate 90) 6 1800 -950)
+      (pin Rect[T]Pad_600x1400_um (rotate 90) 5 1800 0)
+      (pin Rect[T]Pad_600x1400_um (rotate 90) 4 1800 950)
+      (pin Rect[T]Pad_600x1400_um (rotate 90) 3 -500 -950)
+      (pin Rect[T]Pad_600x1400_um (rotate 90) 2 -500 0)
+      (pin Rect[T]Pad_600x1400_um (rotate 90) 1 -500 950)
+    )
+    (image "SamacSys_Parts:SOT96P237X111-3N"
+      (outline (path signal 50  -1925 1770  1925 1770))
+      (outline (path signal 50  1925 1770  1925 -1770))
+      (outline (path signal 50  1925 -1770  -1925 -1770))
+      (outline (path signal 50  -1925 -1770  -1925 1770))
+      (outline (path signal 100  -650 1460  650 1460))
+      (outline (path signal 100  650 1460  650 -1460))
+      (outline (path signal 100  650 -1460  -650 -1460))
+      (outline (path signal 100  -650 -1460  -650 1460))
+      (outline (path signal 100  -650 505  305 1460))
+      (outline (path signal 200  -75 1460  75 1460))
+      (outline (path signal 200  75 1460  75 -1460))
+      (outline (path signal 200  75 -1460  -75 -1460))
+      (outline (path signal 200  -75 -1460  -75 1460))
+      (outline (path signal 200  -1675 1505  -425 1505))
+      (pin Rect[T]Pad_600x1250_um (rotate 90) 3 1050 0)
+      (pin Rect[T]Pad_600x1250_um (rotate 90) 2 -1050 -955)
+      (pin Rect[T]Pad_600x1250_um (rotate 90) 1 -1050 955)
+    )
+    (image SamacSys_Parts:HDRV6W66P0X254_1X6_1524X254X874P
+      (outline (path signal 50  -1770 -1570  -1770 1570))
+      (outline (path signal 50  -1770 1570  14470 1570))
+      (outline (path signal 50  14470 1570  14470 -1570))
+      (outline (path signal 50  14470 -1570  -1770 -1570))
+      (outline (path signal 100  -1520 -1320  -1520 1320))
+      (outline (path signal 100  -1520 1320  14220 1320))
+      (outline (path signal 100  14220 1320  14220 -1320))
+      (outline (path signal 100  14220 -1320  -1520 -1320))
+      (outline (path signal 200  -1520 0  -1520 -1320))
+      (outline (path signal 200  -1520 -1320  14220 -1320))
+      (outline (path signal 200  14220 -1320  14220 1320))
+      (outline (path signal 200  14220 1320  0 1320))
+      (pin Round[A]Pad_1725_um (rotate 90) 6 12700 0)
+      (pin Round[A]Pad_1725_um (rotate 90) 5 10160 0)
+      (pin Round[A]Pad_1725_um (rotate 90) 4 7620 0)
+      (pin Round[A]Pad_1725_um (rotate 90) 3 5080 0)
+      (pin Round[A]Pad_1725_um (rotate 90) 2 2540 0)
+      (pin Rect[A]Pad_1725x1725_um (rotate 90) 1 0 0)
+    )
+    (image "SamacSys_Parts:QFP80P1200X1200X120-44N"
+      (outline (path signal 50  -6725 6725  6725 6725))
+      (outline (path signal 50  6725 6725  6725 -6725))
+      (outline (path signal 50  6725 -6725  -6725 -6725))
+      (outline (path signal 50  -6725 -6725  -6725 6725))
+      (outline (path signal 100  -5000 5000  5000 5000))
+      (outline (path signal 100  5000 5000  5000 -5000))
+      (outline (path signal 100  5000 -5000  -5000 -5000))
+      (outline (path signal 100  -5000 -5000  -5000 5000))
+      (outline (path signal 100  -5000 4200  -4200 5000))
+      (outline (path signal 200  -4650 4650  4650 4650))
+      (outline (path signal 200  4650 4650  4650 -4650))
+      (outline (path signal 200  4650 -4650  -4650 -4650))
+      (outline (path signal 200  -4650 -4650  -4650 4650))
+      (outline (path signal 254  -5875 5200  -5950.3 5043.63  -6119.5 5005.01  -6255.19 5113.22
+            -6255.19 5286.78  -6119.5 5394.99  -5950.3 5356.37  -5875 5200))
+      (pin Rect[T]Pad_600x1475_um 44 -4000 5738)
+      (pin Rect[T]Pad_600x1475_um 43 -3200 5738)
+      (pin Rect[T]Pad_600x1475_um 42 -2400 5738)
+      (pin Rect[T]Pad_600x1475_um 41 -1600 5738)
+      (pin Rect[T]Pad_600x1475_um 40 -800 5738)
+      (pin Rect[T]Pad_600x1475_um 39 0 5738)
+      (pin Rect[T]Pad_600x1475_um 38 800 5738)
+      (pin Rect[T]Pad_600x1475_um 37 1600 5738)
+      (pin Rect[T]Pad_600x1475_um 36 2400 5738)
+      (pin Rect[T]Pad_600x1475_um 35 3200 5738)
+      (pin Rect[T]Pad_600x1475_um 34 4000 5738)
+      (pin Rect[T]Pad_600x1475_um (rotate 90) 33 5738 4000)
+      (pin Rect[T]Pad_600x1475_um (rotate 90) 32 5738 3200)
+      (pin Rect[T]Pad_600x1475_um (rotate 90) 31 5738 2400)
+      (pin Rect[T]Pad_600x1475_um (rotate 90) 30 5738 1600)
+      (pin Rect[T]Pad_600x1475_um (rotate 90) 29 5738 800)
+      (pin Rect[T]Pad_600x1475_um (rotate 90) 28 5738 0)
+      (pin Rect[T]Pad_600x1475_um (rotate 90) 27 5738 -800)
+      (pin Rect[T]Pad_600x1475_um (rotate 90) 26 5738 -1600)
+      (pin Rect[T]Pad_600x1475_um (rotate 90) 25 5738 -2400)
+      (pin Rect[T]Pad_600x1475_um (rotate 90) 24 5738 -3200)
+      (pin Rect[T]Pad_600x1475_um (rotate 90) 23 5738 -4000)
+      (pin Rect[T]Pad_600x1475_um 22 4000 -5738)
+      (pin Rect[T]Pad_600x1475_um 21 3200 -5738)
+      (pin Rect[T]Pad_600x1475_um 20 2400 -5738)
+      (pin Rect[T]Pad_600x1475_um 19 1600 -5738)
+      (pin Rect[T]Pad_600x1475_um 18 800 -5738)
+      (pin Rect[T]Pad_600x1475_um 17 0 -5738)
+      (pin Rect[T]Pad_600x1475_um 16 -800 -5738)
+      (pin Rect[T]Pad_600x1475_um 15 -1600 -5738)
+      (pin Rect[T]Pad_600x1475_um 14 -2400 -5738)
+      (pin Rect[T]Pad_600x1475_um 13 -3200 -5738)
+      (pin Rect[T]Pad_600x1475_um 12 -4000 -5738)
+      (pin Rect[T]Pad_600x1475_um (rotate 90) 11 -5738 -4000)
+      (pin Rect[T]Pad_600x1475_um (rotate 90) 10 -5738 -3200)
+      (pin Rect[T]Pad_600x1475_um (rotate 90) 9 -5738 -2400)
+      (pin Rect[T]Pad_600x1475_um (rotate 90) 8 -5738 -1600)
+      (pin Rect[T]Pad_600x1475_um (rotate 90) 7 -5738 -800)
+      (pin Rect[T]Pad_600x1475_um (rotate 90) 6 -5738 0)
+      (pin Rect[T]Pad_600x1475_um (rotate 90) 5 -5738 800)
+      (pin Rect[T]Pad_600x1475_um (rotate 90) 4 -5738 1600)
+      (pin Rect[T]Pad_600x1475_um (rotate 90) 3 -5738 2400)
+      (pin Rect[T]Pad_600x1475_um (rotate 90) 2 -5738 3200)
+      (pin Rect[T]Pad_600x1475_um (rotate 90) 1 -5738 4000)
+    )
+    (image SamacSys_Parts:TMB12A05
+      (outline (path signal 100  -7000 10800  7000 10800))
+      (outline (path signal 100  7000 10800  7000 -3200))
+      (outline (path signal 100  7000 -3200  -7000 -3200))
+      (outline (path signal 100  -7000 -3200  -7000 10800))
+      (outline (path signal 200  -6000 3800  -6000 3800))
+      (outline (path signal 200  6000 3800  6000 3800))
+      (outline (path signal 100  -6000 3800  -6000 3800))
+      (outline (path signal 100  6000 3800  6000 3800))
+      (pin Round[A]Pad_1300_um (rotate 90) 2 0 7600)
+      (pin Round[A]Pad_1300_um (rotate 90) 1 0 0)
+    )
+    (image SamacSys_Parts:LEDC2012X90N
+      (outline (path signal 50  -1875 1150  1875 1150))
+      (outline (path signal 50  1875 1150  1875 -1150))
+      (outline (path signal 50  1875 -1150  -1875 -1150))
+      (outline (path signal 50  -1875 -1150  -1875 1150))
+      (outline (path signal 100  -1000 625  1000 625))
+      (outline (path signal 100  1000 625  1000 -625))
+      (outline (path signal 100  1000 -625  -1000 -625))
+      (outline (path signal 100  -1000 -625  -1000 625))
+      (outline (path signal 100  -1000 208  -583 625))
+      (outline (path signal 200  950 1050  -1775 1050))
+      (outline (path signal 200  -1775 1050  -1775 -1050))
+      (outline (path signal 200  -1775 -1050  950 -1050))
+      (pin Rect[T]Pad_950x1400_um 2 950 0)
+      (pin Rect[T]Pad_950x1400_um 1 -950 0)
+    )
+    (image "SamacSys_Parts:SRR1260-150M"
+      (outline (path signal 254  -6250 6250  6250 6250))
+      (outline (path signal 254  6250 6250  6250 -6250))
+      (outline (path signal 254  6250 -6250  -6250 -6250))
+      (outline (path signal 254  -6250 -6250  -6250 6250))
+      (outline (path signal 254  -6250 6250  6250 6250))
+      (outline (path signal 254  -6250 -6250  6250 -6250))
+      (outline (path signal 254  6250 -6250  6250 -3000))
+      (outline (path signal 254  6250 6250  6250 3000))
+      (outline (path signal 254  -6250 6250  -6250 3000))
+      (outline (path signal 254  -6250 -6250  -6250 -3000))
+      (pin Rect[T]Pad_2900x5400_um 2 4850 0)
+      (pin Rect[T]Pad_2900x5400_um 1 -4850 0)
+    )
+    (image SamacSys_Parts:TYPEC31M17
+      (outline (path signal 200  -4470 2750  4470 2750))
+      (outline (path signal 200  4470 2750  4470 -4050))
+      (outline (path signal 200  4470 -4050  -4470 -4050))
+      (outline (path signal 200  -4470 -4050  -4470 2750))
+      (outline (path signal 100  -6370 5050  6370 5050))
+      (outline (path signal 100  6370 5050  6370 -5050))
+      (outline (path signal 100  6370 -5050  -6370 -5050))
+      (outline (path signal 100  -6370 -5050  -6370 5050))
+      (outline (path signal 100  -4470 -4050  4320 -4050))
+      (outline (path signal 200  2750 3850  2750 3850))
+      (outline (path signal 200  2750 4050  2750 4050))
+      (pin Round[A]Pad_2000_um (rotate 90) MH4 -4320 2350)
+      (pin Round[A]Pad_2000_um (rotate 90) MH3 4320 2350)
+      (pin Round[A]Pad_2000_um (rotate 90) MH2 4320 -1450)
+      (pin Round[A]Pad_2000_um (rotate 90) MH1 -4320 -1450)
+      (pin Rect[T]Pad_800x1200_um B12 -2750 2500)
+      (pin Rect[T]Pad_760x1200_um B9 -1520 2500)
+      (pin Rect[T]Pad_700x1200_um B5 500 2500)
+      (pin Rect[T]Pad_800x1200_um A12 2750 2500)
+      (pin Rect[T]Pad_760x1200_um A9 1520 2500)
+      (pin Rect[T]Pad_700x1200_um A5 -500 2500)
+    )
+    (image "SamacSys_Parts:SOIC127P600X175-9N"
+      (outline (path signal 50  -3725 2800  3725 2800))
+      (outline (path signal 50  3725 2800  3725 -2800))
+      (outline (path signal 50  3725 -2800  -3725 -2800))
+      (outline (path signal 50  -3725 -2800  -3725 2800))
+      (outline (path signal 100  -1950 2450  1950 2450))
+      (outline (path signal 100  1950 2450  1950 -2450))
+      (outline (path signal 100  1950 -2450  -1950 -2450))
+      (outline (path signal 100  -1950 -2450  -1950 2450))
+      (outline (path signal 100  -1950 1180  -680 2450))
+      (outline (path signal 200  -3475 2605  -1950 2605))
+      (pin Rect[T]Pad_2513x3402_um 9 0 0)
+      (pin Rect[T]Pad_700x1525_um (rotate 90) 8 2712 1905)
+      (pin Rect[T]Pad_700x1525_um (rotate 90) 7 2712 635)
+      (pin Rect[T]Pad_700x1525_um (rotate 90) 6 2712 -635)
+      (pin Rect[T]Pad_700x1525_um (rotate 90) 5 2712 -1905)
+      (pin Rect[T]Pad_700x1525_um (rotate 90) 4 -2712 -1905)
+      (pin Rect[T]Pad_700x1525_um (rotate 90) 3 -2712 -635)
+      (pin Rect[T]Pad_700x1525_um (rotate 90) 2 -2712 635)
+      (pin Rect[T]Pad_700x1525_um (rotate 90) 1 -2712 1905)
+    )
+    (image "User:Mounting-Pad"
+      (outline (path signal 50  -1250 -2000  -1250 2000))
+      (outline (path signal 50  1250 -2000  -1250 -2000))
+      (outline (path signal 50  1250 2000  1250 -2000))
+      (outline (path signal 50  -1250 2000  1250 2000))
+      (outline (path signal 120  1500 -2250  -700 -2250))
+      (outline (path signal 120  1500 2250  1500 -2250))
+      (outline (path signal 120  -1500 2250  1500 2250))
+      (outline (path signal 120  -1500 -1450  -1500 2250))
+      (outline (path signal 120  -700 -2250  -1500 -1450))
+      (pin Rect[T]Pad_2000x3500_um 1 0 0)
+    )
+    (image SamacSys_Parts:DIOM7959X262N
+      (outline (path signal 50  -4850 3360  4850 3360))
+      (outline (path signal 50  4850 3360  4850 -3360))
+      (outline (path signal 50  4850 -3360  -4850 -3360))
+      (outline (path signal 50  -4850 -3360  -4850 3360))
+      (outline (path signal 100  -3970 2952  3970 2952))
+      (outline (path signal 100  3970 2952  3970 -2952))
+      (outline (path signal 100  3970 -2952  -3970 -2952))
+      (outline (path signal 100  -3970 -2952  -3970 2952))
+      (outline (path signal 100  -3970 1852  -2870 2952))
+      (outline (path signal 200  3970 2952  -4600 2952))
+      (outline (path signal 200  -3970 -2952  3970 -2952))
+      (pin Rect[T]Pad_2200x3150_um 2 3500 0)
+      (pin Rect[T]Pad_2200x3150_um 1 -3500 0)
+    )
+    (image SamacSys_Parts:CAPC2012X145N
+      (outline (path signal 50  -1515 890  1515 890))
+      (outline (path signal 50  1515 890  1515 -890))
+      (outline (path signal 50  1515 -890  -1515 -890))
+      (outline (path signal 50  -1515 -890  -1515 890))
+      (outline (path signal 100  -1000 625  1000 625))
+      (outline (path signal 100  1000 625  1000 -625))
+      (outline (path signal 100  1000 -625  -1000 -625))
+      (outline (path signal 100  -1000 -625  -1000 625))
+      (pin Rect[T]Pad_1050x1470_um 2 840 0)
+      (pin Rect[T]Pad_1050x1470_um 1 -840 0)
+    )
+    (image SamacSys_Parts:AS16000MAHKB
+      (outline (path signal 100  -6810 3500  11690 3500))
+      (outline (path signal 100  11690 3500  11690 -3500))
+      (outline (path signal 100  11690 -3500  -6810 -3500))
+      (outline (path signal 100  -6810 -3500  -6810 3500))
+      (outline (path signal 200  -3310 2500  8190 2500))
+      (outline (path signal 200  8190 2500  8190 2500))
+      (outline (path signal 200  8190 -2500  -3310 -2500))
+      (outline (path signal 200  -3310 -2500  -3310 -2500))
+      (outline (path signal 100  -3310 2500  8190 2500))
+      (outline (path signal 100  8190 2500  8190 2500))
+      (outline (path signal 100  8190 -2500  -3310 -2500))
+      (outline (path signal 100  -3310 -2500  -3310 -2500))
+      (pin Round[A]Pad_1294_um (rotate 90) 2 4880 0)
+      (pin Round[A]Pad_1294_um (rotate 90) 1 0 0)
+    )
+    (padstack Round[A]Pad_1294_um
+      (shape (circle F.Cu 1294))
+      (shape (circle B.Cu 1294))
+      (attach off)
+    )
+    (padstack Round[A]Pad_1300_um
+      (shape (circle F.Cu 1300))
+      (shape (circle B.Cu 1300))
+      (attach off)
+    )
+    (padstack Round[A]Pad_1725_um
+      (shape (circle F.Cu 1725))
+      (shape (circle B.Cu 1725))
+      (attach off)
+    )
+    (padstack Round[A]Pad_1850_um
+      (shape (circle F.Cu 1850))
+      (shape (circle B.Cu 1850))
+      (attach off)
+    )
+    (padstack Round[A]Pad_2000_um
+      (shape (circle F.Cu 2000))
+      (shape (circle B.Cu 2000))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_2000x3500_um
+      (shape (rect F.Cu -1000 -1750 1000 1750))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_2200x3150_um
+      (shape (rect F.Cu -1100 -1575 1100 1575))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_2513x3402_um
+      (shape (rect F.Cu -1256.5 -1701 1256.5 1701))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_2900x5400_um
+      (shape (rect F.Cu -1450 -2700 1450 2700))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_600x1200_um
+      (shape (rect F.Cu -300 -600 300 600))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_600x1250_um
+      (shape (rect F.Cu -300 -625 300 625))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_600x1400_um
+      (shape (rect F.Cu -300 -700 300 700))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_600x1475_um
+      (shape (rect F.Cu -300 -737.5 300 737.5))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_700x1200_um
+      (shape (rect F.Cu -350 -600 350 600))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_700x1525_um
+      (shape (rect F.Cu -350 -762.5 350 762.5))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_760x1200_um
+      (shape (rect F.Cu -380 -600 380 600))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_800x1200_um
+      (shape (rect F.Cu -400 -600 400 600))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_950x1400_um
+      (shape (rect F.Cu -475 -700 475 700))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_1000x1400_um
+      (shape (rect F.Cu -500 -700 500 700))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_1050x1470_um
+      (shape (rect F.Cu -525 -735 525 735))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_1725x1725_um
+      (shape (rect F.Cu -862.5 -862.5 862.5 862.5))
+      (shape (rect B.Cu -862.5 -862.5 862.5 862.5))
+      (attach off)
+    )
+    (padstack "Via[0-1]_800:400_um"
+      (shape (circle F.Cu 800))
+      (shape (circle B.Cu 800))
+      (attach off)
+    )
+    (padstack "Via[0-1]_850:400_um"
+      (shape (circle F.Cu 850))
+      (shape (circle B.Cu 850))
+      (attach off)
+    )
+  )
+  (network
+    (net "Net-(16MhzCrystal1-Pad2)"
+      (pins PIC18F45K50-30 C_22p_2-2 16MhzCrystal1-2)
+    )
+    (net "Net-(16MhzCrystal1-Pad1)"
+      (pins PIC18F45K50-31 C_22p_1-2 16MhzCrystal1-1)
+    )
+    (net "BAT-"
+      (pins Q30-3 IC1-6 "H_Bat-1"-1 C_0.1u_1-2)
+    )
+    (net "Net-(C_0.1u_1-Pad1)"
+      (pins R_100_1-1 IC1-5 C_0.1u_1-1)
+    )
+    (net Vgnd_main
+      (pins U_StepUp1-2 S_up1-4 S_up1-3 S_right1-4 S_right1-3 S_left1-4 S_left1-3
+        S_down1-4 S_down1-3 S_B1-4 S_B1-3 S_A1-4 S_A1-3 R_5.1k_1-1 R_5.1_1-1 R_2k_2-2
+        R_2k_1-1 R_1k_3-2 Q30-2 Q14-2 Q13-2 PicKit1-3 PIC18F45K50-29 PIC18F45K50-6
+        LS1-2 J_USB_C1-B12 J_USB_C1-A12 IC_BMS_TP4056-3 IC_BMS_TP4056-1 C_22u_2-2
+        C_22u_1-2 C_22p_2-1 C_22p_1-1 C_10u_1-2)
+    )
+    (net BMS_Vcc
+      (pins LED_RED_bms1-2 LED_Green_bms1-2 J_USB_C1-B9 J_USB_C1-A9 IC_BMS_TP4056-8
+        IC_BMS_TP4056-4 C_10u_1-1)
+    )
+    (net "Net-(C_22u_1-Pad1)"
+      (pins U_StepUp1-5 U_StepUp1-4 SW_Toggle1-2 L_22uH_1-1 C_22u_1-1)
+    )
+    (net Vcc_main
+      (pins R_7.5k_1-1 R_10K_6-2 R_10K_5-2 R_10K_4-2 R_10K_3-2 R_10K_2-2 R_10K_1-2
+        R_10k_1-1 R220_10-1 R220_9-1 R220_8-1 R220_7-1 R220_6-1 R220_5-1 R220_4-1
+        R220_3-1 R220_2-1 R220_1-1 Q29-3 PicKit1-2 PIC18F45K50-28 PIC18F45K50-7 D_1-1
+        C_22u_2-1)
+    )
+    (net "Net-(D_1-Pad2)"
+      (pins U_StepUp1-1 L_22uH_1-2 D_1-2)
+    )
+    (net BAT+
+      (pins SW_Toggle1-1 R_100_1-2 IC_BMS_TP4056-5 H_Bat+1-1)
+    )
+    (net "Net-(IC1-Pad4)"
+      (pins IC1-4)
+    )
+    (net "Net-(IC1-Pad3)"
+      (pins Q30-6 IC1-3)
+    )
+    (net "Net-(IC1-Pad2)"
+      (pins R_2k_2-1 IC1-2)
+    )
+    (net "Net-(IC1-Pad1)"
+      (pins Q30-4 IC1-1)
+    )
+    (net "Net-(IC_BMS_TP4056-Pad9)"
+      (pins IC_BMS_TP4056-9)
+    )
+    (net "Net-(IC_BMS_TP4056-Pad7)"
+      (pins R_1k_2-1 IC_BMS_TP4056-7)
+    )
+    (net "Net-(IC_BMS_TP4056-Pad6)"
+      (pins R_1k_1-1 IC_BMS_TP4056-6)
+    )
+    (net "Net-(IC_BMS_TP4056-Pad2)"
+      (pins R_2k_1-2 IC_BMS_TP4056-2)
+    )
+    (net "Net-(J_USB_C1-PadMH4)"
+      (pins J_USB_C1-MH4)
+    )
+    (net "Net-(J_USB_C1-PadMH3)"
+      (pins J_USB_C1-MH3)
+    )
+    (net "Net-(J_USB_C1-PadMH2)"
+      (pins J_USB_C1-MH2)
+    )
+    (net "Net-(J_USB_C1-PadMH1)"
+      (pins J_USB_C1-MH1)
+    )
+    (net "Net-(J_USB_C1-PadB5)"
+      (pins R_5.1_1-2 J_USB_C1-B5)
+    )
+    (net "Net-(J_USB_C1-PadA5)"
+      (pins R_5.1k_1-2 J_USB_C1-A5)
+    )
+    (net C1
+      (pins Q3-2 LED16-2 LED15-2 LED14-2 LED13-2 LED12-2 LED11-2 LED10-2 LED9-2 LED8-2
+        LED7-2 LED6-2 LED5-2 LED4-2 LED3-2 LED2-2 LED1-2)
+    )
+    (net R0
+      (pins Q1-3 LED145-1 LED129-1 LED113-1 LED97-1 LED81-1 LED65-1 LED49-1 LED33-1
+        LED17-1 LED1-1)
+    )
+    (net R1
+      (pins Q5-3 LED146-1 LED130-1 LED114-1 LED98-1 LED82-1 LED66-1 LED50-1 LED34-1
+        LED18-1 LED2-1)
+    )
+    (net R2
+      (pins Q9-3 LED147-1 LED131-1 LED115-1 LED99-1 LED83-1 LED67-1 LED51-1 LED35-1
+        LED19-1 LED3-1)
+    )
+    (net R3
+      (pins Q17-3 LED148-1 LED132-1 LED116-1 LED100-1 LED84-1 LED68-1 LED52-1 LED36-1
+        LED20-1 LED4-1)
+    )
+    (net R4
+      (pins Q11-3 LED149-1 LED133-1 LED117-1 LED101-1 LED85-1 LED69-1 LED53-1 LED37-1
+        LED21-1 LED5-1)
+    )
+    (net R5
+      (pins Q19-3 LED150-1 LED134-1 LED118-1 LED102-1 LED86-1 LED70-1 LED54-1 LED38-1
+        LED22-1 LED6-1)
+    )
+    (net R6
+      (pins Q23-3 LED151-1 LED135-1 LED119-1 LED103-1 LED87-1 LED71-1 LED55-1 LED39-1
+        LED23-1 LED7-1)
+    )
+    (net R7
+      (pins Q27-3 LED152-1 LED136-1 LED120-1 LED104-1 LED88-1 LED72-1 LED56-1 LED40-1
+        LED24-1 LED8-1)
+    )
+    (net R8
+      (pins Q2-3 LED153-1 LED137-1 LED121-1 LED105-1 LED89-1 LED73-1 LED57-1 LED41-1
+        LED25-1 LED9-1)
+    )
+    (net R9
+      (pins Q6-3 LED154-1 LED138-1 LED122-1 LED106-1 LED90-1 LED74-1 LED58-1 LED42-1
+        LED26-1 LED10-1)
+    )
+    (net R10
+      (pins Q10-3 LED155-1 LED139-1 LED123-1 LED107-1 LED91-1 LED75-1 LED59-1 LED43-1
+        LED27-1 LED11-1)
+    )
+    (net R11
+      (pins Q18-3 LED156-1 LED140-1 LED124-1 LED108-1 LED92-1 LED76-1 LED60-1 LED44-1
+        LED28-1 LED12-1)
+    )
+    (net R12
+      (pins Q12-3 LED157-1 LED141-1 LED125-1 LED109-1 LED93-1 LED77-1 LED61-1 LED45-1
+        LED29-1 LED13-1)
+    )
+    (net R13
+      (pins Q20-3 LED158-1 LED142-1 LED126-1 LED110-1 LED94-1 LED78-1 LED62-1 LED46-1
+        LED30-1 LED14-1)
+    )
+    (net R14
+      (pins Q24-3 LED159-1 LED143-1 LED127-1 LED111-1 LED95-1 LED79-1 LED63-1 LED47-1
+        LED31-1 LED15-1)
+    )
+    (net R15
+      (pins Q28-3 LED160-1 LED144-1 LED128-1 LED112-1 LED96-1 LED80-1 LED64-1 LED48-1
+        LED32-1 LED16-1)
+    )
+    (net C2
+      (pins Q7-2 LED32-2 LED31-2 LED30-2 LED29-2 LED28-2 LED27-2 LED26-2 LED25-2 LED24-2
+        LED23-2 LED22-2 LED21-2 LED20-2 LED19-2 LED18-2 LED17-2)
+    )
+    (net C3
+      (pins Q15-2 LED48-2 LED47-2 LED46-2 LED45-2 LED44-2 LED43-2 LED42-2 LED41-2
+        LED40-2 LED39-2 LED38-2 LED37-2 LED36-2 LED35-2 LED34-2 LED33-2)
+    )
+    (net C4
+      (pins Q21-2 LED64-2 LED63-2 LED62-2 LED61-2 LED60-2 LED59-2 LED58-2 LED57-2
+        LED56-2 LED55-2 LED54-2 LED53-2 LED52-2 LED51-2 LED50-2 LED49-2)
+    )
+    (net C5
+      (pins Q25-2 LED80-2 LED79-2 LED78-2 LED77-2 LED76-2 LED75-2 LED74-2 LED73-2
+        LED72-2 LED71-2 LED70-2 LED69-2 LED68-2 LED67-2 LED66-2 LED65-2)
+    )
+    (net C6
+      (pins Q4-2 LED96-2 LED95-2 LED94-2 LED93-2 LED92-2 LED91-2 LED90-2 LED89-2 LED88-2
+        LED87-2 LED86-2 LED85-2 LED84-2 LED83-2 LED82-2 LED81-2)
+    )
+    (net C7
+      (pins Q8-2 LED112-2 LED111-2 LED110-2 LED109-2 LED108-2 LED107-2 LED106-2 LED105-2
+        LED104-2 LED103-2 LED102-2 LED101-2 LED100-2 LED99-2 LED98-2 LED97-2)
+    )
+    (net C8
+      (pins Q16-2 LED128-2 LED127-2 LED126-2 LED125-2 LED124-2 LED123-2 LED122-2 LED121-2
+        LED120-2 LED119-2 LED118-2 LED117-2 LED116-2 LED115-2 LED114-2 LED113-2)
+    )
+    (net C9
+      (pins Q22-2 LED144-2 LED143-2 LED142-2 LED141-2 LED140-2 LED139-2 LED138-2 LED137-2
+        LED136-2 LED135-2 LED134-2 LED133-2 LED132-2 LED131-2 LED130-2 LED129-2)
+    )
+    (net C10
+      (pins Q26-2 LED160-2 LED159-2 LED158-2 LED157-2 LED156-2 LED155-2 LED154-2 LED153-2
+        LED152-2 LED151-2 LED150-2 LED149-2 LED148-2 LED147-2 LED146-2 LED145-2)
+    )
+    (net "Net-(LED_Green_bms1-Pad1)"
+      (pins R_1k_2-2 LED_Green_bms1-1)
+    )
+    (net "Net-(LED_RED_bms1-Pad1)"
+      (pins R_1k_1-2 LED_RED_bms1-1)
+    )
+    (net "Net-(LS1-Pad1)"
+      (pins Q29-2 LS1-1)
+    )
+    (net P_CC10
+      (pins R4K7_26-1 PIC18F45K50-44)
+    )
+    (net "Net-(PIC18F45K50-Pad43)"
+      (pins PIC18F45K50-43)
+    )
+    (net "Net-(PIC18F45K50-Pad42)"
+      (pins PIC18F45K50-42)
+    )
+    (net P_CC5
+      (pins R4K7_25-1 PIC18F45K50-41)
+    )
+    (net P_CC6
+      (pins R4K7_4-1 PIC18F45K50-40)
+    )
+    (net P_CC7
+      (pins R4K7_8-1 PIC18F45K50-39)
+    )
+    (net P_CC8
+      (pins R4K7_16-1 PIC18F45K50-38)
+    )
+    (net "Net-(PIC18F45K50-Pad37)"
+      (pins PIC18F45K50-37)
+    )
+    (net Buzzer
+      (pins R4K7_29-1 PIC18F45K50-36)
+    )
+    (net "Net-(PIC18F45K50-Pad35)"
+      (pins PIC18F45K50-35)
+    )
+    (net "Net-(PIC18F45K50-Pad34)"
+      (pins PIC18F45K50-34)
+    )
+    (net "Net-(PIC18F45K50-Pad33)"
+      (pins PIC18F45K50-33)
+    )
+    (net "Net-(PIC18F45K50-Pad32)"
+      (pins PIC18F45K50-32)
+    )
+    (net "Net-(PIC18F45K50-Pad27)"
+      (pins PIC18F45K50-27)
+    )
+    (net P_UN
+      (pins R4K7_13-1 PIC18F45K50-26)
+    )
+    (net P_DN
+      (pins R4K7_14-1 PIC18F45K50-25)
+    )
+    (net S_b
+      (pins S_B1-2 S_B1-1 R_10K_5-1 PIC18F45K50-24)
+    )
+    (net S_a
+      (pins S_A1-2 S_A1-1 R_10K_6-1 PIC18F45K50-23)
+    )
+    (net S_right
+      (pins S_right1-2 S_right1-1 R_10K_4-1 PIC18F45K50-22)
+    )
+    (net S_left
+      (pins S_left1-2 S_left1-1 R_10K_1-1 PIC18F45K50-21)
+    )
+    (net S_down
+      (pins S_down1-2 S_down1-1 R_10K_2-1 PIC18F45K50-20)
+    )
+    (net S_up
+      (pins S_up1-2 S_up1-1 R_10K_3-1 PIC18F45K50-19)
+    )
+    (net MCLR
+      (pins R_10k_1-2 PicKit1-1 PIC18F45K50-18)
+    )
+    (net P_CR7
+      (pins R4K7_28-1 R4K7_27-1 PIC18F45K50-17)
+    )
+    (net P_CR6
+      (pins R4K7_24-1 R4K7_23-1 PIC18F45K50-16)
+    )
+    (net P_CR5
+      (pins R4K7_20-1 R4K7_19-1 PIC18F45K50-15)
+    )
+    (net P_CR4
+      (pins R4K7_12-1 R4K7_11-1 PIC18F45K50-14)
+    )
+    (net ICSPDA
+      (pins PicKit1-4 PIC18F45K50-13)
+    )
+    (net ICSPCLK
+      (pins PicKit1-5 PIC18F45K50-12)
+    )
+    (net P_CR3
+      (pins R4K7_18-1 R4K7_17-1 PIC18F45K50-11)
+    )
+    (net P_CR2
+      (pins R4K7_10-1 R4K7_9-1 PIC18F45K50-10)
+    )
+    (net P_CR1
+      (pins R4K7_6-1 R4K7_5-1 PIC18F45K50-9)
+    )
+    (net P_CR0
+      (pins R4K7_2-1 R4K7_1-1 PIC18F45K50-8)
+    )
+    (net P_CC1
+      (pins R4K7_3-1 PIC18F45K50-5)
+    )
+    (net P_CC2
+      (pins R4K7_7-1 PIC18F45K50-4)
+    )
+    (net P_CC3
+      (pins R4K7_15-1 PIC18F45K50-3)
+    )
+    (net P_CC4
+      (pins R4K7_21-1 PIC18F45K50-2)
+    )
+    (net P_CC9
+      (pins R4K7_22-1 PIC18F45K50-1)
+    )
+    (net "Net-(PicKit1-Pad6)"
+      (pins PicKit1-6)
+    )
+    (net "Net-(Q1-Pad2)"
+      (pins Q27-2 Q23-2 Q19-2 Q17-2 Q13-3 Q11-2 Q9-2 Q5-2 Q1-2)
+    )
+    (net "Net-(Q1-Pad1)"
+      (pins R4K7_1-2 Q1-1)
+    )
+    (net "Net-(Q10-Pad2)"
+      (pins Q28-2 Q24-2 Q20-2 Q18-2 Q14-3 Q12-2 Q10-2 Q6-2 Q2-2)
+    )
+    (net "Net-(Q2-Pad1)"
+      (pins R4K7_2-2 Q2-1)
+    )
+    (net "Net-(Q3-Pad3)"
+      (pins R220_1-2 Q3-3)
+    )
+    (net "Net-(Q3-Pad1)"
+      (pins R4K7_3-2 Q3-1)
+    )
+    (net "Net-(Q4-Pad3)"
+      (pins R220_2-2 Q4-3)
+    )
+    (net "Net-(Q4-Pad1)"
+      (pins R4K7_4-2 Q4-1)
+    )
+    (net "Net-(Q5-Pad1)"
+      (pins R4K7_5-2 Q5-1)
+    )
+    (net "Net-(Q6-Pad1)"
+      (pins R4K7_6-2 Q6-1)
+    )
+    (net "Net-(Q7-Pad3)"
+      (pins R220_3-2 Q7-3)
+    )
+    (net "Net-(Q7-Pad1)"
+      (pins R4K7_7-2 Q7-1)
+    )
+    (net "Net-(Q8-Pad3)"
+      (pins R220_4-2 Q8-3)
+    )
+    (net "Net-(Q8-Pad1)"
+      (pins R4K7_8-2 Q8-1)
+    )
+    (net "Net-(Q9-Pad1)"
+      (pins R4K7_9-2 Q9-1)
+    )
+    (net "Net-(Q10-Pad1)"
+      (pins R4K7_10-2 Q10-1)
+    )
+    (net "Net-(Q11-Pad1)"
+      (pins R4K7_11-2 Q11-1)
+    )
+    (net "Net-(Q12-Pad1)"
+      (pins R4K7_12-2 Q12-1)
+    )
+    (net "Net-(Q13-Pad1)"
+      (pins R4K7_13-2 Q13-1)
+    )
+    (net "Net-(Q14-Pad1)"
+      (pins R4K7_14-2 Q14-1)
+    )
+    (net "Net-(Q15-Pad3)"
+      (pins R220_5-2 Q15-3)
+    )
+    (net "Net-(Q15-Pad1)"
+      (pins R4K7_15-2 Q15-1)
+    )
+    (net "Net-(Q16-Pad3)"
+      (pins R220_6-2 Q16-3)
+    )
+    (net "Net-(Q16-Pad1)"
+      (pins R4K7_16-2 Q16-1)
+    )
+    (net "Net-(Q17-Pad1)"
+      (pins R4K7_17-2 Q17-1)
+    )
+    (net "Net-(Q18-Pad1)"
+      (pins R4K7_18-2 Q18-1)
+    )
+    (net "Net-(Q19-Pad1)"
+      (pins R4K7_19-2 Q19-1)
+    )
+    (net "Net-(Q20-Pad1)"
+      (pins R4K7_20-2 Q20-1)
+    )
+    (net "Net-(Q21-Pad3)"
+      (pins R220_7-2 Q21-3)
+    )
+    (net "Net-(Q21-Pad1)"
+      (pins R4K7_21-2 Q21-1)
+    )
+    (net "Net-(Q22-Pad3)"
+      (pins R220_8-2 Q22-3)
+    )
+    (net "Net-(Q22-Pad1)"
+      (pins R4K7_22-2 Q22-1)
+    )
+    (net "Net-(Q23-Pad1)"
+      (pins R4K7_23-2 Q23-1)
+    )
+    (net "Net-(Q24-Pad1)"
+      (pins R4K7_24-2 Q24-1)
+    )
+    (net "Net-(Q25-Pad3)"
+      (pins R220_9-2 Q25-3)
+    )
+    (net "Net-(Q25-Pad1)"
+      (pins R4K7_25-2 Q25-1)
+    )
+    (net "Net-(Q26-Pad3)"
+      (pins R220_10-2 Q26-3)
+    )
+    (net "Net-(Q26-Pad1)"
+      (pins R4K7_26-2 Q26-1)
+    )
+    (net "Net-(Q27-Pad1)"
+      (pins R4K7_27-2 Q27-1)
+    )
+    (net "Net-(Q28-Pad1)"
+      (pins R4K7_28-2 Q28-1)
+    )
+    (net "Net-(Q29-Pad1)"
+      (pins R4K7_29-2 Q29-1)
+    )
+    (net "Net-(Q30-Pad1)"
+      (pins Q30-5 Q30-1)
+    )
+    (net "Net-(R_1k_3-Pad1)"
+      (pins U_StepUp1-3 R_7.5k_1-2 R_1k_3-1)
+    )
+    (net "Net-(SW_Toggle1-Pad3)"
+      (pins SW_Toggle1-3)
+    )
+    (net "Net-(U_StepUp1-Pad6)"
+      (pins U_StepUp1-6)
+    )
+    (class kicad_default "" Buzzer C1 C10 C2 C3 C4 C5 C6 C7 C8 C9 ICSPCLK
+      ICSPDA MCLR "Net-(16MhzCrystal1-Pad1)" "Net-(16MhzCrystal1-Pad2)" "Net-(C_0.1u_1-Pad1)"
+      "Net-(IC1-Pad1)" "Net-(IC1-Pad2)" "Net-(IC1-Pad3)" "Net-(IC1-Pad4)"
+      "Net-(IC_BMS_TP4056-Pad2)" "Net-(IC_BMS_TP4056-Pad6)" "Net-(IC_BMS_TP4056-Pad7)"
+      "Net-(IC_BMS_TP4056-Pad9)" "Net-(J_USB_C1-PadA5)" "Net-(J_USB_C1-PadB5)"
+      "Net-(J_USB_C1-PadMH1)" "Net-(J_USB_C1-PadMH2)" "Net-(J_USB_C1-PadMH3)"
+      "Net-(J_USB_C1-PadMH4)" "Net-(LED_Green_bms1-Pad1)" "Net-(LED_RED_bms1-Pad1)"
+      "Net-(LS1-Pad1)" "Net-(PIC18F45K50-Pad27)" "Net-(PIC18F45K50-Pad32)"
+      "Net-(PIC18F45K50-Pad33)" "Net-(PIC18F45K50-Pad34)" "Net-(PIC18F45K50-Pad35)"
+      "Net-(PIC18F45K50-Pad37)" "Net-(PIC18F45K50-Pad42)" "Net-(PIC18F45K50-Pad43)"
+      "Net-(PicKit1-Pad6)" "Net-(Q1-Pad1)" "Net-(Q1-Pad2)" "Net-(Q10-Pad1)"
+      "Net-(Q10-Pad2)" "Net-(Q11-Pad1)" "Net-(Q12-Pad1)" "Net-(Q13-Pad1)"
+      "Net-(Q14-Pad1)" "Net-(Q15-Pad1)" "Net-(Q15-Pad3)" "Net-(Q16-Pad1)"
+      "Net-(Q16-Pad3)" "Net-(Q17-Pad1)" "Net-(Q18-Pad1)" "Net-(Q19-Pad1)"
+      "Net-(Q2-Pad1)" "Net-(Q20-Pad1)" "Net-(Q21-Pad1)" "Net-(Q21-Pad3)" "Net-(Q22-Pad1)"
+      "Net-(Q22-Pad3)" "Net-(Q23-Pad1)" "Net-(Q24-Pad1)" "Net-(Q25-Pad1)"
+      "Net-(Q25-Pad3)" "Net-(Q26-Pad1)" "Net-(Q26-Pad3)" "Net-(Q27-Pad1)"
+      "Net-(Q28-Pad1)" "Net-(Q29-Pad1)" "Net-(Q3-Pad1)" "Net-(Q3-Pad3)" "Net-(Q30-Pad1)"
+      "Net-(Q4-Pad1)" "Net-(Q4-Pad3)" "Net-(Q5-Pad1)" "Net-(Q6-Pad1)" "Net-(Q7-Pad1)"
+      "Net-(Q7-Pad3)" "Net-(Q8-Pad1)" "Net-(Q8-Pad3)" "Net-(Q9-Pad1)" "Net-(R_1k_3-Pad1)"
+      "Net-(U_StepUp1-Pad6)" P_CC1 P_CC10 P_CC2 P_CC3 P_CC4 P_CC5 P_CC6 P_CC7
+      P_CC8 P_CC9 P_CR0 P_CR1 P_CR2 P_CR3 P_CR4 P_CR5 P_CR6 P_CR7 P_DN P_UN
+      R0 R1 R10 R11 R12 R13 R14 R15 R2 R3 R4 R5 R6 R7 R8 R9 S_a S_b S_down
+      S_left S_right S_up
+      (circuit
+        (use_via Via[0-1]_800:400_um)
+      )
+      (rule
+        (width 250)
+        (clearance 200.1)
+      )
+    )
+    (class Power BAT+ "BAT-" BMS_Vcc "Net-(C_22u_1-Pad1)" "Net-(D_1-Pad2)"
+      "Net-(SW_Toggle1-Pad3)" Vcc_main Vgnd_main
+      (circuit
+        (use_via Via[0-1]_850:400_um)
+      )
+      (rule
+        (width 350)
+        (clearance 200.1)
+      )
+    )
+  )
+  (wiring
+  )
+)

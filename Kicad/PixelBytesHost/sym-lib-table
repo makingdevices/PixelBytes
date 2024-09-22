@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "PicBytesMicro-rescue")(type "KiCad")(uri "${KIPRJMOD}/PicBytesMicro-rescue.kicad_sym")(options "")(descr ""))
+  (lib (name "user2")(type "KiCad")(uri "D:/GitHub/Thermo-Device-Logger/Kicad/V1.2b/ThermoDeviceLogger/ThermoDeviceLogger-rescue.kicad_sym")(options "")(descr ""))
+)

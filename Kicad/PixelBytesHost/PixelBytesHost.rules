@@ -1,0 +1,127 @@
+
+(rules PCB PicBytesMicro
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout off)
+    (autoroute on)
+    (postroute on)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 122)
+    (layer_rule F.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.6)
+    )
+    (layer_rule B.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 1.6)
+    )
+  )
+  (rule
+    (width 250.0)
+    (clear 200.2)
+    (clear 125.0 (type smd_to_turn_gap))
+    (clear 50.0 (type smd_smd))
+  )
+  (padstack "Via[0-1]_800:400_um"
+    (shape
+      (circle F.Cu 800.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 800.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (padstack "Via[0-1]_850:400_um"
+    (shape
+      (circle F.Cu 850.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 850.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-1]_800:400_um" "Via[0-1]_800:400_um" default
+  )
+  (via 
+    "Via[0-1]_850:400_um" "Via[0-1]_850:400_um" default
+  )
+  (via 
+    "Via[0-1]_800:400_um-kicad_default" "Via[0-1]_800:400_um" "kicad_default"
+  )
+  (via 
+    "Via[0-1]_850:400_um-kicad_default" "Via[0-1]_850:400_um" "kicad_default"
+  )
+  (via 
+    "Via[0-1]_800:400_um-Power" "Via[0-1]_800:400_um" Power
+  )
+  (via 
+    "Via[0-1]_850:400_um-Power" "Via[0-1]_850:400_um" Power
+  )
+  (via_rule
+    default "Via[0-1]_800:400_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-1]_800:400_um-kicad_default"
+  )
+  (via_rule
+    Power "Via[0-1]_850:400_um-Power"
+  )
+  (class default
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 250.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class "kicad_default"
+    "Net-(16MhzCrystal1-Pad2)" "Net-(16MhzCrystal1-Pad1)" "Net-(C_0.1u_1-Pad1)" "Net-(IC1-Pad4)" "Net-(IC1-Pad3)" "Net-(IC1-Pad2)" "Net-(IC1-Pad1)" "Net-(IC_BMS_TP4056-Pad9)"
+    "Net-(IC_BMS_TP4056-Pad7)" "Net-(IC_BMS_TP4056-Pad6)" "Net-(IC_BMS_TP4056-Pad2)" "Net-(J_USB_C1-PadMH4)" "Net-(J_USB_C1-PadMH3)" "Net-(J_USB_C1-PadMH2)" "Net-(J_USB_C1-PadMH1)" "Net-(J_USB_C1-PadB5)"
+    "Net-(J_USB_C1-PadA5)" C1 R0 R1 R2 R3 R4 R5
+    R6 R7 R8 R9 R10 R11 R12 R13
+    R14 R15 C2 C3 C4 C5 C6 C7
+    C8 C9 C10 "Net-(LED_Green_bms1-Pad1)" "Net-(LED_RED_bms1-Pad1)" "Net-(LS1-Pad1)" "P_CC10" "Net-(PIC18F45K50-Pad43)"
+    "Net-(PIC18F45K50-Pad42)" "P_CC5" "P_CC6" "P_CC7" "P_CC8" "Net-(PIC18F45K50-Pad37)" Buzzer "Net-(PIC18F45K50-Pad35)"
+    "Net-(PIC18F45K50-Pad34)" "Net-(PIC18F45K50-Pad33)" "Net-(PIC18F45K50-Pad32)" "Net-(PIC18F45K50-Pad27)" "P_UN" "P_DN" "S_b" "S_a"
+    "S_right" "S_left" "S_down" "S_up" MCLR "P_CR7" "P_CR6" "P_CR5"
+    "P_CR4" ICSPDA ICSPCLK "P_CR3" "P_CR2" "P_CR1" "P_CR0" "P_CC1"
+    "P_CC2" "P_CC3" "P_CC4" "P_CC9" "Net-(PicKit1-Pad6)" "Net-(Q1-Pad2)" "Net-(Q1-Pad1)" "Net-(Q10-Pad2)"
+    "Net-(Q2-Pad1)" "Net-(Q3-Pad3)" "Net-(Q3-Pad1)" "Net-(Q4-Pad3)" "Net-(Q4-Pad1)" "Net-(Q5-Pad1)" "Net-(Q6-Pad1)" "Net-(Q7-Pad3)"
+    "Net-(Q7-Pad1)" "Net-(Q8-Pad3)" "Net-(Q8-Pad1)" "Net-(Q9-Pad1)" "Net-(Q10-Pad1)" "Net-(Q11-Pad1)" "Net-(Q12-Pad1)" "Net-(Q13-Pad1)"
+    "Net-(Q14-Pad1)" "Net-(Q15-Pad3)" "Net-(Q15-Pad1)" "Net-(Q16-Pad3)" "Net-(Q16-Pad1)" "Net-(Q17-Pad1)" "Net-(Q18-Pad1)" "Net-(Q19-Pad1)"
+    "Net-(Q20-Pad1)" "Net-(Q21-Pad3)" "Net-(Q21-Pad1)" "Net-(Q22-Pad3)" "Net-(Q22-Pad1)" "Net-(Q23-Pad1)" "Net-(Q24-Pad1)" "Net-(Q25-Pad3)"
+    "Net-(Q25-Pad1)" "Net-(Q26-Pad3)" "Net-(Q26-Pad1)" "Net-(Q27-Pad1)" "Net-(Q28-Pad1)" "Net-(Q29-Pad1)" "Net-(Q30-Pad1)" "Net-(R_1k_3-Pad1)"
+    "Net-(U_StepUp1-Pad6)"
+    (clearance_class "kicad_default")
+    (via_rule kicad_default)
+    (rule
+      (width 250.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class Power
+    "BAT-" "Vgnd_main" "BMS_Vcc" "Net-(C_22u_1-Pad1)" "Vcc_main" "Net-(D_1-Pad2)" BAT+ "Net-(SW_Toggle1-Pad3)"
+    (clearance_class Power)
+    (via_rule Power)
+    (rule
+      (width 350.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+)

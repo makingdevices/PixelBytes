@@ -1,0 +1,446 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# PicBytesMicro-rescue_AS-16.000MAHK-B-SamacSys_Parts
+#
+DEF PicBytesMicro-rescue_AS-16.000MAHK-B-SamacSys_Parts Y 0 30 Y Y 1 F N
+F0 "Y" 1050 300 50 H V L CNN
+F1 "PicBytesMicro-rescue_AS-16.000MAHK-B-SamacSys_Parts" 1050 200 50 H V L CNN
+F2 "AS16000MAHKB" 1050 100 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/AS-16.000MAHK-B.pdf" 1050 0 50 H I L CNN
+F4 "Crystal 16MHz +/-30ppm (Tol) +/-30ppm (Stability) 20pF FUND 60Ohm Automotive 2-Pin HC-49/S Thru-Hole Bulk" 1050 -100 50 H I L CNN "Description"
+F5 "3.68" 1050 -200 50 H I L CNN "Height"
+F6 "TXC" 1050 -500 50 H I L CNN "Manufacturer_Name"
+F7 "AS-16.000MAHK-B" 1050 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 1000 100 1000 -200 200 -200 200 100 N
+X CRYSTAL_1 1 0 0 200 R 50 50 0 0 P
+X CRYSTAL_2 2 0 -100 200 R 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# PicBytesMicro-rescue_B3F-4050-SamacSys_Parts
+#
+DEF PicBytesMicro-rescue_B3F-4050-SamacSys_Parts S 0 30 Y Y 1 F N
+F0 "S" 650 300 50 H V L CNN
+F1 "PicBytesMicro-rescue_B3F-4050-SamacSys_Parts" 650 200 50 H V L CNN
+F2 "B3F-4000" 650 100 50 H I L CNN
+F3 "http://uk.rs-online.com/web/p/products/6866768P" 650 0 50 H I L CNN
+F4 "lvory Plunger Tactile Switch, SPST-NO 0.05 A@ 24 V dc 3mm" 650 -100 50 H I L CNN "Description"
+F5 "6866768P" 650 -300 50 H I L CNN "RS Part Number"
+F6 "http://uk.rs-online.com/web/p/products/6866768P" 650 -400 50 H I L CNN "RS Price/Stock"
+F7 "Omron Electronics" 650 -500 50 H I L CNN "Manufacturer_Name"
+F8 "B3F-4050" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 600 100 600 -200 200 -200 200 100 N
+X 1 1 800 -100 200 L 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+X 3 3 800 0 200 L 50 50 0 0 P
+X 4 4 0 0 200 R 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# PicBytesMicro-rescue_FS312F-G-SamacSys_Parts
+#
+DEF PicBytesMicro-rescue_FS312F-G-SamacSys_Parts IC 0 30 Y Y 1 F N
+F0 "IC" 850 300 50 H V L CNN
+F1 "PicBytesMicro-rescue_FS312F-G-SamacSys_Parts" 850 200 50 H V L CNN
+F2 "SOT95P280X145-6N" 850 100 50 H I L CNN
+F3 "https://lcsc.com/product-detail/Battery-Protection-ICs_FS312F-G_C82736.html" 850 0 50 H I L CNN
+F4 "Battery Protection ICs SOT-23-6 RoHS" 850 -100 50 H I L CNN "Description"
+F5 "1.45" 850 -200 50 H I L CNN "Height"
+F6 "Fortune Semicon" 850 -500 50 H I L CNN "Manufacturer_Name"
+F7 "FS312F-G" 850 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 800 100 800 -300 200 -300 200 100 N
+X OD 1 0 0 200 R 50 50 0 0 P
+X CS 2 0 -100 200 R 50 50 0 0 P
+X OC 3 0 -200 200 R 50 50 0 0 P
+X TD 4 1000 -200 200 L 50 50 0 0 P
+X VCC 5 1000 -100 200 L 50 50 0 0 P
+X GND 6 1000 0 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# PicBytesMicro-rescue_FS8205-SamacSys_Parts
+#
+DEF PicBytesMicro-rescue_FS8205-SamacSys_Parts Q 0 30 Y Y 1 F N
+F0 "Q" 1050 300 50 H V L CNN
+F1 "PicBytesMicro-rescue_FS8205-SamacSys_Parts" 1050 200 50 H V L CNN
+F2 "FS8205" 1050 100 50 H I L CNN
+F3 "https://www.ic-fortune.com/upload/Download/FS8205-DS-19_EN.pdf" 1050 0 50 H I L CNN
+F4 "DUAL N-CHANNEL ENHANCEMENT MODE POWER MOFSET" 1050 -100 50 H I L CNN "Description"
+F5 "1" 1050 -200 50 H I L CNN "Height"
+F6 "Fortune Semiconductor Corporation" 1050 -500 50 H I L CNN "Manufacturer_Name"
+F7 "FS8205" 1050 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 1000 100 1000 -300 200 -300 200 100 N
+X S1 1 0 0 200 R 50 50 0 0 P
+X D12_1 2 0 -100 200 R 50 50 0 0 P
+X S2 3 0 -200 200 R 50 50 0 0 P
+X G2 4 1200 0 200 L 50 50 0 0 P
+X D12_2 5 1200 -100 200 L 50 50 0 0 P
+X G1 6 1200 -200 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# PicBytesMicro-rescue_GCG21BR71H154KA01K-SamacSys_Parts
+#
+DEF PicBytesMicro-rescue_GCG21BR71H154KA01K-SamacSys_Parts C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "PicBytesMicro-rescue_GCG21BR71H154KA01K-SamacSys_Parts" 350 150 50 H V L CNN
+F2 "CAPC2012X145N" 350 50 50 H I L CNN
+F3 "https://psearch.en.murata.com/capacitor/product/GCG21BR71H154KA01%23.html" 350 -50 50 H I L CNN
+F4 "Capacitor L=2.0mm W=1.25mm T=1.25mm" 350 -150 50 H I L CNN "Description"
+F5 "1.45" 350 -250 50 H I L CNN "Height"
+F6 "Murata Electronics" 350 -550 50 H I L CNN "Manufacturer_Name"
+F7 "GCG21BR71H154KA01K" 350 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 2 0 1 6 200 0 220 0 N
+P 2 0 1 6 220 100 220 -100 N
+P 2 0 1 6 280 0 300 0 N
+P 2 0 1 6 280 100 280 -100 N
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 500 0 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# PicBytesMicro-rescue_K3-1260D-L1-SamacSys_Parts
+#
+DEF PicBytesMicro-rescue_K3-1260D-L1-SamacSys_Parts S 0 30 Y Y 1 F N
+F0 "S" 650 300 50 H V L CNN
+F1 "PicBytesMicro-rescue_K3-1260D-L1-SamacSys_Parts" 650 200 50 H V L CNN
+F2 "K31260DL1" 650 100 50 H I L CNN
+F3 "https://datasheet.lcsc.com/szlcsc/Korean-Hroparts-Elec-K3-1260D-L1_C92657.pdf" 650 0 50 H I L CNN
+F4 "Toggle Switches Plugin RoHS" 650 -100 50 H I L CNN "Description"
+F5 "3.7" 650 -200 50 H I L CNN "Height"
+F6 "Korean Hroparts Elec" 650 -500 50 H I L CNN "Manufacturer_Name"
+F7 "K3-1260D-L1" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 600 100 600 -300 200 -300 200 100 N
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+X 3 3 0 -200 200 R 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# PicBytesMicro-rescue_KTR10EZPF4220-SamacSys_Parts
+#
+DEF PicBytesMicro-rescue_KTR10EZPF4220-SamacSys_Parts R 0 30 Y Y 1 F N
+F0 "R" 550 250 50 H V L CNN
+F1 "PicBytesMicro-rescue_KTR10EZPF4220-SamacSys_Parts" 550 150 50 H V L CNN
+F2 "RESC2012X65N" 550 50 50 H I L CNN
+F3 "http://rohmfs.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/ktr.pdf" 550 -50 50 H I L CNN
+F4 "ROHM 0805 Resistor Chip" 550 -150 50 H I L CNN "Description"
+F5 "0.65" 550 -250 50 H I L CNN "Height"
+F6 "ROHM Semiconductor" 550 -550 50 H I L CNN "Manufacturer_Name"
+F7 "KTR10EZPF4220" 550 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 50 500 50 500 -50 200 -50 200 50 N
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 700 0 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# PicBytesMicro-rescue_LTST-C171GKT-SamacSys_Parts
+#
+DEF PicBytesMicro-rescue_LTST-C171GKT-SamacSys_Parts LED 0 30 Y Y 1 F N
+F0 "LED" 500 350 50 H V L BNN
+F1 "PicBytesMicro-rescue_LTST-C171GKT-SamacSys_Parts" 500 250 50 H V L BNN
+F2 "LEDC2012X90N" 500 150 50 H I L BNN
+F3 "http://uk.rs-online.com/web/p/products/6920935P" 500 50 50 H I L BNN
+F4 "Lite-On LTST-C171GKT, CHIPLED 0805 569 nm Green LED, 2012 (0805) SMD package" 500 -50 50 H I L BNN "Description"
+F5 "0.9" 500 -150 50 H I L BNN "Height"
+F6 "6920935P" 500 -250 50 H I L BNN "RS Part Number"
+F7 "http://uk.rs-online.com/web/p/products/6920935P" 500 -350 50 H I L BNN "RS Price/Stock"
+F8 "Lite-On" 500 -450 50 H I L BNN "Manufacturer_Name"
+F9 "LTST-C171GKT" 500 -550 50 H I L BNN "Manufacturer_Part_Number"
+DRAW
+P 2 0 1 6 100 0 200 0 N
+P 2 0 1 6 200 100 200 -100 N
+P 2 0 1 6 250 100 150 200 N
+P 2 0 1 6 350 100 250 200 N
+P 2 0 1 6 400 0 500 0 N
+P 4 0 1 6 200 0 400 100 400 -100 200 0 N
+P 4 0 1 10 210 170 180 140 150 200 210 170 F
+P 4 0 1 10 310 170 280 140 250 200 310 170 F
+X K 1 0 0 100 R 50 50 0 0 P
+X A 2 600 0 100 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# PicBytesMicro-rescue_M20-9990645-SamacSys_Parts
+#
+DEF PicBytesMicro-rescue_M20-9990645-SamacSys_Parts J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "PicBytesMicro-rescue_M20-9990645-SamacSys_Parts" 650 200 50 H V L CNN
+F2 "HDRV6W66P0X254_1X6_1524X254X874P" 650 100 50 H I L CNN
+F3 "http://uk.rs-online.com/web/p/products/6812994P" 650 0 50 H I L CNN
+F4 "M20 Header, Pin, Sil, Vertical, 6 W HARWIN M20 Series, 2.54mm Pitch 6 Way 1 Row Straight Pin Header, Through Hole, Solder Termination" 650 -100 50 H I L CNN "Description"
+F5 "8.74" 650 -200 50 H I L CNN "Height"
+F6 "6812994P" 650 -300 50 H I L CNN "RS Part Number"
+F7 "http://uk.rs-online.com/web/p/products/6812994P" 650 -400 50 H I L CNN "RS Price/Stock"
+F8 "Harwin" 650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "M20-9990645" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+F10 "R1052705" 650 -700 50 H I L CNN "Allied_Number"
+DRAW
+P 5 0 1 6 200 100 600 100 600 -600 200 -600 200 100 N
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+X 3 3 0 -200 200 R 50 50 0 0 P
+X 4 4 0 -300 200 R 50 50 0 0 P
+X 5 5 0 -400 200 R 50 50 0 0 P
+X 6 6 0 -500 200 R 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# PicBytesMicro-rescue_MT3608-SamacSys_Parts
+#
+DEF PicBytesMicro-rescue_MT3608-SamacSys_Parts U 0 30 Y Y 1 F N
+F0 "U" 850 300 50 H V L CNN
+F1 "PicBytesMicro-rescue_MT3608-SamacSys_Parts" 850 200 50 H V L CNN
+F2 "SOT95P280X145-6N" 850 100 50 H I L CNN
+F3 "https://www.olimex.com/Products/Breadboarding/BB-PWR-3608/resources/MT3608.pdf" 850 0 50 H I L CNN
+F4 "High Efficiency 1.2MHz 2A Step Up Converter" 850 -100 50 H I L CNN "Description"
+F5 "1.45" 850 -200 50 H I L CNN "Height"
+F6 "Aerosemi" 850 -500 50 H I L CNN "Manufacturer_Name"
+F7 "MT3608" 850 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 800 100 800 -300 200 -300 200 100 N
+X SW 1 0 0 200 R 50 50 0 0 P
+X GND 2 0 -100 200 R 50 50 0 0 P
+X FB 3 0 -200 200 R 50 50 0 0 P
+X EN 4 1000 -200 200 L 50 50 0 0 P
+X IN 5 1000 -100 200 L 50 50 0 0 P
+X NC 6 1000 0 200 L 50 50 0 0 N
+ENDDRAW
+ENDDEF
+#
+# PicBytesMicro-rescue_MountingHole_Pad-User_library-SamacSys_Parts-HVolt_sub-system-FIT
+#
+DEF PicBytesMicro-rescue_MountingHole_Pad-User_library-SamacSys_Parts-HVolt_sub-system-FIT H 0 40 N N 1 F N
+F0 "H" 0 250 50 H V C CNN
+F1 "PicBytesMicro-rescue_MountingHole_Pad-User_library-SamacSys_Parts-HVolt_sub-system-FIT" 0 175 50 H V C CNN
+F2 "SamacSys_Parts:Square_PAD_homemade" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ MountingHole*Pad*
+$ENDFPLIST
+DRAW
+C 0 50 50 0 1 50 N
+S 80 -25 -80 155 0 1 0 F
+X 1 1 0 -100 100 U 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# PicBytesMicro-rescue_PIC18F45K50-I_PT-SamacSys_Parts
+#
+DEF PicBytesMicro-rescue_PIC18F45K50-I_PT-SamacSys_Parts IC 0 30 Y Y 1 F N
+F0 "IC" 1650 800 50 H V L CNN
+F1 "PicBytesMicro-rescue_PIC18F45K50-I_PT-SamacSys_Parts" 1650 700 50 H V L CNN
+F2 "QFP80P1200X1200X120-44N" 1650 600 50 H I L CNN
+F3 "http://uk.rs-online.com/web/p/products/7864031P" 1650 500 50 H I L CNN
+F4 "Microchip PIC18F45K50-I/PT, 8bit PIC Microcontroller, 48MHz, 32 kB Flash, 44-Pin TQFP" 1650 400 50 H I L CNN "Description"
+F5 "1.2" 1650 300 50 H I L CNN "Height"
+F6 "7864031P" 1650 200 50 H I L CNN "RS Part Number"
+F7 "http://uk.rs-online.com/web/p/products/7864031P" 1650 100 50 H I L CNN "RS Price/Stock"
+F8 "Microchip" 1650 0 50 H I L CNN "Manufacturer_Name"
+F9 "PIC18F45K50-I/PT" 1650 -100 50 H I L CNN "Manufacturer_Part_Number"
+F10 "70323053" 1650 -200 50 H I L CNN "Allied_Number"
+DRAW
+P 5 0 1 6 200 600 1600 600 1600 -1900 200 -1900 200 600 N
+X RC7 1 0 0 200 R 50 50 0 0 P
+X RB2 10 0 -900 200 R 50 50 0 0 P
+X RB3 11 0 -1000 200 R 50 50 0 0 P
+X NC/ICCK/ICPGC 12 400 -2100 200 U 50 50 0 0 P
+X NC/ICDT/ICPGD 13 500 -2100 200 U 50 50 0 0 P
+X RB4 14 600 -2100 200 U 50 50 0 0 P
+X RB5 15 700 -2100 200 U 50 50 0 0 P
+X RB6 16 800 -2100 200 U 50 50 0 0 P
+X RB7 17 900 -2100 200 U 50 50 0 0 P
+X ~MCLR~/VPP/RE3 18 1000 -2100 200 U 50 50 0 0 P
+X RA0 19 1100 -2100 200 U 50 50 0 0 P
+X RD4 2 0 -100 200 R 50 50 0 0 P
+X RA1 20 1200 -2100 200 U 50 50 0 0 P
+X RA2 21 1300 -2100 200 U 50 50 0 0 P
+X RA3 22 1400 -2100 200 U 50 50 0 0 P
+X RA4 23 1800 -1000 200 L 50 50 0 0 P
+X RA5 24 1800 -900 200 L 50 50 0 0 P
+X RE0 25 1800 -800 200 L 50 50 0 0 P
+X RE1 26 1800 -700 200 L 50 50 0 0 P
+X RE2 27 1800 -600 200 L 50 50 0 0 P
+X VDD_2 28 1800 -500 200 L 50 50 0 0 P
+X VSS_2 29 1800 -400 200 L 50 50 0 0 P
+X RD5 3 0 -200 200 R 50 50 0 0 P
+X RA7 30 1800 -300 200 L 50 50 0 0 P
+X RA6 31 1800 -200 200 L 50 50 0 0 P
+X RC0 32 1800 -100 200 L 50 50 0 0 P
+X NC/~ICRST~/ICVPP 33 1800 0 200 L 50 50 0 0 P
+X NC 34 1400 800 200 D 50 50 0 0 N
+X RC1 35 1300 800 200 D 50 50 0 0 P
+X RC2 36 1200 800 200 D 50 50 0 0 P
+X VUSB3V3 37 1100 800 200 D 50 50 0 0 P
+X RD0 38 1000 800 200 D 50 50 0 0 P
+X RD1 39 900 800 200 D 50 50 0 0 P
+X RD6 4 0 -300 200 R 50 50 0 0 P
+X RD2 40 800 800 200 D 50 50 0 0 P
+X RD3 41 700 800 200 D 50 50 0 0 P
+X D- 42 600 800 200 D 50 50 0 0 P
+X D+ 43 500 800 200 D 50 50 0 0 P
+X RC6 44 400 800 200 D 50 50 0 0 P
+X RD7 5 0 -400 200 R 50 50 0 0 P
+X VSS_1 6 0 -500 200 R 50 50 0 0 P
+X VDD_1 7 0 -600 200 R 50 50 0 0 P
+X RB0 8 0 -700 200 R 50 50 0 0 P
+X RB1 9 0 -800 200 R 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# PicBytesMicro-rescue_SMMBT5551LT1G-SamacSys_Parts
+#
+DEF PicBytesMicro-rescue_SMMBT5551LT1G-SamacSys_Parts Q 0 30 Y Y 1 F N
+F0 "Q" 550 50 50 H V L CNN
+F1 "PicBytesMicro-rescue_SMMBT5551LT1G-SamacSys_Parts" 550 -50 50 H V L CNN
+F2 "SOT96P237X111-3N" 550 -150 50 H I L CNN
+F3 "http://uk.rs-online.com/web/p/products/1841498P" 550 -250 50 H I L CNN
+F4 "NPN Bipolar Transistor, 600 mA 160 V, 3-pin SOT-23" 550 -350 50 H I L CNN "Description"
+F5 "1.11" 550 -450 50 H I L CNN "Height"
+F6 "1841498P" 550 -550 50 H I L CNN "RS Part Number"
+F7 "http://uk.rs-online.com/web/p/products/1841498P" 550 -650 50 H I L CNN "RS Price/Stock"
+F8 "ON Semiconductor" 550 -750 50 H I L CNN "Manufacturer_Name"
+F9 "SMMBT5551LT1G" 550 -850 50 H I L CNN "Manufacturer_Part_Number"
+F10 "70300580" 550 -950 50 H I L CNN "Allied_Number"
+DRAW
+C 350 0 158 0 1 10 N
+P 2 0 1 6 100 0 300 0 N
+P 2 0 1 6 300 -50 400 -150 N
+P 2 0 1 6 300 50 400 150 N
+P 2 0 1 20 300 100 300 -100 N
+P 2 0 1 6 400 -150 400 -200 N
+P 2 0 1 6 400 150 400 200 N
+P 4 0 1 10 330 -100 350 -80 370 -120 330 -100 F
+X ~ 1 0 0 100 R 50 50 0 0 P
+X ~ 2 400 -300 100 U 50 50 0 0 P
+X ~ 3 400 300 100 D 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# PicBytesMicro-rescue_SRR1260-220M-SamacSys_Parts
+#
+DEF PicBytesMicro-rescue_SRR1260-220M-SamacSys_Parts L 0 30 Y Y 1 F N
+F0 "L" 650 250 50 H V L CNN
+F1 "PicBytesMicro-rescue_SRR1260-220M-SamacSys_Parts" 650 150 50 H V L CNN
+F2 "SRR1260-150M" 650 50 50 H I L CNN
+F3 "http://uk.rs-online.com/web/p/products/7272246P" 650 -50 50 H I L CNN
+F4 "Power inductor SMD shielded 22uH 4A Bourns SRR1260 Series Shielded Wire-wound SMD Inductor with a Ferrite Core, 22 uH +/-20% 4A Idc Q:29" 650 -150 50 H I L CNN "Description"
+F5 "7272246P" 650 -350 50 H I L CNN "RS Part Number"
+F6 "http://uk.rs-online.com/web/p/products/7272246P" 650 -450 50 H I L CNN "RS Price/Stock"
+F7 "Bourns" 650 -550 50 H I L CNN "Manufacturer_Name"
+F8 "SRR1260-220M" 650 -650 50 H I L CNN "Manufacturer_Part_Number"
+F9 "70277063" 650 -750 50 H I L CNN "Allied_Number"
+DRAW
+A 250 -2 50 1777 -23 0 1 6 N 300 0 200 0
+A 350 -2 50 1777 -23 0 1 6 N 400 0 300 0
+A 450 -2 50 1777 -23 0 1 6 N 500 0 400 0
+A 550 -2 50 1777 -23 0 1 6 N 600 0 500 0
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 800 0 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# PicBytesMicro-rescue_SS34-E3_57T-SamacSys_Parts
+#
+DEF PicBytesMicro-rescue_SS34-E3_57T-SamacSys_Parts D 0 30 Y Y 1 F N
+F0 "D" 500 350 50 H V L CNN
+F1 "PicBytesMicro-rescue_SS34-E3_57T-SamacSys_Parts" 500 250 50 H V L CNN
+F2 "DIOM7959X262N" 500 150 50 H I L CNN
+F3 "http://uk.rs-online.com/web/p/products/7000978P" 500 50 50 H I L CNN
+F4 "Vishay SS34-E3/57T SMT Schottky Diode, 40V 3A, 2-Pin DO-214AB" 500 -50 50 H I L CNN "Description"
+F5 "2.62" 500 -150 50 H I L CNN "Height"
+F6 "7000978P" 500 -250 50 H I L CNN "RS Part Number"
+F7 "http://uk.rs-online.com/web/p/products/7000978P" 500 -350 50 H I L CNN "RS Price/Stock"
+F8 "Vishay" 500 -450 50 H I L CNN "Manufacturer_Name"
+F9 "SS34-E3/57T" 500 -550 50 H I L CNN "Manufacturer_Part_Number"
+F10 "70217403" 500 -650 50 H I L CNN "Allied_Number"
+DRAW
+P 2 0 1 6 200 0 300 0 N
+P 2 0 1 6 300 100 300 -100 N
+P 2 0 1 6 500 0 600 0 N
+P 3 0 1 6 300 -100 260 -100 260 -60 N
+P 3 0 1 6 300 100 340 100 340 60 N
+P 4 0 1 6 300 0 500 100 500 -100 300 0 N
+X ~ 1 100 0 100 R 50 50 0 0 P
+X ~ 2 700 0 100 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# PicBytesMicro-rescue_TMB12A05-SamacSys_Parts
+#
+DEF PicBytesMicro-rescue_TMB12A05-SamacSys_Parts LS 0 30 Y Y 1 F N
+F0 "LS" 650 300 50 H V L CNN
+F1 "PicBytesMicro-rescue_TMB12A05-SamacSys_Parts" 650 200 50 H V L CNN
+F2 "TMB12A05" 650 100 50 H I L CNN
+F3 "https://datasheet.lcsc.com/szlcsc/Jiangsu-Huaneng-Elec-TMB12A05_C96093.pdf" 650 0 50 H I L CNN
+F4 "12*9.5 Buzzers RoHS" 650 -100 50 H I L CNN "Description"
+F5 "9.5" 650 -200 50 H I L CNN "Height"
+F6 "Jiangsu Huaneng Elec" 650 -500 50 H I L CNN "Manufacturer_Name"
+F7 "TMB12A05" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 600 100 600 -200 200 -200 200 100 N
+X + 1 0 -100 200 R 50 50 0 0 P
+X - 2 0 0 200 R 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# PicBytesMicro-rescue_TP4056-42-ESOP8-SamacSys_Parts
+#
+DEF PicBytesMicro-rescue_TP4056-42-ESOP8-SamacSys_Parts IC 0 30 Y Y 1 F N
+F0 "IC" 1050 300 50 H V L CNN
+F1 "PicBytesMicro-rescue_TP4056-42-ESOP8-SamacSys_Parts" 1050 200 50 H V L CNN
+F2 "SOIC127P600X175-9N" 1050 100 50 H I L CNN
+F3 "https://datasheet.lcsc.com/szlcsc/1906261508_Nanjing-Extension-Microelectronics-TP4056-42-ESOP8_C16581.pdf" 1050 0 50 H I L CNN
+F4 "PMIC - Battery Management ESOP-8 RoHS" 1050 -100 50 H I L CNN "Description"
+F5 "1.75" 1050 -200 50 H I L CNN "Height"
+F6 "Nanjing Extension Microelectronics" 1050 -500 50 H I L CNN "Manufacturer_Name"
+F7 "TP4056-42-ESOP8" 1050 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 1000 100 1000 -600 200 -600 200 100 N
+X TEMP 1 0 0 200 R 50 50 0 0 P
+X PROG 2 0 -100 200 R 50 50 0 0 P
+X GND 3 0 -200 200 R 50 50 0 0 P
+X VCC 4 0 -300 200 R 50 50 0 0 P
+X BAT 5 1200 -300 200 L 50 50 0 0 P
+X ~STDBY 6 1200 -200 200 L 50 50 0 0 P
+X ~CHRG 7 1200 -100 200 L 50 50 0 0 P
+X CE 8 1200 0 200 L 50 50 0 0 P
+X EP 9 600 -800 200 U 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# PicBytesMicro-rescue_TYPE-C-31-M-17-SamacSys_Parts
+#
+DEF PicBytesMicro-rescue_TYPE-C-31-M-17-SamacSys_Parts J 0 30 Y Y 1 F N
+F0 "J" 1150 300 50 H V L CNN
+F1 "PicBytesMicro-rescue_TYPE-C-31-M-17-SamacSys_Parts" 1150 200 50 H V L CNN
+F2 "TYPEC31M17" 1150 100 50 H I L CNN
+F3 "https://datasheet.lcsc.com/szlcsc/1903211732_Korean-Hroparts-Elec-TYPE-C-31-M-17_C283540.pdf" 1150 0 50 H I L CNN
+F4 "USB Connectors 6 Receptacle 1 RoHS" 1150 -100 50 H I L CNN "Description"
+F5 "3.26" 1150 -200 50 H I L CNN "Height"
+F6 "Korean Hroparts Elec" 1150 -500 50 H I L CNN "Manufacturer_Name"
+F7 "TYPE-C-31-M-17" 1150 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 1100 100 1100 -500 200 -500 200 100 N
+X GND_1 A12 0 -200 200 R 50 50 0 0 P
+X CC1 A5 0 0 200 R 50 50 0 0 P
+X VBUS_1 A9 0 -100 200 R 50 50 0 0 P
+X GND_2 B12 1300 0 200 L 50 50 0 0 P
+X CC2 B5 0 -300 200 R 50 50 0 0 P
+X VBUS_2 B9 0 -400 200 R 50 50 0 0 P
+X MH1 MH1 1300 -100 200 L 50 50 0 0 P
+X MH2 MH2 1300 -200 200 L 50 50 0 0 P
+X MH3 MH3 1300 -300 200 L 50 50 0 0 P
+X MH4 MH4 1300 -400 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+#End Library
