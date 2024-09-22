@@ -83,7 +83,7 @@ The project is divided into two steps:
 ### Built With
 
 [![Microcontroller][PIC]][PIC-url]
-[![MPLAB C][MPLAB-C]][MPLAB-C-url]
+[![Arduino][Arduino]][Arduino-url]
 [![Kicad][kicad-shield]][kicad-url]
 [![SPONSOR][wurth-icon]][sponsor-url-wurth]
 [![SPONSOR][sponsor-icon]][sponsor-url]
@@ -134,7 +134,7 @@ Instructions of use:
 - [ ] Validate the complete design (host + display board)
 
 
-See the [open issues](https://github.com/makingdevices/PicBytesMicro/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/makingdevices/PixelBytes/issues) for a full list of proposed features (and known issues).
 
 State: Project <b>ONGOING</b> - 22/09/2024
 
@@ -165,19 +165,19 @@ Project Link: [https://github.com/makingdevices/PixelBytes](https://github.com/m
 Other Links: [LinkTree](https://makingdevices.com/links/)
 
 <!-- Sponsor -->
-## Sponsors - Würth Elektronik
-
-[Wurth Elektronik](https://www.we-online.com/en) is one of the leading manufacturers of electronic and electromechanical components. The best I can say about them is to show you some pictures: All the LEDs from the board are from them. They also have buttons, resistors and capacitors that we use in all our PCBs. They also have some design kits with a lifetime refill which are amazing for makers and business so you can prototype on the go with a huge variety of components!
-
-[![Sponsor Shot][sponsor-wurth-1]][sponsor-url-wurth]
-[![Sponsor Shot][sponsor-wurth-3]][sponsor-url-wurth]
-
 ## PCBWAY
 
 [PCBWAY](https://www.pcbway.com/?from=makingdevices) is the most professional PCB manufacturer for prototyping and low-volume production to work with in the world. With more than a decade in the field, They are committed to meeting the needs of their customers from different industries in terms of quality, delivery, cost-effectiveness and any other demanding requests. As Sponsor of Making Devices, they will be in charge of all the PCBs for MDV, allowing both of us to grow together in a long term partnership. We hope you take them into account for your both personal and professional prototypes or products.
 
 [![Sponsor Shot][sponsor-pcb-1]][sponsor-url]
 [![Sponsor Shot][sponsor-pcb-2]][sponsor-url]
+
+## Sponsors - Würth Elektronik
+
+[Wurth Elektronik](https://www.we-online.com/en) is one of the leading manufacturers of electronic and electromechanical components. The best I can say about them is to show you some pictures: All the LEDs from the board are from them. They also have buttons, resistors and capacitors that we use in all our PCBs. They also have some design kits with a lifetime refill which are amazing for makers and business so you can prototype on the go with a huge variety of components!
+
+[![Sponsor Shot][sponsor-wurth-1]][sponsor-url-wurth]
+[![Sponsor Shot][sponsor-wurth-3]][sponsor-url-wurth]
 
 
 
@@ -206,8 +206,8 @@ Other Links: [LinkTree](https://makingdevices.com/links/)
 [sponsor-wurth-3]: /images/wurth_3.jpg
 [sponsor-url-wurth]: https://www.we-online.com/en
 [product-screenshot]: images/screenshot.jpg
-[PIC]: https://img.shields.io/badge/PIC18LF4550-000000?style=for-the-badge
-[PIC-url]: https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/39632e.pdf
+[PIC]: https://img.shields.io/badge/STM32F103-0000D1?style=for-the-badge
+[PIC-url]: https://www.st.com/en/microcontrollers-microprocessors/stm32f103.html
 [kicad-shield]: https://img.shields.io/badge/kicad-0b03fc?style=for-the-badge&logo=kicad&logoColor=white
 [kicad-url]: https://www.kicad.org/
 [YT-screenshot]: images/YT_assembly.PNG
@@ -215,7 +215,9 @@ Other Links: [LinkTree](https://makingdevices.com/links/)
 [ig-shield]: https://img.shields.io/badge/instagram-a83297?style=for-the-badge&logo=instagram&logoColor=white
 [ig-url]: https://www.instagram.com/makingdevices/
 [MPLAB-C]: https://img.shields.io/badge/MPLAB%20C18-DD0031?style=for-the-badge&logo=C&logoColor=white
+[Arduino]: https://img.shields.io/badge/ARDUINO-00878F?style=for-the-badge&logo=arduino&logoColor=white
 [wurth-icon]: https://img.shields.io/badge/Wurth%20elektronik-FF0031?style=for-the-badge&logoColor=white
+[Arduino-url]: https://www.arduino.cc/
 [MPLAB-C-url]: https://www.microchip.com/en-us/development-tool/SW006011
 [Svelte.dev]: https://img.shields.io/badge/Svelte-4A4A55?style=for-the-badge&logo=svelte&logoColor=FF3E00
 [Svelte-url]: https://svelte.dev/
