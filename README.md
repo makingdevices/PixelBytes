@@ -201,8 +201,8 @@ Other Links: [LinkTree](https://makingdevices.com/links/)
 [sponsor-shield]: https://img.shields.io/badge/SPONSOR-PCBWAY-black.svg?style=for-the-badge&colorB=1200
 [sponsor-url]: https://www.pcbway.com/?from=makingdevices
 [sponsor-screenshot]: /images/PCB_sponsor.png
-[sponsor-pcb-1]: /images/pixelbytes_pcb1.jpg
-[sponsor-pcb-2]: /images/pixelbytes_pcb2.jpg
+[sponsor-pcb-1]: /images/pixelbytes_pcb1.JPG
+[sponsor-pcb-2]: /images/pixelbytes_pcb2.JPG
 [sponsor-wurth-1]: /images/wurth_1.gif
 [sponsor-wurth-3]: /images/wurth_3.jpg
 [sponsor-url-wurth]: https://www.we-online.com/en
