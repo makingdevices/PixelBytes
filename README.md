@@ -202,10 +202,10 @@ Other Links: [LinkTree](https://makingdevices.com/links/)
 [sponsor-screenshot]: /images/PCB_sponsor.png
 [sponsor-pcb-1]: /images/picbytesmicro_pcb1.jpg
 [sponsor-pcb-2]: /images/picbytesmicro_pcb2.jpg
-[sponsor-wurth-1]: /images/wurth_1.jpg
+[sponsor-wurth-1]: /images/wurth_1.gif
 [sponsor-wurth-3]: /images/wurth_3.jpg
 [sponsor-url-wurth]: https://www.we-online.com/en
-[product-screenshot]: images/screenshot.jpg
+[product-screenshot]: images/screenshot.gif
 [PIC]: https://img.shields.io/badge/STM32F103-0000D1?style=for-the-badge
 [PIC-url]: https://www.st.com/en/microcontrollers-microprocessors/stm32f103.html
 [kicad-shield]: https://img.shields.io/badge/kicad-0b03fc?style=for-the-badge&logo=kicad&logoColor=white
