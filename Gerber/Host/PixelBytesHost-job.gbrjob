@@ -5,12 +5,12 @@
       "Application": "Pcbnew",
       "Version": "8.0.5"
     },
-    "CreationDate": "2024-09-22T15:27:05+02:00"
+    "CreationDate": "2024-09-24T06:40:10+02:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
-      "Name": "PicBytesMicro",
-      "GUID": "50696342-7974-4657-934d-6963726f2e6b",
+      "Name": "PixelBytesHost",
+      "GUID": "50697865-6c42-4797-9465-73486f73742e",
       "Revision": "rev?"
     },
     "Size": {
@@ -43,47 +43,47 @@
   ],
   "FilesAttributes": [
     {
-      "Path": "PicBytesMicro-F_Cu.gbr",
+      "Path": "PixelBytesHost-F_Cu.gbr",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "PicBytesMicro-In1_Cu.gbr",
+      "Path": "PixelBytesHost-In1_Cu.gbr",
       "FileFunction": "Copper,L2,Inr",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "PicBytesMicro-In2_Cu.gbr",
+      "Path": "PixelBytesHost-In2_Cu.gbr",
       "FileFunction": "Copper,L3,Inr",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "PicBytesMicro-B_Cu.gbr",
+      "Path": "PixelBytesHost-B_Cu.gbr",
       "FileFunction": "Copper,L4,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "PicBytesMicro-F_Silkscreen.gbr",
+      "Path": "PixelBytesHost-F_Silkscreen.gbr",
       "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "PicBytesMicro-B_Silkscreen.gbr",
+      "Path": "PixelBytesHost-B_Silkscreen.gbr",
       "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "PicBytesMicro-F_Mask.gbr",
+      "Path": "PixelBytesHost-F_Mask.gbr",
       "FileFunction": "SolderMask,Top",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "PicBytesMicro-B_Mask.gbr",
+      "Path": "PixelBytesHost-B_Mask.gbr",
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "PicBytesMicro-Edge_Cuts.gbr",
+      "Path": "PixelBytesHost-Edge_Cuts.gbr",
       "FileFunction": "Profile",
       "FilePolarity": "Positive"
     }

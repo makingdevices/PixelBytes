@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.346,
-          "height": 2.0,
-          "width": 2.0
+          "drill": 1.9,
+          "height": 2.2,
+          "width": 2.2
         },
         "silk_line_width": 0.12,
         "silk_text_italic": false,
@@ -58,19 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "clearance|155725000|105074500|4ada2bdb-f687-4ee1-a968-fd2ad11baa6f|7ebef20b-3647-4f00-80a6-830e1144aae1",
-        "copper_edge_clearance|134000000|124350000|2de240e3-3543-49c2-9309-59bc09c820e0|cede6840-0a36-475f-85e1-1c807df469e4",
-        "copper_edge_clearance|134000000|128350000|2de240e3-3543-49c2-9309-59bc09c820e0|5a4faaa2-7b03-46ce-8841-735c6d3313a2",
-        "copper_edge_clearance|143000000|124350000|58772c0f-04bb-4f2e-be61-6104d737e6a6|5ab3b753-1050-4f43-919c-c57b53a66145",
-        "copper_edge_clearance|143000000|128350000|58772c0f-04bb-4f2e-be61-6104d737e6a6|5bf4d00b-e589-4a69-b8dc-82d5828d23ab",
-        "courtyards_overlap|135425001|114250001|00000000-0000-0000-0000-0000600c08fc|620e37ba-7361-4f9b-a370-ba433d593772",
-        "silk_edge_clearance|121225000|130500000|e3f376e8-d417-4514-9701-db7c835d724d|ed4b7d0a-5764-4322-8faa-cf192f041a3d",
-        "silk_edge_clearance|130375000|130500000|e3f376e8-d417-4514-9701-db7c835d724d|fa18dc9a-c7a9-4254-a756-a27d30b980ec",
-        "silk_edge_clearance|134030000|130200000|2de240e3-3543-49c2-9309-59bc09c820e0|548c6bda-dbc9-4ee9-9718-4a2edda9089b",
-        "silk_edge_clearance|134030000|130450000|2de240e3-3543-49c2-9309-59bc09c820e0|aaa558f7-1b1e-4cf2-94bc-d78b953eeb45",
-        "silk_edge_clearance|142970000|130450000|58772c0f-04bb-4f2e-be61-6104d737e6a6|1657d8ff-e811-4ccc-86d4-4ddcbceb02e4"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -1086,10 +1074,10 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "gerbers/",
+      "plot": "../../Gerber/Host/",
       "pos_files": "../Gerber/",
       "specctra_dsn": "",
-      "step": "PixelBytesHost.step",
+      "step": "../../Output_Files/PixelBytesHostv0.1-3D.step",
       "svg": "",
       "vrml": ""
     },
