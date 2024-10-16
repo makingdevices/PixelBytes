@@ -3762,8 +3762,8 @@
 		(uuid "10b0500a-b474-4bf3-8327-2b9ebdb060f2")
 	)
 	(no_connect
-		(at 69.85 72.39)
-		(uuid "3478345c-352f-49ee-9c78-5da8f90cebe4")
+		(at 50.8 80.01)
+		(uuid "2e1abdbb-f7f1-4041-a9e9-893ec92d3dff")
 	)
 	(no_connect
 		(at 200.66 71.12)
@@ -3824,16 +3824,6 @@
 	(no_connect
 		(at 332.74 111.76)
 		(uuid "fd9f03cc-3e02-4aa8-9e55-7207567aa27a")
-	)
-	(wire
-		(pts
-			(xy 57.15 59.69) (xy 57.15 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "016c36ca-ef79-4d2b-ba4d-4754b74303df")
 	)
 	(polyline
 		(pts
@@ -4197,16 +4187,6 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 80.01) (xy 68.58 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2d989267-56bb-46d2-a01f-5dcd53db5930")
-	)
-	(wire
-		(pts
 			(xy 40.64 49.53) (xy 50.8 49.53)
 		)
 		(stroke
@@ -4234,6 +4214,16 @@
 			(type default)
 		)
 		(uuid "31d0d938-8a40-4284-a29f-44ea904a77ad")
+	)
+	(wire
+		(pts
+			(xy 63.5 59.69) (xy 63.5 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31dca826-83f6-45d2-94f6-461744b3bcf3")
 	)
 	(wire
 		(pts
@@ -4547,6 +4537,16 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 74.93) (xy 69.85 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "591a475a-7ff9-4f43-8ba8-b6d63d266942")
+	)
+	(wire
+		(pts
 			(xy 125.73 177.8) (xy 125.73 180.34)
 		)
 		(stroke
@@ -4634,6 +4634,16 @@
 			(type default)
 		)
 		(uuid "6429b0c4-cc1f-40ab-9b32-0bc39ce24d04")
+	)
+	(wire
+		(pts
+			(xy 53.34 77.47) (xy 50.8 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "646d222a-b9e7-4934-9ae2-0cfd35da2e52")
 	)
 	(wire
 		(pts
@@ -4754,6 +4764,16 @@
 			(type default)
 		)
 		(uuid "73c91c3c-9d9e-4e85-bab5-360ae8878120")
+	)
+	(wire
+		(pts
+			(xy 53.34 72.39) (xy 53.34 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73cfeee8-a837-449f-8f23-eda923a62bad")
 	)
 	(wire
 		(pts
@@ -5207,16 +5227,6 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 59.69) (xy 57.15 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a531e87c-a8e6-4fd2-86c4-38d122eae1ad")
-	)
-	(wire
-		(pts
 			(xy 200.66 123.19) (xy 200.66 124.46)
 		)
 		(stroke
@@ -5395,16 +5405,6 @@
 		)
 		(uuid "cffcb345-6594-451b-82f8-b403ff770b60")
 	)
-	(wire
-		(pts
-			(xy 57.15 77.47) (xy 50.8 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d0ad33da-41f0-4911-b649-9a6c285b862a")
-	)
 	(polyline
 		(pts
 			(xy 274.32 26.67) (xy 274.32 76.2)
@@ -5497,16 +5497,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 80.01) (xy 68.58 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d7b442e9-1861-449c-9087-4b88afccd216")
-	)
-	(wire
-		(pts
 			(xy 132.08 60.96) (xy 129.54 60.96)
 		)
 		(stroke
@@ -5564,6 +5554,16 @@
 			(type default)
 		)
 		(uuid "dce3c7c3-ab1e-44a3-a00a-ab901fac5082")
+	)
+	(wire
+		(pts
+			(xy 69.85 59.69) (xy 63.5 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dceec30f-077b-4307-bc4f-f22e2d86405e")
 	)
 	(wire
 		(pts
@@ -5677,16 +5677,6 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 74.93) (xy 69.85 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e4b271a9-3faf-4a4f-928d-08f9134f7b29")
-	)
-	(wire
-		(pts
 			(xy 50.8 67.31) (xy 68.58 67.31)
 		)
 		(stroke
@@ -5744,6 +5734,16 @@
 			(type default)
 		)
 		(uuid "ec8844a9-a806-4e1c-a292-546fea0423ad")
+	)
+	(wire
+		(pts
+			(xy 53.34 72.39) (xy 69.85 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efdefb54-aa30-467b-b546-683a0c22a147")
 	)
 	(wire
 		(pts
@@ -5887,6 +5887,16 @@
 			)
 		)
 		(uuid "6992d62a-2e00-420c-8516-7b37a0dd39ec")
+	)
+	(text "V0.25 CHANGELOG:\n	-changed string 5 to 6 in the pixel display\n	-Fixed BAT connector.\n	-We now cut the 5V power supply"
+		(exclude_from_sim no)
+		(at 353.822 261.366 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8959351e-5d2f-43d2-ad3f-b1c459356733")
 	)
 	(text "Programming port using TAG-CONNECT to ST32"
 		(exclude_from_sim no)
@@ -11085,7 +11095,7 @@
 			(uuid "f4b25173-c743-498b-a803-537ab21677b7")
 		)
 		(instances
-			(project "PicBytesMicro"
+			(project "PixelBytesHost"
 				(path "/36e2b0cc-9d11-4a29-a898-cd33b5ef9720"
 					(page "3")
 				)
@@ -11193,7 +11203,7 @@
 			(uuid "0bf71f98-e62e-4b19-85d2-e802843d9a3e")
 		)
 		(instances
-			(project "PicBytesMicro"
+			(project "PixelBytesHost"
 				(path "/36e2b0cc-9d11-4a29-a898-cd33b5ef9720"
 					(page "4")
 				)

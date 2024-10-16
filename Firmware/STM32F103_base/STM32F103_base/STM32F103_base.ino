@@ -38,7 +38,7 @@ void TimerHandler()
 }
 
 int var = 0;
-int display_matrix[13][18][3] = {0};  //Display matrix
+char display_matrix[13][18][3] = {0};  //Display matrix
 
 #define DELAYVAL 50 // Time (in milliseconds) to pause between pixels
 int parpadeo = 0;
@@ -47,13 +47,13 @@ int parpadeo = 0;
 // VOID write_screen
 // Outcome: nothing
 // Income: X and Y position + R, G and B color. MAX VALUE: 30 for the colors
-void write_screen(char x, char y,int r,int g, int b){
+void write_screen(int x, int y,char r,char g, char b){
   if(r>30) r = 30;
   if(g>30) g = 30;
   if(b>30) b = 30;
-  display_matrix[x][y][0] = r;
-  display_matrix[x][y][1] = g;
-  display_matrix[x][y][2] = b;
+  if(x<13 && y <18 )display_matrix[x][y][0] = r;
+  if(x<13 && y <18 )display_matrix[x][y][1] = g;
+  if(x<13 && y <18 )display_matrix[x][y][2] = b;
 }
 
 //----------------------------------
@@ -88,7 +88,7 @@ void update_screen(bool clean = 0){
 // Outcome: nothing
 // Income: r, g, b. MAX VALUE 30
 
-void write_color_screen(int r,int g,int b){
+void write_color_screen(char r,char g,char b){
   if(r>30) r = 30;
   if(g>30) g = 30;
   if(b>30) b = 30;
@@ -100,9 +100,8 @@ void write_color_screen(int r,int g,int b){
 }
 
 //COPIED DIRECTLY FROM PICBYTESMICRO
-void print_sprite(char x, char y, char *sprite, int brightr = 0,int brightg = 0,int brightb = 0){
-	char i = 0;
-	for (i=0; i<5; i++)
+void print_sprite(int x,int y, char *sprite, int brightr = 0,int brightg = 0,int brightb = 0){
+	for (int i=0; i<5; i++)
 	{
     //(enable_active_state == HIGH) ? LOW : HIGH
     if(((sprite[0]>>(7-i))&1)==1)write_screen(x+i,y,brightr,brightg,brightb);
@@ -115,7 +114,7 @@ void print_sprite(char x, char y, char *sprite, int brightr = 0,int brightg = 0,
 
 void TimerInterrupt()
 {
-  update_screen(0);
+  update_screen(1);
 }
 
 void setup()
