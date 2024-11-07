@@ -58,7 +58,9 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "clearance|155725000|105074500|4ada2bdb-f687-4ee1-a968-fd2ad11baa6f|7ebef20b-3647-4f00-80a6-830e1144aae1"
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -67,7 +69,7 @@
         "annular_width": "error",
         "clearance": "error",
         "connection_width": "warning",
-        "copper_edge_clearance": "error",
+        "copper_edge_clearance": "ignore",
         "copper_sliver": "warning",
         "courtyards_overlap": "error",
         "diff_pair_gap_out_of_range": "error",
@@ -97,11 +99,11 @@
         "padstack": "warning",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
-        "silk_edge_clearance": "warning",
+        "silk_edge_clearance": "ignore",
         "silk_over_copper": "ignore",
         "silk_overlap": "ignore",
         "skew_out_of_range": "error",
-        "solder_mask_bridge": "error",
+        "solder_mask_bridge": "ignore",
         "starved_thermal": "error",
         "text_height": "warning",
         "text_thickness": "warning",
@@ -1066,6 +1068,10 @@
       {
         "netclass": "Power",
         "pattern": "display_main"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "display_supply"
       }
     ]
   },

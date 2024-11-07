@@ -3957,7 +3957,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 78.74) (xy 237.49 78.74)
+			(xy 233.68 78.74) (xy 259.08 78.74)
 		)
 		(stroke
 			(width 0)
@@ -4527,16 +4527,6 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 81.28) (xy 256.54 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5743a67f-e6d0-4800-8eca-a8b636d09e8c")
-	)
-	(wire
-		(pts
 			(xy 63.5 74.93) (xy 69.85 74.93)
 		)
 		(stroke
@@ -4947,7 +4937,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 81.28) (xy 237.49 81.28)
+			(xy 233.68 81.28) (xy 256.54 81.28)
 		)
 		(stroke
 			(width 0)
@@ -5707,16 +5697,6 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 78.74) (xy 259.08 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec20fa8d-6d87-4c0f-8492-88908ca6d327")
-	)
-	(wire
-		(pts
 			(xy 218.44 43.18) (xy 215.9 43.18)
 		)
 		(stroke
@@ -5888,7 +5868,7 @@
 		)
 		(uuid "6992d62a-2e00-420c-8516-7b37a0dd39ec")
 	)
-	(text "V0.25 CHANGELOG:\n	-changed string 5 to 6 in the pixel display\n	-Fixed BAT connector.\n	-We now cut the 5V power supply"
+	(text "V0.25 CHANGELOG:\n	-Changed string 5 to 6 in the pixel display.\n	-Fixed BAT connector.\n	-We now cut the 5V power supply with a transistor.\n	-Removed resistors from the USB lines."
 		(exclude_from_sim no)
 		(at 353.822 261.366 0)
 		(effects
@@ -9157,7 +9137,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5abbb7f0-6254-4b45-a7e1-2215937c50bd")
-		(property "Reference" "R10"
+		(property "Reference" "R8"
 			(at 258.826 89.916 0)
 			(effects
 				(font
@@ -9166,7 +9146,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "4k7"
+		(property "Value" "1k5"
 			(at 258.826 86.106 0)
 			(effects
 				(font
@@ -9264,7 +9244,7 @@
 		(instances
 			(project "PicBytesMicro"
 				(path "/36e2b0cc-9d11-4a29-a898-cd33b5ef9720"
-					(reference "R10")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -9631,128 +9611,6 @@
 			(project "PicBytesMicro"
 				(path "/36e2b0cc-9d11-4a29-a898-cd33b5ef9720"
 					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "OpenReflowPlate-rescue:ERJP6WF1303V-Library_Loader")
-		(at 255.27 78.74 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8052552a-2fc3-408e-8173-b392d81a7387")
-		(property "Reference" "R9"
-			(at 242.062 76.454 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "20"
-			(at 246.126 76.454 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 241.3 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://uk.rs-online.com/web/p/products/7708607P"
-			(at 241.3 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "Panasonic ERJP6W Series Thick Film Surface Mount Fixed Resistor 0805 Case 130k +/-1% 0.5W +/-200ppm/C"
-			(at 241.3 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.75"
-			(at 241.3 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "RS Part Number" "7708607P"
-			(at 241.3 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "RS Price/Stock" "http://uk.rs-online.com/web/p/products/7708607P"
-			(at 241.3 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Panasonic"
-			(at 241.3 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "ERJP6WF1303V"
-			(at 241.3 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1c69a67d-e172-4ff0-ae9f-514e194ff324")
-		)
-		(pin "2"
-			(uuid "af5bb5ba-887a-4510-b72c-8477af3f00f5")
-		)
-		(instances
-			(project "PicBytesMicro"
-				(path "/36e2b0cc-9d11-4a29-a898-cd33b5ef9720"
-					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -10755,128 +10613,6 @@
 			(project "PicBytesMicro"
 				(path "/36e2b0cc-9d11-4a29-a898-cd33b5ef9720"
 					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "OpenReflowPlate-rescue:ERJP6WF1303V-Library_Loader")
-		(at 237.49 81.28 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cb91b6de-6032-4307-a727-e0c954cddd82")
-		(property "Reference" "R8"
-			(at 247.904 83.566 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "20"
-			(at 251.714 83.566 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 251.46 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://uk.rs-online.com/web/p/products/7708607P"
-			(at 251.46 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "Panasonic ERJP6W Series Thick Film Surface Mount Fixed Resistor 0805 Case 130k +/-1% 0.5W +/-200ppm/C"
-			(at 251.46 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.75"
-			(at 251.46 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "RS Part Number" "7708607P"
-			(at 251.46 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "RS Price/Stock" "http://uk.rs-online.com/web/p/products/7708607P"
-			(at 251.46 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Panasonic"
-			(at 251.46 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "ERJP6WF1303V"
-			(at 251.46 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a66a8f6a-9462-4826-8981-b28ceacae2b1")
-		)
-		(pin "2"
-			(uuid "3cf7a22f-c2e5-4425-ac53-2f3fa9a88e89")
-		)
-		(instances
-			(project "PicBytesMicro"
-				(path "/36e2b0cc-9d11-4a29-a898-cd33b5ef9720"
-					(reference "R8")
 					(unit 1)
 				)
 			)
