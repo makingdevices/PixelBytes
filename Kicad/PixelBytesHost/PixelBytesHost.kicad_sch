@@ -2685,92 +2685,119 @@
 				)
 			)
 		)
-		(symbol "User_lib:CX2520DB12000D0GPSC1"
-			(pin_names
-				(offset 0.762)
-			)
+		(symbol "User:830055663"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "Y"
-				(at 36.83 7.62 0)
+				(at 41.91 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
+					(justify left top)
 				)
 			)
-			(property "Value" "CX2520DB12000D0GPSC1"
-				(at 36.83 5.08 0)
+			(property "Value" "830055663"
+				(at 41.91 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
+					(justify left top)
 				)
 			)
-			(property "Footprint" "CX2520DB12000D0GPSC1"
-				(at 36.83 2.54 0)
+			(property "Footprint" "830055663"
+				(at 41.91 -94.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/AVX%20PDFs/CX2520DB_USY1M-H1-16428-00_Spec.pdf"
-				(at 36.83 0 0)
+			(property "Datasheet" "https://www.we-online.com/catalog/datasheet/830055663.pdf"
+				(at 41.91 -194.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Description" "Crystals AEC-Q200 12MHz 8pF 2.5x2mm"
-				(at 36.83 -2.54 0)
+			(property "Description" "Crystals WE-XTAL 8.0MHz 30ppm 5.0 x 3.2mm"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 					(hide yes)
 				)
 			)
-			(property "Height" "0.55"
-				(at 36.83 -5.08 0)
+			(property "Height" "1"
+				(at 41.91 -394.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Name" "KYOCERA"
-				(at 36.83 -12.7 0)
+			(property "Mouser Part Number" "710-830055663"
+				(at 41.91 -494.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Part_Number" "CX2520DB12000D0GPSC1"
-				(at 36.83 -15.24 0)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/830055663?qs=2WXlatMagcHXGqDkS%2FTHKQ%3D%3D"
+				(at 41.91 -594.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(symbol "CX2520DB12000D0GPSC1_0_0"
+			(property "Manufacturer_Name" "Wurth Elektronik"
+				(at 41.91 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "830055663"
+				(at 41.91 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "830055663_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 40.64 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
 				(pin passive line
 					(at 0 -2.54 0)
 					(length 5.08)
@@ -2790,9 +2817,9 @@
 					)
 				)
 				(pin passive line
-					(at 40.64 -2.54 180)
+					(at 45.72 -2.54 180)
 					(length 5.08)
-					(name "GND_1"
+					(name "GND_&_LID_1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2808,7 +2835,7 @@
 					)
 				)
 				(pin passive line
-					(at 40.64 0 180)
+					(at 45.72 0 180)
 					(length 5.08)
 					(name "CRYSTAL_2"
 						(effects
@@ -2828,7 +2855,7 @@
 				(pin passive line
 					(at 0 0 0)
 					(length 5.08)
-					(name "GND_2"
+					(name "GND_&_LID_2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2841,20 +2868,6 @@
 								(size 1.27 1.27)
 							)
 						)
-					)
-				)
-			)
-			(symbol "CX2520DB12000D0GPSC1_0_1"
-				(polyline
-					(pts
-						(xy 5.08 2.54) (xy 35.56 2.54) (xy 35.56 -5.08) (xy 5.08 -5.08) (xy 5.08 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
 					)
 				)
 			)
@@ -3624,6 +3637,12 @@
 		(uuid "37b93372-45f4-41aa-bef6-77b0f3e0c570")
 	)
 	(junction
+		(at 285.75 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3f218762-e129-4411-a1a9-038e4cceeaf7")
+	)
+	(junction
 		(at 154.94 176.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3664,12 +3683,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7c24f337-b8fb-4521-bc3a-cc9be0d45179")
-	)
-	(junction
-		(at 288.29 41.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "857694a4-9ec0-436d-a5c5-66dfb5783700")
 	)
 	(junction
 		(at 185.42 205.74)
@@ -4077,6 +4090,16 @@
 	)
 	(wire
 		(pts
+			(xy 334.01 36.83) (xy 334.01 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "258b3923-d279-4d1f-bc76-be607385f8c5")
+	)
+	(wire
+		(pts
 			(xy 175.26 198.12) (xy 177.8 198.12)
 		)
 		(stroke
@@ -4084,16 +4107,6 @@
 			(type default)
 		)
 		(uuid "25a42798-944c-4e63-a295-3be73c20028b")
-	)
-	(wire
-		(pts
-			(xy 288.29 41.91) (xy 288.29 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "25a6f6b0-edda-439e-b19c-46b6ea7c0d3c")
 	)
 	(wire
 		(pts
@@ -4367,13 +4380,13 @@
 	)
 	(wire
 		(pts
-			(xy 287.02 41.91) (xy 288.29 41.91)
+			(xy 279.4 36.83) (xy 285.75 36.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "41b7eac9-7866-4c14-9708-9cb997d9b650")
+		(uuid "42a4d0ac-85f8-48d0-a421-d5c94581c003")
 	)
 	(wire
 		(pts
@@ -4437,6 +4450,16 @@
 	)
 	(wire
 		(pts
+			(xy 279.4 41.91) (xy 279.4 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d99069e-759b-45f9-baf2-6be5db7e9846")
+	)
+	(wire
+		(pts
 			(xy 171.45 138.43) (xy 171.45 137.16)
 		)
 		(stroke
@@ -4457,16 +4480,6 @@
 	)
 	(wire
 		(pts
-			(xy 330.2 41.91) (xy 332.74 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "50f8703d-9409-47f6-9706-890188857bd8")
-	)
-	(wire
-		(pts
 			(xy 186.69 142.24) (xy 185.42 142.24)
 		)
 		(stroke
@@ -4484,6 +4497,16 @@
 			(type default)
 		)
 		(uuid "53532a8f-f394-419c-8717-dda8b6c71bb0")
+	)
+	(wire
+		(pts
+			(xy 334.01 45.72) (xy 331.47 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54049882-2003-4106-95f9-8c74d84f0712")
 	)
 	(wire
 		(pts
@@ -4514,6 +4537,16 @@
 			(type default)
 		)
 		(uuid "55f130b2-d90c-48cd-b3ba-e4c80e63b9d4")
+	)
+	(wire
+		(pts
+			(xy 285.75 43.18) (xy 285.75 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "562fb83c-5439-4595-87b0-30d3a5062928")
 	)
 	(wire
 		(pts
@@ -4594,16 +4627,6 @@
 			(type default)
 		)
 		(uuid "5f4d40f6-a661-4fb1-9893-7548d331d915")
-	)
-	(wire
-		(pts
-			(xy 331.47 36.83) (xy 331.47 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "63d3f259-9112-4e3c-be9d-42543f53998f")
 	)
 	(wire
 		(pts
@@ -4737,16 +4760,6 @@
 	)
 	(wire
 		(pts
-			(xy 288.29 41.91) (xy 289.56 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "737a6b63-0daf-4c33-8515-bcb38b5246e7")
-	)
-	(wire
-		(pts
 			(xy 189.23 124.46) (xy 189.23 123.19)
 		)
 		(stroke
@@ -4817,16 +4830,6 @@
 	)
 	(wire
 		(pts
-			(xy 289.56 50.8) (xy 323.85 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "79f9e2e8-649f-490d-8ddc-a082fbef6149")
-	)
-	(wire
-		(pts
 			(xy 215.9 43.18) (xy 213.36 43.18)
 		)
 		(stroke
@@ -4874,16 +4877,6 @@
 			(type default)
 		)
 		(uuid "7c36710e-f87a-41dd-ad4d-b52243806291")
-	)
-	(wire
-		(pts
-			(xy 331.47 44.45) (xy 330.2 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c9248a7-60bb-4bd4-b2be-36992603400c")
 	)
 	(wire
 		(pts
@@ -4997,16 +4990,6 @@
 	)
 	(wire
 		(pts
-			(xy 288.29 36.83) (xy 331.47 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "912278df-b653-4498-8193-beec0d5ee19f")
-	)
-	(wire
-		(pts
 			(xy 68.58 62.23) (xy 69.85 62.23)
 		)
 		(stroke
@@ -5014,6 +4997,16 @@
 			(type default)
 		)
 		(uuid "915eb35b-085a-4d7b-be0e-71a84c3b9db2")
+	)
+	(wire
+		(pts
+			(xy 285.75 50.8) (xy 323.85 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9231f499-c049-4a48-b658-02c91f4a5025")
 	)
 	(wire
 		(pts
@@ -5177,16 +5170,6 @@
 	)
 	(wire
 		(pts
-			(xy 289.56 44.45) (xy 289.56 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a19fe4e2-3f0c-410a-bcb6-4931c38c48a3")
-	)
-	(wire
-		(pts
 			(xy 137.16 205.74) (xy 139.7 205.74)
 		)
 		(stroke
@@ -5264,16 +5247,6 @@
 			(type default)
 		)
 		(uuid "b2c09cad-59c9-474d-87b2-506fa726edda")
-	)
-	(wire
-		(pts
-			(xy 332.74 41.91) (xy 332.74 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b3e75e66-c4cf-4de5-a5a9-145ca979fff0")
 	)
 	(wire
 		(pts
@@ -5387,6 +5360,16 @@
 	)
 	(wire
 		(pts
+			(xy 285.75 36.83) (xy 334.01 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf66e93e-096a-4b47-927d-f9fc1527f278")
+	)
+	(wire
+		(pts
 			(xy 199.39 86.36) (xy 200.66 86.36)
 		)
 		(stroke
@@ -5434,6 +5417,16 @@
 			(type default)
 		)
 		(uuid "d1e5077f-2ff6-4c58-ac76-a96a45169a3a")
+	)
+	(wire
+		(pts
+			(xy 331.47 43.18) (xy 336.55 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d223750b-866c-423d-a895-38a68942e7c5")
 	)
 	(wire
 		(pts
@@ -5587,7 +5580,7 @@
 	)
 	(wire
 		(pts
-			(xy 332.74 52.07) (xy 326.39 52.07)
+			(xy 326.39 52.07) (xy 336.55 52.07)
 		)
 		(stroke
 			(width 0)
@@ -5664,6 +5657,16 @@
 			(type default)
 		)
 		(uuid "e31a9b9b-ef89-47bb-a967-e5c5cc431e03")
+	)
+	(wire
+		(pts
+			(xy 336.55 43.18) (xy 336.55 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4ed0c53-e9b8-459c-b7d7-c67b91395742")
 	)
 	(wire
 		(pts
@@ -5815,6 +5818,16 @@
 		)
 		(uuid "fd161153-54d7-41c2-a515-b2a8eb1289bf")
 	)
+	(wire
+		(pts
+			(xy 285.75 50.8) (xy 285.75 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdc2b509-5a03-4826-b467-d7498ce968e1")
+	)
 	(polyline
 		(pts
 			(xy 22.86 26.67) (xy 271.78 26.67)
@@ -5868,9 +5881,9 @@
 		)
 		(uuid "6992d62a-2e00-420c-8516-7b37a0dd39ec")
 	)
-	(text "V0.25 CHANGELOG:\n	-Changed string 5 to 6 in the pixel display.\n	-Fixed BAT connector.\n	-We now cut the 5V power supply with a transistor.\n	-Removed resistors from the USB lines."
+	(text "V1 CHANGELOG:\n	-8Mhz crystal for the bootloader compatibility.\n	-New USB-C. (No cuts in PCB) \n	-New Switch of the PCB\n\nV0.25 CHANGELOG:\n	-Changed string 5 to 6 in the pixel display.\n	-Fixed BAT connector.\n	-We now cut the 5V power supply with a transistor.\n	-Removed resistors from the USB lines."
 		(exclude_from_sim no)
-		(at 353.822 261.366 0)
+		(at 353.568 240.792 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5976,7 +5989,7 @@
 	)
 	(global_label "Vgnd_main"
 		(shape input)
-		(at 287.02 41.91 270)
+		(at 279.4 41.91 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5985,7 +5998,7 @@
 		)
 		(uuid "02cec0f8-ca08-4ef9-9063-3de53879ff52")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 287.02 41.91 0)
+			(at 279.4 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9617,114 +9630,6 @@
 		)
 	)
 	(symbol
-		(lib_id "User_lib:CX2520DB12000D0GPSC1")
-		(at 330.2 44.45 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "82062cc3-a54a-484e-8bcc-514772f99589")
-		(property "Reference" "Y1"
-			(at 307.848 35.814 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "CX2520DB12000D0GPSC1"
-			(at 297.18 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "CX2520DB12000D0GPSC1"
-			(at 293.37 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/AVX%20PDFs/CX2520DB_USY1M-H1-16428-00_Spec.pdf"
-			(at 293.37 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "Crystals AEC-Q200 12MHz 8pF 2.5x2mm"
-			(at 293.37 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.55"
-			(at 293.37 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "KYOCERA"
-			(at 293.37 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CX2520DB12000D0GPSC1"
-			(at 293.37 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f4bf0d8c-c7e3-4c18-a2e9-67d278dc64c0")
-		)
-		(pin "2"
-			(uuid "eb6f3937-0278-42e4-8efd-4b5b603afde4")
-		)
-		(pin "3"
-			(uuid "d233405d-d917-43a3-ac94-a60a7c1cee7b")
-		)
-		(pin "4"
-			(uuid "1c661744-ae96-4d67-9c69-32bac7f759ea")
-		)
-		(instances
-			(project "PicBytesMicro"
-				(path "/36e2b0cc-9d11-4a29-a898-cd33b5ef9720"
-					(reference "Y1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "MCU_ST_STM32F1:STM32F103CBTx")
 		(at 215.9 86.36 0)
 		(unit 1)
@@ -10152,6 +10057,132 @@
 			(project "PicBytesMicro"
 				(path "/36e2b0cc-9d11-4a29-a898-cd33b5ef9720"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "User:830055663")
+		(at 331.47 45.72 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a959fe00-fef8-4b3e-87f9-b077ece6e960")
+		(property "Reference" "Y1"
+			(at 308.61 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "830055663"
+			(at 308.61 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "830055663"
+			(at 289.56 -49.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/830055663.pdf"
+			(at 289.56 -149.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Crystals WE-XTAL 8.0MHz 30ppm 5.0 x 3.2mm"
+			(at 331.47 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1"
+			(at 289.56 -349.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "710-830055663"
+			(at 289.56 -449.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/830055663?qs=2WXlatMagcHXGqDkS%2FTHKQ%3D%3D"
+			(at 289.56 -549.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Wurth Elektronik"
+			(at 289.56 -649.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "830055663"
+			(at 289.56 -749.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e858e004-6a20-4007-a784-79a64dd53b71")
+		)
+		(pin "4"
+			(uuid "4977a036-3cd6-40d6-8d11-bd97318ee58a")
+		)
+		(pin "1"
+			(uuid "45f23acd-7c90-4621-a87d-912aa99b0046")
+		)
+		(pin "3"
+			(uuid "e81dea41-af98-4402-963c-7ac7f367c1a2")
+		)
+		(instances
+			(project ""
+				(path "/36e2b0cc-9d11-4a29-a898-cd33b5ef9720"
+					(reference "Y1")
 					(unit 1)
 				)
 			)

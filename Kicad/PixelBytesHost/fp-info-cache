@@ -1,4 +1,4 @@
-23925004447308000
+23931937108610520
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -96285,6 +96285,20 @@ igbt diode module
 25
 25
 User_3
+450302014072
+450302014072-2
+Switch
+0
+3
+3
+User_3
+830055663
+830055663-1
+Crystal or Oscillator
+0
+4
+4
+User_3
 2536030320001
 2536030320001-1
 Integrated Circuit
@@ -96312,6 +96326,13 @@ Integrated Circuit
 0
 8
 8
+User_3
+TYPEC31M17
+TYPE-C-31-M-17-1
+Connector
+0
+10
+10
 User_DIY
 castellated_4x2.54mm
 
@@ -97117,3 +97138,10 @@ pixelbytesdisplay
 0
 24
 24
+usb-c
+629722000214
+
+
+0
+20
+20

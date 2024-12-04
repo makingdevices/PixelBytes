@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "PicBytesMicro-rescue")(type "KiCad")(uri "${KIPRJMOD}/PicBytesMicro-rescue.kicad_sym")(options "")(descr ""))
   (lib (name "user2")(type "KiCad")(uri "D:/GitHub/Thermo-Device-Logger/Kicad/V1.2b/ThermoDeviceLogger/ThermoDeviceLogger-rescue.kicad_sym")(options "")(descr ""))
+  (lib (name "usb-type-C")(type "KiCad")(uri "D:/SamacSys_PCB_Library_3.0/snapeda/USB-typec-629722000214/629722000214.kicad_sym")(options "")(descr ""))
 )

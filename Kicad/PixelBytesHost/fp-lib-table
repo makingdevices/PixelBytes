@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "SamacSys_Parts")(type "KiCad")(uri "D:/SamacSys_PCB_Library/KiCad/SamacSys_Parts.pretty")(options "")(descr ""))
   (lib (name "Wurth Icon")(type "KiCad")(uri "D:/SamacSys_PCB_Library_3.0/Wurth_icon.pretty")(options "")(descr ""))
+  (lib (name "usb-c")(type "KiCad")(uri "D:/SamacSys_PCB_Library_3.0/snapeda/USB-typec-629722000214")(options "")(descr ""))
 )

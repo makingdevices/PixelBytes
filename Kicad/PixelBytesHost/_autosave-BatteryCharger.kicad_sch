@@ -7153,7 +7153,7 @@
 				)
 			)
 		)
-		(property "Footprint" "629722000214:629722000214"
+		(property "Footprint" "usb-c:629722000214"
 			(at 209.55 40.64 0)
 			(effects
 				(font
