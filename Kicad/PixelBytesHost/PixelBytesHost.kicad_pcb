@@ -5314,7 +5314,7 @@
 		)
 		(fp_arc
 			(start 4.36 -4.93)
-			(mid 4.665284 -4.791272)
+			(mid 4.66531 -4.791281)
 			(end 4.79 -4.48)
 			(stroke
 				(width 0.1)
@@ -16473,7 +16473,7 @@
 		(descr "830055663-1")
 		(tags "Crystal or Oscillator")
 		(property "Reference" "Y1"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.SilkS")
 			(uuid "f0e5a1fd-1292-401a-a154-53d1477b7ee9")
 			(effects
@@ -16485,7 +16485,7 @@
 			)
 		)
 		(property "Value" "830055663"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "9aac9da3-6631-4b80-a657-dfd4d9f8a4bc")
@@ -16498,7 +16498,7 @@
 			)
 		)
 		(property "Footprint" "830055663"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "1fdcce3d-eb94-4fe6-a043-dc2cee30c3b9")
@@ -16511,7 +16511,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/830055663.pdf"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "2c6f2aa8-35aa-4310-8b14-31ec302ce0db")
@@ -16524,7 +16524,7 @@
 			)
 		)
 		(property "Description" "Crystals WE-XTAL 8.0MHz 30ppm 5.0 x 3.2mm"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "b5b206fa-11db-4264-a025-5b3368034d17")
@@ -16753,7 +16753,7 @@
 			(uuid "38754cd2-110c-4728-9db4-468092b8928c")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "e155942f-9d78-4ff0-95c8-06af3fee07b9")
 			(effects
