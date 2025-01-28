@@ -5683,7 +5683,6 @@
 	)
 	(label "PGD"
 		(at 251.46 50.8 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5694,7 +5693,6 @@
 	)
 	(label "PGD"
 		(at 224.79 43.18 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5705,7 +5703,6 @@
 	)
 	(label "PGC"
 		(at 251.46 53.34 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5716,7 +5713,6 @@
 	)
 	(label "PGD"
 		(at 182.88 40.64 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5727,7 +5723,6 @@
 	)
 	(label "PGC"
 		(at 182.88 43.18 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5738,7 +5733,6 @@
 	)
 	(label "PGC"
 		(at 224.79 40.64 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5996,7 +5990,6 @@
 	(hierarchical_label "BMS_gnd"
 		(shape input)
 		(at 220.98 151.13 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6008,7 +6001,6 @@
 	(hierarchical_label "BMS_gnd"
 		(shape input)
 		(at 147.32 185.42 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6020,7 +6012,6 @@
 	(hierarchical_label "5V"
 		(shape input)
 		(at 95.25 128.27 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6032,7 +6023,6 @@
 	(hierarchical_label "USB_PGC"
 		(shape input)
 		(at 255.27 53.34 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6044,7 +6034,6 @@
 	(hierarchical_label "USB_PGD"
 		(shape input)
 		(at 255.27 50.8 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6056,7 +6045,6 @@
 	(hierarchical_label "display_enable"
 		(shape input)
 		(at 62.23 120.65 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6068,7 +6056,6 @@
 	(hierarchical_label "BMS_gnd"
 		(shape input)
 		(at 161.29 38.1 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6080,7 +6067,6 @@
 	(hierarchical_label "bat_voltage"
 		(shape input)
 		(at 184.15 160.02 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6092,7 +6078,6 @@
 	(hierarchical_label "2.8V"
 		(shape input)
 		(at 135.89 166.37 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6104,7 +6089,6 @@
 	(hierarchical_label "BMS_gnd"
 		(shape input)
 		(at 250.19 55.88 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6116,7 +6100,6 @@
 	(hierarchical_label "BMS_gnd"
 		(shape input)
 		(at 45.72 48.26 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6128,7 +6111,6 @@
 	(hierarchical_label "BMS_gnd"
 		(shape input)
 		(at 176.53 134.62 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
