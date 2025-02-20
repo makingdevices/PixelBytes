@@ -28,6 +28,8 @@ int buttonState_left = 0;
 int buttonState_right = 0;
 int buttonState_b = 0;
 int buttonState_a = 0;
+int sensorValue = 0;
+float batValue = 0;
 
 
 void read_buttons() {
@@ -68,14 +70,14 @@ void setup() {
   pixels.begin(); // INITIALIZE NeoPixel strip object (REQUIRED)
 
   // initialize digital pin LED_BUILTIN as an output.
-  pinMode(PA0, INPUT);
-  pinMode(PA1, INPUT);
-  pinMode(PA2, INPUT);
-  pinMode(PA3, INPUT);
-  pinMode(PA4, INPUT);
-  pinMode(PA5, INPUT);
-  pinMode(PB14, OUTPUT);
-  pinMode(PB2, OUTPUT);
+  pinMode(PA0, INPUT); // UP button
+  pinMode(PA1, INPUT); // Down button
+  pinMode(PA2, INPUT); // Right button
+  pinMode(PA3, INPUT); // Left button
+  pinMode(PA4, INPUT); // A button
+  pinMode(PA5, INPUT); // B button
+  pinMode(PB14, OUTPUT);  // Buzzer enable pin
+  pinMode(PB3, OUTPUT);  //Battery measurement enable
   
     // Initialize the I2C interface
   sensor.init(ISDS_ADDRESS_I2C_1);
@@ -107,13 +109,13 @@ void setup() {
   Serial.println("Hello there?");
 
 }
-
 // the loop function runs over and over again forever
 void loop() {
-  digitalWrite(PB2, HIGH);
   int16_t acc_X;
   int16_t acc_Y;
   int16_t acc_Z;
+ 
+  digitalWrite(PB3, HIGH);  //Connecting bat reading.
 
   // Get acceleration sensor to measure.
   status = sensor.is_ACC_Ready_To_Read();
@@ -131,7 +133,6 @@ void loop() {
   Serial.print(" ");
   Serial.print(acc_Z);
   Serial.println(" ");
-
     // Check if sensor is ready to measure the temperature
   status = sensor.is_Temp_Ready();
     
@@ -154,26 +155,30 @@ void loop() {
     Serial.println(temperature);
   }
   for(int i = 0; i<NUMPIXELS; i++){
-    pixels.setPixelColor(i, pixels.Color(0, 0, 3));
-    read_buttons();
-    delay(DELAYVAL); // Pause before next pass through loop
-    pixels.show();   // Send the updated pixel colors to the hardware.
-  }
-  digitalWrite(PB14, LOW);
-  for(int i = 0; i<NUMPIXELS; i++){
-    pixels.setPixelColor(i, pixels.Color(0, 2, 0));
-    delay(DELAYVAL); // Pause before next pass through loop
+    pixels.setPixelColor(i, pixels.Color(0, 0, 15));
     read_buttons();
     pixels.show();   // Send the updated pixel colors to the hardware.
   }
   digitalWrite(PB14, LOW);
   for(int i = 0; i<NUMPIXELS; i++){
-    pixels.setPixelColor(i, pixels.Color(2,0, 0));
-    delay(DELAYVAL); // Pause before next pass through loop
+    pixels.setPixelColor(i, pixels.Color(0, 15, 0));
+    read_buttons();
+    pixels.show();   // Send the updated pixel colors to the hardware.
+  }
+  digitalWrite(PB14, LOW);
+  for(int i = 0; i<NUMPIXELS; i++){
+    pixels.setPixelColor(i, pixels.Color(15,0, 0));
     read_buttons();
     pixels.show();   // Send the updated pixel colors to the hardware.
   }
   digitalWrite(PB14, LOW);
 
-  delay(250); 
+  sensorValue = analogRead(PB0);
+  batValue = 0.006445*sensorValue;  // (3.3/1024)*2 -> Vref/resolution * VoltDivider * measurement
+  Serial.println("Voltage of the battery: [V]: ");
+  Serial.print(batValue);
+  Serial.println(" ");
+
+  digitalWrite(PB3, LOW);  //turn off battery reading
+  delay(220); 
 }

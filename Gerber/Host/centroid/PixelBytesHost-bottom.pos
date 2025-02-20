@@ -1,0 +1,56 @@
+### Footprint positions - created on 2025-02-11T19:45:55+0100 ###
+### Printed by KiCad version 8.0.8
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref       Val                Package                  PosX       PosY       Rot  Side
+C7          22pF               C_0805_2012Metric    128.8000  -102.5000  180.0000  bottom
+C8          22pF               C_0805_2012Metric    128.8000  -108.8000    0.0000  bottom
+C9          100nF              CAPC2012X140N        118.6000  -118.7000    0.0000  bottom
+C10         100nF              CAPC2012X140N        129.4000  -123.6000   90.0000  bottom
+C11         100nF              CAPC2012X140N        124.8050  -115.4000  -90.0000  bottom
+C12         100nF              CAPC2012X140N        132.5750  -115.9500   90.0000  bottom
+C15         10uF               C_0805_2012Metric    156.4000  -127.7400   90.0000  bottom
+C16         100nF              CAPC2012X140N        152.8000  -109.9000   90.0000  bottom
+C17         100nF              CAPC2012X140N        143.2000  -109.9000   90.0000  bottom
+C18         820pF              CAPC2012X140N        158.8000  -116.4500  -90.0000  bottom
+C19         22uF               CAPC2012X140N        152.4000  -120.8500  180.0000  bottom
+C20         100nF              CAPC2012X140N        152.4000  -115.2500  180.0000  bottom
+C21         47uF               CAPC2012X140N        138.7000  -116.8000  -90.0000  bottom
+D1          B340LA-13-F        DIOM5226X240N        142.2000  -118.2000  -90.0000  bottom
+IC2         TC1108-3.3VDBTR    SOT230P700X180-4N    148.0000  -109.3950   90.0000  bottom
+IC3         TPS61085TDGKR      SOP65P490X110-8N     154.4000  -118.0500  180.0000  bottom
+IC_BMS_TP1  TP4056-42-ESOP8    SOIC127P600X175-9N   151.6000  -125.9000  180.0000  bottom
+J2          B2B-XH-2__LF__SN_  B2BXH2LFSN           158.2000   -98.4500  -90.0000  bottom
+L1          4.7uH              SRN6045_1            147.4000  -118.2500   90.0000  bottom
+LS1         TMB12A05           TMB12A05             116.8000  -105.9000   90.0000  bottom
+Q1          SMMBT5551LT1G      SOT96P237X111-3N     149.5500  -102.8000  180.0000  bottom
+Q2          SMMBT5551LT1G      SOT96P237X111-3N     126.1500  -111.6450  180.0000  bottom
+Q3          PBSS5160T-QR       SOT95P230X110-3N     156.1000  -112.5000  180.0000  bottom
+R1          4k7                RESC2012X65N         152.7500  -102.8000   90.0000  bottom
+R2          10k                R_0805_2012Metric    152.3500   -99.8000    0.0000  bottom
+R3          10k                R_0805_2012Metric    148.8500   -99.8000    0.0000  bottom
+R4          4k7                RESC2012X65N         129.2000  -111.6950  -90.0000  bottom
+R9          10k                R_0805_2012Metric    118.6000  -116.7000    0.0000  bottom
+R10         10k                R_0805_2012Metric    118.6000  -114.7000    0.0000  bottom
+R11         10k                R_0805_2012Metric    127.4300  -123.6000   90.0000  bottom
+R12         10k                R_0805_2012Metric    128.7050  -115.4000   90.0000  bottom
+R13         10k                R_0805_2012Metric    126.7000  -115.4000  -90.0000  bottom
+R14         10k                R_0805_2012Metric    125.4000  -123.6000   90.0000  bottom
+R15         10k                R_0805_2012Metric    134.5000  -115.9500   90.0000  bottom
+R16         10k                R_0805_2012Metric    136.5000  -115.9500  -90.0000  bottom
+R21         2k                 RESC2012X65N         156.4000  -124.3000   90.0000  bottom
+R22         6k8                RESC2012X65N         159.3000  -112.2000   90.0000  bottom
+R23         1k                 R_0805_2012Metric    146.8000  -127.9000  -90.0000  bottom
+R24         1k                 R_0805_2012Metric    146.8000  -124.3500   90.0000  bottom
+R25         5.1k               RESC2012X65N         134.2000  -118.9000    0.0000  bottom
+R26         44.2k              RESC2012X75N         155.8000  -115.2500    0.0000  bottom
+R27         100k               RESC2012X75N         158.8000  -119.8500  -90.0000  bottom
+R28         38.3k              RESC2012X75N         155.8000  -120.8500  180.0000  bottom
+R29         5.1k               RESC2012X65N         134.2000  -121.0000    0.0000  bottom
+R30         3k3                RESC2012X65N         159.6500  -109.0000  180.0000  bottom
+R31         10k                R_0805_2012Metric    143.7000  -102.6875  -90.0000  bottom
+R32         1k                 R_0805_2012Metric    144.3000   -99.4000  180.0000  bottom
+S1          434121025816       434121050816         139.5000  -104.0500  -90.0000  bottom
+SW_Toggle1  450302014072       450302014072         119.3000  -124.2250    0.0000  bottom
+Y1          830055663          830055663            130.0000  -105.8000    0.0000  bottom
+## End

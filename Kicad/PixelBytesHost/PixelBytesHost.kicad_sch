@@ -1911,6 +1911,248 @@
 				)
 			)
 		)
+		(symbol "PicBytesMicro-rescue:LTST-C171GKT-SamacSys_Parts"
+			(pin_names
+				(offset 0.762)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "LED"
+				(at 12.7 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "LTST-C171GKT-SamacSys_Parts"
+				(at 12.7 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "LEDC2012X90N"
+				(at 12.7 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://uk.rs-online.com/web/p/products/6920935P"
+				(at 12.7 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "Lite-On LTST-C171GKT, CHIPLED 0805 569 nm Green LED, 2012 (0805) SMD package"
+				(at 12.7 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.9"
+				(at 12.7 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "RS Part Number" "6920935P"
+				(at 12.7 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "RS Price/Stock" "http://uk.rs-online.com/web/p/products/6920935P"
+				(at 12.7 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Lite-On"
+				(at 12.7 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "LTST-C171GKT"
+				(at 12.7 -13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(symbol "LTST-C171GKT-SamacSys_Parts_0_0"
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "LTST-C171GKT-SamacSys_Parts_0_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 2.54) (xy 3.81 5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.89 2.54) (xy 6.35 5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 0) (xy 12.7 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 10.16 2.54) (xy 10.16 -2.54) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.334 4.318) (xy 4.572 3.556) (xy 3.81 5.08) (xy 5.334 4.318)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.874 4.318) (xy 7.112 3.556) (xy 6.35 5.08) (xy 7.874 4.318)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+		)
 		(symbol "PicBytesMicro-rescue:SMMBT5551LT1G-SamacSys_Parts"
 			(pin_names
 				(offset 0.762)
@@ -2676,6 +2918,177 @@
 						)
 					)
 					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "User:434121025816"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "S"
+				(at 19.05 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "434121025816"
+				(at 19.05 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "434121050816"
+				(at 19.05 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.digikey.ph/en/products/detail/w%C3%BCrth-elektronik/434121025816/5209078?msockid=39f1ec84d77b6f4428b7f904d6676eed"
+				(at 19.05 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Black Tactile Switch, Single Pole Single Throw (SPST) 50 mA @ 12 V dc 0.8mm Surface Mount"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "7"
+				(at 19.05 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Wurth Elektronik"
+				(at 19.05 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "434121025816"
+				(at 19.05 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "710-434121025816"
+				(at 19.05 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/434121025816?qs=wr8lucFkNMWyfcUAFbmtRw%3D%3D"
+				(at 19.05 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" ""
+				(at 19.05 -894.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" ""
+				(at 19.05 -994.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "434121025816_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 17.78 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "COM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "NO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3661,6 +4074,12 @@
 		(uuid "60d3ced9-5ee9-4f40-aa04-95fd3fc375ae")
 	)
 	(junction
+		(at 233.68 193.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6cd65d06-bf11-401d-ab0a-5bb91f68de52")
+	)
+	(junction
 		(at 160.02 224.79)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3767,10 +4186,6 @@
 		(uuid "00e2d5ac-9efb-4f64-ae94-bfb93a74e9e8")
 	)
 	(no_connect
-		(at 200.66 99.06)
-		(uuid "05a9ba83-e3a2-4b74-b4a6-eb8725aa0dca")
-	)
-	(no_connect
 		(at 233.68 71.12)
 		(uuid "10b0500a-b474-4bf3-8327-2b9ebdb060f2")
 	)
@@ -3809,10 +4224,6 @@
 	(no_connect
 		(at 233.68 88.9)
 		(uuid "aebae79f-ba10-4134-a1e6-89fd51982d90")
-	)
-	(no_connect
-		(at 233.68 73.66)
-		(uuid "bf8a0643-3acc-4778-bb1b-b8768c7e67ab")
 	)
 	(no_connect
 		(at 200.66 101.6)
@@ -3880,6 +4291,16 @@
 	)
 	(wire
 		(pts
+			(xy 262.89 210.82) (xy 262.89 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04a3e948-ad5d-441a-aeaf-4847dfdc944a")
+	)
+	(wire
+		(pts
 			(xy 233.68 83.82) (xy 236.22 83.82)
 		)
 		(stroke
@@ -3917,6 +4338,16 @@
 			(type default)
 		)
 		(uuid "07c6e0ba-5480-44ea-9be7-7d408d3f6a56")
+	)
+	(polyline
+		(pts
+			(xy 209.55 154.94) (xy 209.55 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08c2feab-c196-4797-b910-cc0283eecef3")
 	)
 	(wire
 		(pts
@@ -4298,6 +4729,16 @@
 		)
 		(uuid "356c1026-6452-43a9-a073-7d8bebdc039c")
 	)
+	(polyline
+		(pts
+			(xy 273.05 223.52) (xy 273.05 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "364f644f-bcc6-4231-8b06-b95c5fc64ca7")
+	)
 	(wire
 		(pts
 			(xy 185.42 116.84) (xy 185.42 123.19)
@@ -4350,6 +4791,16 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 193.04) (xy 245.11 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c4b17eb-03ac-42ee-a5a2-b56f0e6c3ee6")
+	)
+	(wire
+		(pts
 			(xy 72.39 119.38) (xy 69.85 119.38)
 		)
 		(stroke
@@ -4367,6 +4818,16 @@
 			(type default)
 		)
 		(uuid "3d1af07b-d2b3-4953-b135-04ea0bc6dc3e")
+	)
+	(wire
+		(pts
+			(xy 234.95 176.53) (xy 233.68 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40dbfa58-5dd3-424d-940d-3c7980c9f1ff")
 	)
 	(wire
 		(pts
@@ -4627,6 +5088,16 @@
 			(type default)
 		)
 		(uuid "5f4d40f6-a661-4fb1-9893-7548d331d915")
+	)
+	(wire
+		(pts
+			(xy 233.68 73.66) (xy 236.22 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6177b1bd-57e8-47fb-83c9-9591f99d624c")
 	)
 	(wire
 		(pts
@@ -4960,6 +5431,16 @@
 	)
 	(wire
 		(pts
+			(xy 199.39 99.06) (xy 200.66 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89cf6933-43d1-4fc3-9a54-5ba738c90f9b")
+	)
+	(wire
+		(pts
 			(xy 185.42 138.43) (xy 189.23 138.43)
 		)
 		(stroke
@@ -5130,6 +5611,26 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 184.15) (xy 233.68 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b59c951-2ff8-45b4-a181-d2a8954b55c0")
+	)
+	(wire
+		(pts
+			(xy 262.89 166.37) (xy 261.62 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cd03000-19ed-4af9-af0d-f83d70a0888e")
+	)
+	(wire
+		(pts
 			(xy 233.68 60.96) (xy 237.49 60.96)
 		)
 		(stroke
@@ -5250,6 +5751,16 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 176.53) (xy 233.68 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2f9007f-ca31-46a1-bdb6-ed4b9eb9b36f")
+	)
+	(wire
+		(pts
 			(xy 59.69 226.06) (xy 59.69 229.87)
 		)
 		(stroke
@@ -5257,6 +5768,16 @@
 			(type default)
 		)
 		(uuid "b4677387-e1c0-4e9d-8e8e-83b49abbf12f")
+	)
+	(wire
+		(pts
+			(xy 233.68 210.82) (xy 233.68 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6a1d4fd-1f19-4331-8fd0-1803c984379b")
 	)
 	(wire
 		(pts
@@ -5297,6 +5818,16 @@
 			(type default)
 		)
 		(uuid "b95b034b-d415-41fa-9ac0-83b9f082543d")
+	)
+	(wire
+		(pts
+			(xy 262.89 172.72) (xy 262.89 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb120a42-c269-470d-ac3c-1c43904d6590")
 	)
 	(wire
 		(pts
@@ -5347,6 +5878,16 @@
 			(type default)
 		)
 		(uuid "cc4efe4c-171f-492a-9e30-64bdc2f62513")
+	)
+	(wire
+		(pts
+			(xy 262.89 190.5) (xy 262.89 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccd05b47-d364-4ccd-9fcd-efe427a112ca")
 	)
 	(wire
 		(pts
@@ -5578,6 +6119,16 @@
 		)
 		(uuid "ddde07dd-ca3a-43dd-aefa-a985948767a1")
 	)
+	(polyline
+		(pts
+			(xy 209.55 223.52) (xy 273.05 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de42cf2d-4503-443f-9f4a-5ab587035d6f")
+	)
 	(wire
 		(pts
 			(xy 326.39 52.07) (xy 336.55 52.07)
@@ -5798,6 +6349,16 @@
 		)
 		(uuid "f5381b48-e231-40d4-9c9d-a7d09e36cdcd")
 	)
+	(polyline
+		(pts
+			(xy 273.05 154.94) (xy 209.55 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa169906-bd26-464c-9b4d-d979d6b374fd")
+	)
 	(wire
 		(pts
 			(xy 233.68 86.36) (xy 236.22 86.36)
@@ -5923,6 +6484,16 @@
 			(justify left bottom)
 		)
 		(uuid "a285797c-a8bb-418d-ab39-6859b9cb8471")
+	)
+	(text "bootloader peripherals\n"
+		(exclude_from_sim no)
+		(at 222.758 160.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a4ed508c-e6cc-4b26-8544-8c0a9b7a8aab")
 	)
 	(text "Buzzer\n"
 		(exclude_from_sim no)
@@ -6475,6 +7046,26 @@
 	)
 	(global_label "Vgnd_main"
 		(shape input)
+		(at 233.68 212.09 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "46ffc2b0-7a81-4816-9f9f-afa56a5dabaa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 233.68 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Vgnd_main"
+		(shape input)
 		(at 219.71 132.08 0)
 		(effects
 			(font
@@ -6615,6 +7206,26 @@
 			)
 		)
 	)
+	(global_label "boot_led"
+		(shape input)
+		(at 236.22 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "641549e2-5d04-4ea3-92e9-08441ecd9cc3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 236.22 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "OSC1"
 		(shape input)
 		(at 196.85 60.96 180)
@@ -6697,6 +7308,26 @@
 			)
 		)
 	)
+	(global_label "boot_led"
+		(shape input)
+		(at 261.62 166.37 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "70511cef-d3d5-4304-bd00-4c3ae6e67857")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 261.62 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "uc_supply"
 		(shape input)
 		(at 137.16 200.66 180)
@@ -6709,6 +7340,26 @@
 		(uuid "70bcba61-6ec4-4e83-a3d6-7f7d1524753a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 137.16 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "boot1"
+		(shape input)
+		(at 245.11 193.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7bc033cd-fafe-4e03-90c1-f3265984ce82")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 245.11 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7427,6 +8078,26 @@
 			)
 		)
 	)
+	(global_label "Vgnd_main"
+		(shape input)
+		(at 262.89 217.17 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "de2a4a01-cef1-438b-81fe-fca7f1709afb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 262.89 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "meas_bat_en"
 		(shape input)
 		(at 199.39 86.36 180)
@@ -7551,6 +8222,26 @@
 			)
 		)
 	)
+	(global_label "uc_enable_display"
+		(shape input)
+		(at 199.39 99.06 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f0b027e0-bbef-42dd-9708-7d76ad0ab7d8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 199.39 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Vgnd_main"
 		(shape input)
 		(at 72.39 123.19 0)
@@ -7591,7 +8282,7 @@
 			)
 		)
 	)
-	(global_label "uc_enable_display"
+	(global_label "boot1"
 		(shape input)
 		(at 199.39 83.82 180)
 		(effects
@@ -7695,6 +8386,26 @@
 			)
 		)
 	)
+	(global_label "uc_supply"
+		(shape input)
+		(at 234.95 176.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fc91bc2b-febd-4446-a5af-9f2fe891e9d7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 234.95 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Vdc_battery"
 		(shape input)
 		(at 53.34 166.37 180)
@@ -7742,7 +8453,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAPC2012X145N"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 313.69 64.77 0)
 			(effects
 				(font
@@ -7864,7 +8575,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAPC2012X145N"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 313.69 58.42 0)
 			(effects
 				(font
@@ -8595,6 +9306,128 @@
 		)
 	)
 	(symbol
+		(lib_id "OpenReflowPlate-rescue:ERJP6WF1303V-Library_Loader")
+		(at 233.68 210.82 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1643a73e-bd03-4674-a97e-89a2edb07c4b")
+		(property "Reference" "R31"
+			(at 235.6612 200.7616 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 235.6612 203.073 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 232.41 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://uk.rs-online.com/web/p/products/7708607P"
+			(at 234.95 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Panasonic ERJP6W Series Thick Film Surface Mount Fixed Resistor 0805 Case 130k +/-1% 0.5W +/-200ppm/C"
+			(at 237.49 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.75"
+			(at 240.03 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "RS Part Number" "7708607P"
+			(at 242.57 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "RS Price/Stock" "http://uk.rs-online.com/web/p/products/7708607P"
+			(at 245.11 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Panasonic"
+			(at 247.65 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ERJP6WF1303V"
+			(at 250.19 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f8d4f6c5-6e14-442d-9175-bb5075a3d423")
+		)
+		(pin "2"
+			(uuid "c158b4d0-05eb-47e9-8071-e6c6c986cbcb")
+		)
+		(instances
+			(project "PixelBytesHost"
+				(path "/36e2b0cc-9d11-4a29-a898-cd33b5ef9720"
+					(reference "R31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PicBytesMicro-rescue:KTR10EZPF4220-SamacSys_Parts")
 		(at 49.53 196.85 270)
 		(unit 1)
@@ -8732,7 +9565,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 61.6712 177.673 90)
 			(effects
 				(font
@@ -9281,7 +10114,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 134.874 174.244 0)
 			(effects
 				(font
@@ -9403,7 +10236,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 178.5112 65.913 90)
 			(effects
 				(font
@@ -9525,7 +10358,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 61.6712 200.533 90)
 			(effects
 				(font
@@ -9624,6 +10457,127 @@
 			(project "PicBytesMicro"
 				(path "/36e2b0cc-9d11-4a29-a898-cd33b5ef9720"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PicBytesMicro-rescue:LTST-C171GKT-SamacSys_Parts")
+		(at 262.89 210.82 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7986c839-ed1a-428e-9738-83f274801e38")
+		(property "Reference" "LED_green_bms2"
+			(at 267.2842 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LTST-C171GKT"
+			(at 267.3096 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LEDC2012X90N"
+			(at 259.08 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://uk.rs-online.com/web/p/products/6920935P"
+			(at 261.62 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Lite-On LTST-C171GKT, CHIPLED 0805 569 nm Green LED, 2012 (0805) SMD package"
+			(at 264.16 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.9"
+			(at 266.7 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "RS Part Number" "6920935P"
+			(at 269.24 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "RS Price/Stock" "http://uk.rs-online.com/web/p/products/6920935P"
+			(at 271.78 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Lite-On"
+			(at 274.32 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "LTST-C171GKT"
+			(at 276.86 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "03ef724c-311d-465c-bd7b-924fb9976a8e")
+		)
+		(pin "2"
+			(uuid "cccf2913-15d8-41cd-a40c-c602ed4b2bb0")
+		)
+		(instances
+			(project "PixelBytesHost"
+				(path "/36e2b0cc-9d11-4a29-a898-cd33b5ef9720"
+					(reference "LED_green_bms2")
 					(unit 1)
 				)
 			)
@@ -9935,6 +10889,146 @@
 			(project "PicBytesMicro"
 				(path "/36e2b0cc-9d11-4a29-a898-cd33b5ef9720"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "User:434121025816")
+		(at 233.68 184.15 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "94460cba-725e-4c0d-8f77-494fbd83351f")
+		(property "Reference" "S1"
+			(at 222.25 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "434121025816"
+			(at 222.25 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "434121050816"
+			(at 214.63 89.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.ph/en/products/detail/w%C3%BCrth-elektronik/434121025816/5209078?msockid=39f1ec84d77b6f4428b7f904d6676eed"
+			(at 214.63 -10.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Black Tactile Switch, Single Pole Single Throw (SPST) 50 mA @ 12 V dc 0.8mm Surface Mount"
+			(at 233.68 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "7"
+			(at 214.63 -210.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Wurth Elektronik"
+			(at 214.63 -310.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "434121025816"
+			(at 214.63 -410.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "710-434121025816"
+			(at 214.63 -510.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/434121025816?qs=wr8lucFkNMWyfcUAFbmtRw%3D%3D"
+			(at 214.63 -610.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 214.63 -710.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 214.63 -810.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "807b33ca-517d-49a8-aed4-a839e4f32a39")
+		)
+		(pin "2"
+			(uuid "52a2504f-319f-46af-bc1f-6630adcdb0b4")
+		)
+		(instances
+			(project ""
+				(path "/36e2b0cc-9d11-4a29-a898-cd33b5ef9720"
+					(reference "S1")
 					(unit 1)
 				)
 			)
@@ -10308,7 +11402,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 134.366 182.626 0)
 			(effects
 				(font
@@ -10509,6 +11603,128 @@
 			(project "PicBytesMicro"
 				(path "/36e2b0cc-9d11-4a29-a898-cd33b5ef9720"
 					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "OpenReflowPlate-rescue:ERJP6WF1303V-Library_Loader")
+		(at 262.89 190.5 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c410fe84-5023-49fe-90ef-888b12d0b3a6")
+		(property "Reference" "R32"
+			(at 264.8712 180.4416 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1k"
+			(at 264.8712 182.753 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 261.62 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://uk.rs-online.com/web/p/products/7708607P"
+			(at 264.16 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Panasonic ERJP6W Series Thick Film Surface Mount Fixed Resistor 0805 Case 130k +/-1% 0.5W +/-200ppm/C"
+			(at 266.7 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.75"
+			(at 269.24 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "RS Part Number" "7708607P"
+			(at 271.78 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "RS Price/Stock" "http://uk.rs-online.com/web/p/products/7708607P"
+			(at 274.32 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Panasonic"
+			(at 276.86 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ERJP6WF1303V"
+			(at 279.4 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dd48a8ad-5106-43c7-ba04-2d90982038ba")
+		)
+		(pin "2"
+			(uuid "b656c019-1135-4dda-883a-fd3343d18dcc")
+		)
+		(instances
+			(project "PixelBytesHost"
+				(path "/36e2b0cc-9d11-4a29-a898-cd33b5ef9720"
+					(reference "R32")
 					(unit 1)
 				)
 			)

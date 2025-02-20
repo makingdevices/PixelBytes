@@ -1862,7 +1862,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RESC2012X65N"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 241.3 107.95 0)
 			(effects
 				(font
@@ -1982,7 +1982,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RESC2012X65N"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 250.19 68.58 0)
 			(effects
 				(font
@@ -2102,7 +2102,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RESC2012X65N"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 166.37 91.44 0)
 			(effects
 				(font
@@ -2222,7 +2222,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RESC2012X65N"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 123.19 57.15 0)
 			(effects
 				(font
@@ -2343,7 +2343,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "RESC2012X65N"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 86.36 90.17 0)
 			(effects
 				(font
@@ -2463,7 +2463,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RESC2012X65N"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 129.54 118.11 0)
 			(effects
 				(font
@@ -2710,7 +2710,7 @@
 				)
 			)
 		)
-		(property "Footprint" "User_lib:RESC2012X75N"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 214.63 100.33 0)
 			(effects
 				(font
@@ -2957,7 +2957,7 @@
 				)
 			)
 		)
-		(property "Footprint" "User_lib:RESC2012X75N"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 219.71 62.23 0)
 			(effects
 				(font
@@ -3199,7 +3199,7 @@
 				)
 			)
 		)
-		(property "Footprint" "User_lib:RESC2012X75N"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 105.41 110.49 0)
 			(effects
 				(font
@@ -3441,7 +3441,7 @@
 				)
 			)
 		)
-		(property "Footprint" "User_lib:RESC2012X75N"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 88.9 59.69 0)
 			(effects
 				(font
@@ -3932,7 +3932,7 @@
 				)
 			)
 		)
-		(property "Footprint" "User_lib:RESC2012X75N"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 146.05 83.82 0)
 			(effects
 				(font
@@ -4179,7 +4179,7 @@
 				)
 			)
 		)
-		(property "Footprint" "User_lib:RESC2012X75N"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 57.15 83.82 0)
 			(effects
 				(font
