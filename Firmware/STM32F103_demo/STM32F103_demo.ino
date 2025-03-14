@@ -56,11 +56,11 @@ void read_buttons() {
     Serial.println("Right button pressed!");
   } 
   if(buttonState_b == LOW){
-    digitalWrite(PB14, HIGH);
+    digitalWrite(PB8, HIGH);
     Serial.println("B button pressed!");
   } 
   if(buttonState_a == LOW){
-    digitalWrite(PB14, HIGH);
+    digitalWrite(PB8, LOW);
     Serial.println("A button pressed!");
   } 
 }
@@ -76,8 +76,11 @@ void setup() {
   pinMode(PA3, INPUT); // Left button
   pinMode(PA4, INPUT); // A button
   pinMode(PA5, INPUT); // B button
+  pinMode(PA9, OUTPUT); // B button
   pinMode(PB14, OUTPUT);  // Buzzer enable pin
   pinMode(PB3, OUTPUT);  //Battery measurement enable
+  pinMode(PB8, OUTPUT);  //Battery measurement enable
+  digitalWrite(PB8, LOW);
   
     // Initialize the I2C interface
   sensor.init(ISDS_ADDRESS_I2C_1);
@@ -114,9 +117,8 @@ void loop() {
   int16_t acc_X;
   int16_t acc_Y;
   int16_t acc_Z;
- 
-  digitalWrite(PB3, HIGH);  //Connecting bat reading.
-
+  digitalWrite(PB3, HIGH);  //Connecting bat reading.;
+  digitalWrite(PA9, !digitalRead(PA9));  //Toggle led life
   // Get acceleration sensor to measure.
   status = sensor.is_ACC_Ready_To_Read();
   if (WE_FAIL == status)

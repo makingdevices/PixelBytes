@@ -8,7 +8,7 @@ static void MX_USB_PCD_Init(void);
 
 #define PIN PA6 //pin for the PWM screen
 #define string_five  0 //1 if the string is not correct. 0 if it is.
-char splash_enabled = 1;
+char splash_enabled = 0;
 char ingame = 0; // = 1 if there is a game active.
 char speed_menu = 50;
 char snake_game_speed = 200;

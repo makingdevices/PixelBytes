@@ -9,9 +9,10 @@ void setup()
   pinMode(PA3, INPUT);
   pinMode(PA4, INPUT);
   pinMode(PA5, INPUT);
-
+  pinMode(PB8, OUTPUT); //Screen activation
   pinMode(PB2, OUTPUT);
   digitalWrite(PB2, HIGH);
+  digitalWrite(PB8, LOW);
   delay(100);
 
   // Interval in microsecs
