@@ -1,5 +1,5 @@
 void menu(){
-	char j = 0,i=0 ,option=1;
+	char j = 0,i=0 ,option=0;
 	clean_buttons();
 	print_sprite(10,10,letter_right,0,3,0);
 	print_sprite(1,10,letter_left,0,3,0);
@@ -46,11 +46,13 @@ void menu(){
 						option = 10;
 						break;
 					}
+          /*
           if(read_button(4)==1 || read_button(3)==1){ //button
             if(read_button(4)==1)option = 1;
             if(read_button(3)==1)option = 1;
             break;
 				  }
+          */
 				}
 			}
 		}
